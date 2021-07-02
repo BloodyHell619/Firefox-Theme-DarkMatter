@@ -1,0 +1,613 @@
+.button.primary, .button.done, .actions button.primary, .actions button.done {
+    border: none !important;
+}
+
+@-moz-document url("about:newtab"), url("about:home"){
+button:where([default="true"], :hover, :focus):not(:active, [disabled="true"], [open="true"], [checked="true"]):hover {
+    color: #282828 !important;
+}
+}
+
+html body div#full div#content div#main addon-list section addon-card div.card.addon message-bar.addon-card-message button:hover {
+    color: #282828 !important;
+}
+
+.sidebar-footer-link:hover {
+    color: #282828 !important;
+}
+
+/* ----- ADDON PAGE CATEGORY BUTTON COLORS ----- */
+#categories > .category[selected], #categories > .category.selected {
+    color: LightCoral !important;
+}
+#categories > .category:hover, #categories > .category.selected:hover {
+    color: #282828 !important;
+}
+
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body ul.top-sites-list li.top-site-outer.hide-for-narrow.active div.top-site-inner div span.context-menu ul.context-menu-list li.context-menu-item button:active {
+    color: #282828 !important;
+}
+
+/* ----- PINNED SITES MENU BOX OUTLINES ----- */
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form div.form-input-container div.fields-and-preview div.form-wrapper label div.field input:focus {
+        outline: 1px solid #202020 !important;
+}
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form div.form-input-container div.fields-and-preview div.form-wrapper label div.field.url input:focus {
+        outline: 1px solid #202020 !important;
+}
+
+/* ----- NEW TAB PAGE PINNED SITES 3DOT ICON ----- */
+.outer-wrapper.newtab-experience .top-site-outer .context-menu-button:focus{ fill: #fff !important; }
+
+/* ------ NEW TAB PAGE CAPTION BUTTONS ----- */
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel {
+    color: #fff !important;
+}
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel:hover {
+    color: #282828 !important;
+    background-color: #fff !important;
+}
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.done {
+    color: #282828 !important;
+}
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.done:hover {
+    color: #282828 !important;
+    background-color: #fff !important;
+}
+
+.dialogTitleBar {
+    border-bottom: 1px solid #323232 !important;
+}
+
+.dialogBox {
+    background-color: #3c3c3f !important;
+}
+
+vbox.box-inherit.dialog-content-box {
+    background-color: #3c3c3f !important;
+}
+
+hbox.dialog-button-box {
+    background-color: #3c3c3f !important;
+}
+
+*{
+    --in-content-accent-color: LightCoral !important;
+    --in-content-accent-color-active: #eca2a2 !important;
+    --in-content-button-background: #282828 !important;
+    --in-content-button-background-hover: LightCoral !important;
+    --in-content-button-color: #282828 !important;
+    --in-content-button-background-active: LightCoral !important;
+    --in-content-primary-button-text-color: #282828 !important;
+    --in-content-primary-button-text-color-hover: #282828 !important;
+    --in-content-primary-button-background: LightCoral !important;
+    --in-content-primary-button-background-hover: white !important;
+    --in-content-primary-button-background-active: #eca2a2 !important;
+    --checkbox-border-color: transparent !important;
+    --checkbox-unchecked-bgcolor: #313131 !important;
+    --checkbox-unchecked-hover-bgcolor: #eca2a2 !important;
+    --checkbox-unchecked-active-bgcolor: LightCoral !important;
+    --checkbox-checked-bgcolor: LightCoral !important;
+    --checkbox-checked-color: #282828 !important;
+    --checkbox-checked-hover-bgcolor: #eca2a2 !important;
+    --checkbox-checked-active-bgcolor: white !important;
+    --checkbox-checked-border-color: LightCoral !important;
+    --in-content-box-info-background: #282828 !important;
+    --in-content-danger-button-background-active: LightCoral !important;
+}
+
+
+/* ----- NEW TAB FIREFOX TEXT COLOR ----- */
+@-moz-document url("about:newtab"), url("about:home") {
+  .search-wrapper .logo-and-wordmark .wordmark {
+    fill: white !important;
+  }
+}
+
+/* ----- CHECKBOX COLORS ----- */
+:root {
+   --checkbox-checked-bgcolor: LightCoral !important;
+   --checkbox-checked-color: #282828 !important;
+   --checkbox-checked-border-color: rgb(0,97,224);
+   --checkbox-checked-bgcolor: LightCoral !important;
+   --checkbox-checked-hover-bgcolor: #f1f1f1 !important;
+   --checkbox-checked-active-bgcolor: LightCoral !important;
+}
+
+/* ----- ADDON PAGE UNDO UNINSTALL MESSAGE ----- */ 
+html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button {
+    background-color: #202020 !important;
+    border: 1px solid #3c3c3f !important;
+    scale: 90% !important;  
+}
+html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button:hover {
+    border: 1px solid white !important;
+    background-color: LightCoral !important;    
+    color: #202020 !important;
+}
+
+/* ----- ADDON PAGE GRAYSCALE ICONS & BADGES ----- */
+.addon-badge {
+    width: 20px;
+    height: 20px;
+    filter: grayscale(100%) !important;
+}
+addon-card:not([expanded]):hover .addon-badge {
+    filter: grayscale(0%) !important;
+}
+.card-heading-icon {
+    filter: grayscale(100%) !important;
+    margin-top: 8px !important;
+    margin-left: 10px !important;
+}
+addon-card:not([expanded]):hover .card-heading-icon {
+    filter: grayscale(0%) !important;
+}
+
+/* ----- MORE ADDON PAGE FIXES ----- */
+.header-name {
+    font-size: 1.20em !important;    
+    line-height: 1.3em !important;
+    margin: 0 !important;
+}
+:root {
+    --addon-icon-size: 22px !important;
+    --section-width: 96% !important;
+}
+html body div#full div#content div#main addon-list section addon-card div.card.addon div.addon-card-collapsed div.card-contents div.addon-name-container h3.addon-name a.addon-name-link {
+    font-size: 15px !important;
+}
+:host, :root {
+    --card-shadow-hover: none !important;
+}
+.card-heading-image {
+    width: var(--section-width) !important;
+    object-fit: scale-down !important;
+}
+
+.card {
+    background: #202020 !important;
+    margin: 0 0 8px !important;
+    margin-bottom: 8px !important;
+    padding: calc(var(--card-padding) - 10px) !important;
+}
+
+.card:hover {
+  background: #191919 !important;
+}
+
+.addon.card {
+    margin-bottom: 12px !important;
+}
+
+
+/* ----- REMOVE HOME SERACHBOX OUTLINE AND SHADOW ----- */
+@-moz-document url(about:newtab), url(about:home) {
+  .search-wrapper input {
+    --newtab-textbox-focus-boxshadow: none !important;
+    padding-left: 20px !important;
+  }
+
+  body {
+    --newtab-search-icon: transparent !important;
+  }
+}
+
+/* ---- SEARCHBOX GOOGLE LOGO & SHADOW ----- */
+@-moz-document url(about:newtab), url(about:home) {
+  .search-handoff-button { 
+    background-image: url("Searchbar-Google-Icon.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: left 15px top 13px !important;
+    box-shadow: -1px 1px 5px 1px #181818 !important;
+} 
+}
+
+
+html body div#full div#sidebar categories-box#categories button.category {
+    background-size: 20px !important;
+    min-height: 45px !important;
+}
+
+html body div#full div#content div#main recommended-extensions-section footer.view-footer div.view-footer-item a.privacy-policy-link {
+    color: LightCoral !important;
+    text-decoration: none !important;
+}
+
+html body div#full div#content div#main recommended-extensions-section recommended-addon-list recommended-addon-card div.card.addon div.addon-card-collapsed div.card-contents div.addon-name-container div.disco-card-head span.disco-addon-author a {
+    color: LightCoral !important;
+    text-decoration: none !important;
+}
+
+
+html body div#full div#sidebar categories-box#categories button.category span.category-name {
+    font-size: 15px !important;
+}
+
+
+input[type="checkbox"].toggle-button:hover {
+    border-color: #fff !important;
+    background-color: #d2c6c6 !important;
+}
+
+.category-icon {
+    width: 20px !important;
+    height: 20px !important;
+    min-height: 10px !important;
+}
+
+
+/* ----- FIREFOX SET AS DEFULT SMILEY ----- */
+.face-smile {
+    list-style-image: url("Fox.svg") !important;
+    filter: Grayscale(100%) !important;
+    width: 20px;
+    height: 20px;
+    margin-block: 5px;
+    margin-inline-end: 8px;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#fontsGroup hbox#fontSettings hbox hbox {
+    fill: #282828 !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories richlistitem label.category-name {
+    color: #fff !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories richlistitem:hover label.category-name {
+    color: #282828 !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories richlistitem:hover {
+    background-color: #fff !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content {
+    font-size: 14px !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container hbox.sticky-container search-textbox#searchInput {
+    font-size: 13px !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane deck#weavePrefsDeck vbox#hasFxaAccount hbox vbox#fxaContentWrapper groupbox#fxaGroup deck#fxaLoginStatus hbox#fxaLoginVerified vbox hbox a#verifiedManage.openLink{
+    color: LightCoral !important;
+}
+
+html body {
+    font-family: Oxanium !important;
+    font-weight: 300 !important;    
+}
+
+html .text-link {
+    color: LightCoral !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories {
+    font-size: 13px !important;
+}
+
+html body div.container div.title h1#warningTitle.title-text {
+    color: LightCoral !important;
+}
+
+
+html body div.container div.button-container button#warningButton:active {
+    color: #202020 !important;
+    background-color: LightCoral !important;
+}
+
+html body div.container div.button-container button#warningButton:hover {
+    color: #202020 !important;
+    background-color: LightCoral !important;
+    border: 1px solid #d2d2d2 !important;
+}
+
+html body div.container div.button-container button#warningButton {
+    color: LightCoral !important;
+    background-color: #202020 !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories .category image.category-icon {
+    color: LightCoral !important;
+}
+
+
+
+
+/* ----- WEBSITE TEXT HIGHLIGHT COLOR ----- */ 
+::-moz-selection {
+    background: #40b1b7 !important; /* Gecko Browsers */
+    color: #202020 !important;
+}
+
+
+/* ----- SCROLLBAR COLOR ----- */
+/* in userContent for all the about:pages of firefox */
+@-moz-document url-prefix("about:"),
+@-moz-document url-prefix("chrome://mozapps/content/extensions/aboutaddons.html") {
+	window,
+	page,
+	html,
+	.main-content,
+	scrollbar {
+		scrollbar-color: #3c3c3f 282828 !important;
+		scrollbar-width: thin !important;
+	}
+}
+/* for anywhere internal pages FF */
+* {
+	scrollbar-color: #3c3c3f 282828 !important;
+	scrollbar-width: thin !important;
+}
+@-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
+    html:not([role="dialog"]),
+    html:not([role="dialog"]) *,
+    html:not([role="dialog"]) body.activity-stream,
+    window:not([chromehidden]),
+    window:not([chromehidden]) > dialog {
+        --newtab-focus-outline: #202020 !important;
+        --newtab-focus-border: #191919 !important;
+    }
+    /* this rule just makes the search bar in about:privatebrowsing look the same as the one in about:newtab */
+    .showPrivate .search-handoff-button.focused {
+        outline: 0;
+        border: 1px solid #202020 !important;
+        box-shadow: 0 0 0 2px #1a1a1a !important;
+    }
+}
+@-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
+    html:not([role="dialog"]),
+    html:not([role="dialog"]) *,
+    html:not([role="dialog"]) body.activity-stream,
+    window:not([chromehidden]),
+    window:not([chromehidden]) > dialog {
+        --in-content-focus-outline-color: none !important;
+        --blue-50-a30: none !important;
+        --red-50-a30: none !important;
+    }
+}
+
+
+/* ----- TOP SITES TEXT FONT ( NEW TAB ) ----- */
+.top-site-outer .title {
+    /*margin-inline-start: 10px !important;*/
+    font-size: 12px !important;
+    font-family: Oxanium !important;
+    color: white !important;
+    margin-top: 10px !important;    
+}
+.top-site-outer .search-topsite,
+.top-site-outer .default-icon {
+    transform: scale(.4) translateX(20px) translateY(20px) !important;
+  }
+}
+@-moz-document url("about:newtab"), url("about:home") {
+
+.top-site-outer .top-site-inner {
+    width: 95px !important;
+    height: 60px !important;
+}
+
+.top-site-outer .screenshot,
+.top-site-outer .tile {
+  width: 105px !important;
+  height: 105px !important;
+}
+
+/* ----- TOP SITES TEXT FONT ( NEW TAB AS HOME PAGE ) ----- */
+
+.top-site-outer .title {
+    margin-inline-start: 5px !important;
+    font-size: 12px !important;
+    font-family: Oxanium !important;
+    color: white !important;    
+}
+
+.top-site-outer .search-topsite,
+.top-site-outer .default-icon {
+    transform: scale(.4) translateX(20px) translateY(20px) !important;
+  }
+}
+
+.top-site-outer:hover {
+
+ background-color: #2f2f2f !important;
+
+}
+
+@-moz-document url("about:home"), url("about:newtab"){ .icon.icon-pin-small{ display: none !important } }
+
+/* ----- BLACK PREFRENCES & HOME ----- */
+*|*:root {
+        --in-content-page-color: #ccc!important;
+	--in-content-page-background: #202020!important;
+	--in-content-text-color: #c0c0c0!important;
+	--in-content-selected-text: #c0c0c0!important;
+	--in-content-box-background: #333!important;
+	--in-content-box-background-odd: #282828!important;
+	--in-content-box-background-hover: #333!important;
+	--in-content-box-background-active: LightCoral!important;
+	--in-content-box-border-color: #444!important;
+	--in-content-item-hover: #202020 !important;
+	--in-content-item-selected: LightCoral!important;
+	--in-content-border-highlight: #444!important;
+	--in-content-border-focus: #08c!important;
+	--in-content-border-color: #ccc!important;
+	--in-content-category-outline-focus: 1px dotted #08c!important;
+	--in-content-category-text: #c0c0c0!important;
+	--in-content-category-text-active: #c0c0c0!important;
+	--in-content-category-text-selected: #08c!important;
+	--in-content-category-text-selected-active: #fff!important;
+	--in-content-category-background-hover: rgba(64,64,64,0.6)!important;
+	--in-content-category-background-active: rgba(0,64,96,0.6)!important;
+	--in-content-category-background-selected-hover: rgba(0,64,96,0.6)!important;
+	--in-content-category-background-selected-active: rgba(0,64,96,1)!important;
+	--in-content-tab-color: #404040!important;
+	--in-content-link-color: #08c!important;
+	--in-content-link-color-hover: #c0c0c0!important;
+	--in-content-link-color-active: #08c!important;
+	--in-content-link-color-visited: #268!important;
+	--in-content-primary-button-background: LightCoral !important;
+	--in-content-primary-button-background-hover: #fff !important;
+	--in-content-primary-button-background-active: LightCoral !important;
+	--in-content-table-background: #282828 !important;
+	--in-content-table-border-dark-color: #444 !important;
+	--in-content-table-header-background: #222 !important;
+	--grey-20: #333!important;
+	--grey-90: #444!important;
+	--grey-90-a10: rgba(12, 12, 13, 0.1)!important;
+	--grey-90-a20: rgba(12, 12, 13, 0.2)!important;
+	--grey-90-a30: rgba(12, 12, 13, 0.3)!important;
+}
+
+/**************************************************************/
+dialog, window, .prefpane, .windowDialog {
+	background-color: #222!important;
+	color: #ccc!important;
+}
+
+richlistitem[selected="true"] {
+	background-color: #333 !important;
+}
+
+.title {
+	fill: #888!important;
+}
+
+.top-site-outer .top-site-icon {
+	color: #000000 !important;
+	border-radius: 5px !important;
+}
+
+.top-site-outer .tile {
+	border-radius: 0 !important;
+	box-shadow: inset 0 0 0 0px var(--newtab-inner-box-shadow-color), var(--newtab-card-shadow)!important;
+}
+
+.top-site-outer .default-icon, .top-site-outer .search-topsite {
+	background-size: 16px!important;
+	height: 25px!important;
+	width: 25px!important;
+
+}
+#warningTitle {
+	color: LightCoral!important;
+}
+
+
+/* ALL ABOUT: PAGES STYLE *************************************/
+@-moz-document url-prefix(about:){
+#content,
+#appcontent,
+browser,
+html, body {
+	background-color:#202020!important;	/*priority 1*/
+	background: #202020 !important;		/*priority 1*/
+	color:#c0c0c0 !important;			/*priority 1*/
+        
+	--newtab-background-color: #222 !important;
+	--newtab-border-primary-color: #444 !important;
+	--newtab-border-secondary-color: #444 !important;
+	--newtab-button-primary-color: LightCoral !important; /* save button color */
+	--newtab-button-secondary-color: #222 !important; /*close button*/
+	--newtab-element-active-color: #fff !important; /* 3dot menu select */
+	--newtab-element-hover-color: LightCoral !important; /* 3dot menu hover */
+	--newtab-icon-primary-color: #fff !important; /* 3dot*/
+	--newtab-icon-secondary-color: LightCoral !important;
+	--newtab-icon-tertiary-color: LightCoral !important;
+	--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
+	--newtab-link-primary-color: LightCoral !important;
+	--newtab-link-secondary-color: LightCoral !important;
+	--newtab-text-conditional-color: #666 !important;
+	--newtab-text-primary-color: #CCC !important;
+	--newtab-text-secondary-color: #888 !important;
+	--newtab-textbox-background-color: #282828 !important; /* fields */
+	--newtab-textbox-border: #202020 !important; /* field borders */
+	--newtab-textbox-focus-color: LightCoral !important;
+	--newtab-textbox-focus-boxshadow: transparent !important;
+	--newtab-contextmenu-background-color: #3c3c3f !important; /* 3dot menu background */
+	--newtab-contextmenu-button-color: #3a3a3a !important; /* 3dot menu button */
+	--newtab-modal-color: #252525 !important;
+	--newtab-overlay-color: rgba(0, 0, 0, 0.5) !important; /* BG fade when edit is open */
+	--newtab-section-header-text-color: #fff !important;
+	--newtab-section-navigation-text-color: #0F0 !important;
+	--newtab-section-active-contextmenu-color: #fff !important;
+	--newtab-search-border-color: #444 !important;
+	--newtab-search-dropdown-color: #222 !important;
+	--newtab-search-dropdown-header-color: #333 !important;
+	--newtab-search-header-background-color: #333 !important;
+	--newtab-search-icon-color: #CCC !important;
+	--newtab-topsites-background-color: #222 !important;  /* Pinned sites BG */
+	--newtab-topsites-icon-shadow: inset 0 0 0 1px !important;
+	--newtab-topsites-label-color: #919191 !important;
+	--newtab-card-active-outline-color: #252525 !important;  /*border around buttons*/
+	--newtab-card-background-color: #111 !important;
+	--newtab-card-hairline-color: rgba(64, 64, 64, 0.0) !important;
+	--newtab-card-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5) !important;
+	--newtab-snippets-background-color: #444 !important;
+	--newtab-snippets-hairline-color: transparent !important;
+}
+
+body[lwt-newtab-brighttext] {
+	--newtab-background-color: #222 !important;
+	--newtab-border-primary-color: #444 !important;
+	--newtab-border-secondary-color: #444 !important;
+	--newtab-button-primary-color: LightCoral !important; /* save button color */
+	--newtab-button-secondary-color: #282828 !important; /*close button*/
+	--newtab-element-active-color: LightCoral !important; /* 3dot menu select */
+	--newtab-element-hover-color: LightCoral !important; /* 3dot menu hover */
+	--newtab-icon-primary-color: #fff !important; /* 3dot*/
+	--newtab-icon-secondary-color: LightCoral !important;
+	--newtab-icon-tertiary-color: red !important;
+	--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
+	--newtab-link-primary-color: LightCoral !important;
+	--newtab-link-secondary-color: LightCoral !important;
+	--newtab-text-conditional-color: #666 !important;
+	--newtab-text-primary-color: #CCC !important;
+	--newtab-text-secondary-color: #888 !important;
+	--newtab-textbox-background-color: #282828 !important; /* fields */
+	--newtab-textbox-border: #202020 !important; /* field borders */
+	--newtab-textbox-focus-color: LightCoral !important;
+	--newtab-textbox-focus-boxshadow: transparent !important;
+	--newtab-contextmenu-background-color: #3c3c3f !important; /* 3dot menu background */
+	--newtab-contextmenu-button-color: #3a3a3a !important; /* 3dot menu button */	
+        --newtab-modal-color: #252525 !important;
+	--newtab-overlay-color: rgba(0, 0, 0, 0.5) !important; /* BG fade when edit is open */
+	--newtab-section-header-text-color: #fff !important;
+	--newtab-section-navigation-text-color: #0F0 !important;
+	--newtab-section-active-contextmenu-color: #fff !important;
+	--newtab-search-border-color: #444 !important;
+	--newtab-search-dropdown-color: #222 !important;
+	--newtab-search-dropdown-header-color: #333 !important;
+	--newtab-search-header-background-color: #333 !important;
+	--newtab-search-icon-color: #CCC !important;
+	--newtab-topsites-background-color: #222 !important;  /* Pinned sites BG */
+	--newtab-topsites-icon-shadow: inset 0 0 0 1px !important;
+	--newtab-topsites-label-color: #919191 !important;
+	--newtab-card-active-outline-color: #252525 !important;  /*border around buttons*/
+	--newtab-card-background-color: #111 !important;
+	--newtab-card-hairline-color: rgba(64, 64, 64, 0.0) !important;
+	--newtab-card-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.5) !important;
+	--newtab-snippets-background-color: #444 !important;
+	--newtab-snippets-hairline-color: transparent !important;
+}
+
+/* ----- NEWTAB & HOME SEARCH BOX ICON ----- */
+  .fake-textbox {
+    /*text-align: center !important;
+    margin-left: -30px !important;*/
+    font-size: 0px !important;
+}
+
+/* ----- NEW TAB FIREFOX LOGO ----- */
+@-moz-document url(about:newtab), url(about:home) {
+  .logo {
+    background-image: url("Newtab-Firefox-Logo.svg") !important;
+}
+}
+
+/* ----- REMOVE THE PERSONALIZE BUTTON FROM THE NEW TAB PAGE ----- */ 
+.personalize-button { display: none !important; }
