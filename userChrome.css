@@ -7,7 +7,82 @@ Special thnx to
 MotherStylus & It_Was_The_Other_Guy
 most of the unlabled codes I got from them. */
 
+#identity-box:focus, #tracking-protection-icon-container:focus {
+    background-color: white !important;
+}
 
+.popup-notification-button {
+    color: white !important;
+}
+
+.popup-notification-button;hover {
+    color: white !important;
+    background-color: white !important;
+}
+
+.popup-notification-primary-button {
+    background-color: LightCoral !important;
+}
+
+scrollbar {
+      scrollbar-color: #383838 #202020 !important;
+      scrollbar-width: auto !important;
+}
+
+
+#downloadsListBox > richlistitem {
+    color: white !important;
+    background-color: #3c3c3f !important;
+}
+
+#downloadsListBox > richlistitem:hover {
+    color: white !important;
+    background-color: #282828 !important;
+}
+
+#downloadsSummaryDescription, .downloadTarget {
+    color: White !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsRichListBox richlistitem.download.download-state button.downloadButton.downloadIconShow:hover {
+    color: LightCoral !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsRichListBox richlistitem.download.download-state button.downloadButton.downloadIconRetry:hover {
+    color: LightCoral !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsRichListBox richlistitem.download.download-state:hover {
+    background-color: #282828 !important;
+} 
+
+#downloadsListBox > richlistitem {
+    padding-top: 0.5em !important;
+    padding-right: 1em !important;
+    padding-bottom: 0.5em !important;
+    padding-left: 1em !important;
+    margin: 0em 0 !important;
+    border-radius: 3px !important;
+}
+
+
+/* ----- LOG INTO NETWORK ERROR ----- */
+*{
+   --in-content-page-background: #202020 !important;
+   --in-content-text-color: White !important;
+   --toolbar-non-lwt-bgcolor: #252525 !important;
+}
+
+/* ----- ERROR ICON ----- */
+:host([type="info"]) .icon {
+    color: LightCoral !important;
+}
+
+richlistbox {
+    color: #fff !important;
+    background-color: #4c4c4f !important;
+    border-color: #282828 !important;
+}
 
 .menu-right {
     appearance: none !important;
@@ -1423,7 +1498,7 @@ tab[selected="true"] .tab-content {
 /* ----- DOWNLOAD BUTTON COLOR WHEN DOWNLOAD IS FINISHED ----- */
 #downloads-button[attention="success"] > .toolbarbutton-badge-stack > #downloads-indicator-anchor > #downloads-indicator-icon,
 #downloads-button[attention="success"] > .toolbarbutton-badge-stack > #downloads-indicator-anchor > #downloads-indicator-progress-outer {
-fill: #931a33 !important;
+fill: LightCoral !important;
 }
 
 /* ----- REMOVE UGLY GREEN PLUS "ADD SEARCH ENGINE" ICON ON THE SEARCH ICON IN SEARCHBOX ----- */
