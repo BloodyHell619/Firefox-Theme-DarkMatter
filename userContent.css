@@ -1,7 +1,6 @@
 html body div#full div#content div#main recommended-extensions-section taar-notice message-bar.discopane-notice div.discopane-notice-content span {
-    color: #282828 !important;
+    color: white !important;
 }
-
 
 * {
     scrollbar-color: #383838 #202020 !important;
