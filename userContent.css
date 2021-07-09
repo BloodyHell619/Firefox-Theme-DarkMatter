@@ -1,6 +1,167 @@
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#applicationsGroup richlistbox#handlersView richlistitem:hover {
+    color: #fff !important;
+    background-color: #96ceb4 !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#applicationsGroup richlistbox#handlersView richlistitem hbox hbox.actionContainer label.actionDescription[selected="true"] {
+    color: #fff !important;
+    background-color: #96ceb4 !important;
+}
+
+.tabbrowser-tab[label^="Add-ons Manger"] .tab-icon-image {
+    list-style-image: none !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    margin-top: -2px !important;
+    background: url("Icons8-Settings-Favicon.svg") !important; /* your custom icon */
+    background-size: 16px 16px !important;
+    background-repeat: no-repeat !important;
+}
+
+
+@-moz-document url("about:logins") {
+.fxaccount-avatar {
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url(Icons8-Avatar.svg) !important;
+    width: 24px !important;
+    height: 24px !important;
+}
+#branding-logo {
+   -moz-context-properties: fill !important;
+    fill: white !important;
+    padding-bottom: 300px !important;
+    box-sizing: border-box !important;
+    background: url(Lockwise-logo.svg) no-repeat  !important;
+    background-position-x: 50% !important;
+    background-position-y: 50% !important;
+    background-size: 55% !important;
+}
+.detail-cell:dir(ltr) input:not([type="checkbox"]) {
+    border: 1px solid #212121 !important;
+    border-radius: 5px !important;
+    background-color: #191919 !important;
+}
+/*.reveal-password-wrapper {
+    border: 1px solid #212121 !important;
+    border-radius: 5px !important;
+    background-color: #191919 !important;
+}*/
+.meta {
+    border-bottom: 1px solid #191919 !important;
+    background-color: #96ceb4 !important;
+    color: #282828 !important;
+}
+* { --in-content-deemphasized-text: #fff !important; }
+.filter[type="text"] {
+    -moz-context-properties: fill, fill-opacity;
+    fill: #96ceb4 !important;
+    fill-opacity: 1 !important;
+    color: #fff !important;
+    background-color: #282828 !important;
+    border-color: #282828 !important;
+}
+.detail-grid > .detail-row > .copy-button:hover {
+    color: #282828 !important;
+}
+#login-sort:hover:not([disabled]) {
+    background-color: #fff !important;
+    color: #282828 !important;  
+}
+header {
+    border-bottom: 1px solid #191919 !important;
+}
+.header {
+    border-bottom: 1px solid #191919 !important;
+}
+login-list {
+    border-right: 1px solid #191919 !important;
+    background-color: #202020 !important;
+}
+.login-list-item:not(.selected):hover {
+    background-color: #96ceb4 !important;
+}
+.login-list-item.selected:hover .title {
+    color: #282828 !important;
+}
+.login-list-item.selected:hover {
+    background-color: #96ceb4 !important;
+} 
+.login-list-item.selected:hover .favicon-wrapper {
+    -moz-context-properties: fill, fill-opacity;
+    fill: #282828 !important;
+    fill-opacity: 0.8;
+}
+.login-list-item + .login-list-item {
+    border-top: 1px solid #282828 !important;
+    background-color: #202020 !important;
+}
+.login-list-item {
+    border-inline-start: 4px solid #202020 !important;
+    color: #96ceb4 !important;
+}
+.login-list-item:hover {
+    color: #282828 !important;
+}
+.login-list-item:[selected] {
+    color: #282828 !important;
+}
+.create-login-button-container {
+    border-top: 1px solid #191919 !important;
+    color: #fff !important;
+    background-color: #202020 !important;
+}
+.create-login-button {
+    color: #fff !important;
+    background-color: #282828 !important;
+}
+.create-login-button:hover {
+    color: #282828 !important;
+    background-color: #96ceb4 !important;
+}
+.breached > .alert-icon {
+    fill: #de3163 !important;
+}
+.breach-alert {
+    background-color: #191919 !important;
+    color: #de3163 !important;
+    border-color: #de3163 !important;
+}
+}
+
+html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar span {
+    color: white !important;
+}
+
+html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button {
+    color: white !important;
+}
+
+addon-card:not([expanded]) > .addon.card:hover {
+    color: white !important;
+    background-color: #282828 !important;
+}
+
+addon-card:not([expanded]) > .addon.card {
+    color: white !important;
+    background-color: #252525 !important;
+}
+
+.addon-name-link, .addon-name-link:hover {
+    color: #96ceb4 !important;
+    text-decoration: none;
+}
+
+html body div#full div#content div#main addon-card div.card.addon addon-details named-deck#details-deck inline-options-browser stack.inline-options-stack {
+    color: white !important;
+    background-color: white !important;
+}
+
+
 html body div#full div#content div#main recommended-extensions-section taar-notice message-bar.discopane-notice div.discopane-notice-content span {
     color: white !important;
 }
+
 
 * {
     scrollbar-color: #383838 #202020 !important;
@@ -29,10 +190,10 @@ div.container span.icon {
 }
 
 * { 
-   --in-content-link-color: LightCoral !important;
+   --in-content-link-color: #96ceb4 !important;
    --in-content-link-color-hover: White !important;
    --in-content-link-color-active: White !important;
-   --in-content-link-color-visited: #3eb3ba !important;
+   --in-content-link-color-visited: #96ceb4 !important;
 }
 
 @media (min-width:720px) {
@@ -90,7 +251,7 @@ html body div#full div#content div#main addon-list section addon-card div.card.a
 
 /* ----- ADDON PAGE CATEGORY BUTTON COLORS ----- */
 #categories > .category[selected], #categories > .category.selected {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 #categories > .category:hover, #categories > .category.selected:hover {
     color: #282828 !important;
@@ -144,31 +305,31 @@ hbox.dialog-button-box {
     background-color: #3c3c3f !important;
 }
 
-*{
-    --in-content-accent-color: LightCoral !important;
-    --in-content-accent-color-active: #eca2a2 !important;
+* {
+    --in-content-deemphasized-text: #fff !important;
+    --in-content-accent-color: #96ceb4 !important;
+    --in-content-accent-color-active: #4c4c4c !important;
     --in-content-button-background: #282828 !important;
-    --in-content-button-background-hover: LightCoral !important;
+    --in-content-button-background-hover: #96ceb4 !important;
     --in-content-button-color: #282828 !important;
-    --in-content-button-background-active: LightCoral !important;
+    --in-content-button-background-active: #96ceb4 !important;
     --in-content-primary-button-text-color: #282828 !important;
     --in-content-primary-button-text-color-hover: #282828 !important;
-    --in-content-primary-button-background: LightCoral !important;
+    --in-content-primary-button-background: #96ceb4 !important;
     --in-content-primary-button-background-hover: white !important;
-    --in-content-primary-button-background-active: #eca2a2 !important;
+    --in-content-primary-button-background-active: #4c4c4c !important;
     --checkbox-border-color: transparent !important;
     --checkbox-unchecked-bgcolor: #313131 !important;
-    --checkbox-unchecked-hover-bgcolor: #eca2a2 !important;
-    --checkbox-unchecked-active-bgcolor: LightCoral !important;
-    --checkbox-checked-bgcolor: LightCoral !important;
+    --checkbox-unchecked-hover-bgcolor: #4d4d4d !important;
+    --checkbox-unchecked-active-bgcolor: #96ceb4 !important;
+    --checkbox-checked-bgcolor: #96ceb4 !important;
     --checkbox-checked-color: #282828 !important;
-    --checkbox-checked-hover-bgcolor: #eca2a2 !important;
-    --checkbox-checked-active-bgcolor: white !important;
-    --checkbox-checked-border-color: LightCoral !important;
+    --checkbox-checked-hover-bgcolor: #fefefe !important;
+    --checkbox-checked-active-bgcolor: #fefefe !important;
+    --checkbox-checked-border-color: #96ceb4 !important;
     --in-content-box-info-background: #282828 !important;
-    --in-content-danger-button-background-active: LightCoral !important;
+    --in-content-danger-button-background-active: #96ceb4 !important;
 }
-
 
 /* ----- NEW TAB FIREFOX TEXT COLOR ----- */
 @-moz-document url("about:newtab"), url("about:home") {
@@ -179,12 +340,12 @@ hbox.dialog-button-box {
 
 /* ----- CHECKBOX COLORS ----- */
 :root {
-  --checkbox-checked-bgcolor: LightCoral !important;
+   --checkbox-checked-bgcolor: #96ceb4 !important;
    --checkbox-checked-color: #282828 !important;
    --checkbox-checked-border-color: rgb(0,97,224);
-   --checkbox-checked-bgcolor: LightCoral !important;
+   --checkbox-checked-bgcolor: #96ceb4 !important;
    --checkbox-checked-hover-bgcolor: #f1f1f1 !important;
-   --checkbox-checked-active-bgcolor: LightCoral !important;
+   --checkbox-checked-active-bgcolor: #96ceb4 !important;
 }
 
 /* ----- ADDON PAGE UNDO UNINSTALL MESSAGE ----- */ 
@@ -195,7 +356,7 @@ html body div#full div#content div#main addon-list message-bar-stack.pending-uni
 }
 html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button:hover {
     border: 1px solid white !important;
-    background-color: LightCoral !important;    
+    background-color: #96ceb4 !important;    
     color: #202020 !important;
 }
 
@@ -272,12 +433,12 @@ html body div#full div#sidebar categories-box#categories button.category {
 }
 
 html body div#full div#content div#main recommended-extensions-section footer.view-footer div.view-footer-item a.privacy-policy-link {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
     text-decoration: none !important;
 }
 
 html body div#full div#content div#main recommended-extensions-section recommended-addon-list recommended-addon-card div.card.addon div.addon-card-collapsed div.card-contents div.addon-name-container div.disco-card-head span.disco-addon-author a {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
     text-decoration: none !important;
 }
 
@@ -334,7 +495,7 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.ma
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane deck#weavePrefsDeck vbox#hasFxaAccount hbox vbox#fxaContentWrapper groupbox#fxaGroup deck#fxaLoginStatus hbox#fxaLoginVerified vbox hbox a#verifiedManage.openLink{
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 
 html body {
@@ -343,7 +504,7 @@ html body {
 }
 
 html .text-link {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories {
@@ -351,28 +512,28 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 }
 
 html body div.container div.title h1#warningTitle.title-text {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 
 
 html body div.container div.button-container button#warningButton:active {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
 }
 
 html body div.container div.button-container button#warningButton:hover {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border: 1px solid #d2d2d2 !important;
 }
 
 html body div.container div.button-container button#warningButton {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
     background-color: #202020 !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories .category image.category-icon {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 
 
@@ -380,7 +541,7 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 
 /* ----- WEBSITE TEXT HIGHLIGHT COLOR ----- */ 
 ::-moz-selection {
-    background: #40b1b7 !important; /* Gecko Browsers */
+    background: #96ceb4 !important;
     color: #202020 !important;
 }
 
@@ -421,37 +582,6 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
     color: white !important;
     margin-top: 10px !important;    
 }
-.top-site-outer .search-topsite,
-.top-site-outer .default-icon {
-    transform: scale(.4) translateX(20px) translateY(20px) !important;
-  }
-}
-@-moz-document url("about:newtab"), url("about:home") {
-
-.top-site-outer .top-site-inner {
-    width: 95px !important;
-    height: 60px !important;
-}
-
-.top-site-outer .screenshot,
-.top-site-outer .tile {
-  width: 105px !important;
-  height: 105px !important;
-}
-
-/* ----- TOP SITES TEXT FONT ( NEW TAB AS HOME PAGE ) ----- */
-.top-site-outer .title {
-    margin-inline-start: 5px !important;
-    font-size: 12px !important;
-    font-family: Oxanium !important;
-    color: white !important;    
-}
-
-.top-site-outer .search-topsite,
-.top-site-outer .default-icon {
-    transform: scale(.4) translateX(20px) translateY(20px) !important;
-  }
-}
 
 .top-site-outer:hover {
  background-color: #2f2f2f !important;
@@ -468,10 +598,10 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 	--in-content-box-background: #333!important;
 	--in-content-box-background-odd: #282828!important;
 	--in-content-box-background-hover: #333!important;
-	--in-content-box-background-active: LightCoral!important;
+	--in-content-box-background-active: #96ceb4!important;
 	--in-content-box-border-color: #444!important;
 	--in-content-item-hover: #202020 !important;
-	--in-content-item-selected: LightCoral!important;
+	--in-content-item-selected: #96ceb4!important;
 	--in-content-border-highlight: #444!important;
 	--in-content-border-focus: #08c!important;
 	--in-content-border-color: #ccc!important;
@@ -489,9 +619,9 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 	--in-content-link-color-hover: #c0c0c0!important;
 	--in-content-link-color-active: #08c!important;
 	--in-content-link-color-visited: #268!important;
-	--in-content-primary-button-background: LightCoral !important;
+	--in-content-primary-button-background: #96ceb4 !important;
 	--in-content-primary-button-background-hover: #fff !important;
-	--in-content-primary-button-background-active: LightCoral !important;
+	--in-content-primary-button-background-active: #96ceb4 !important;
 	--in-content-table-background: #282828 !important;
 	--in-content-table-border-dark-color: #444 !important;
 	--in-content-table-header-background: #222 !important;
@@ -533,7 +663,7 @@ richlistitem[selected="true"] {
 
 }
 #warningTitle {
-	color: LightCoral!important;
+	color: #96ceb4!important;
 }
 
 
@@ -542,30 +672,26 @@ richlistitem[selected="true"] {
 #content,
 #appcontent,
 browser,
-html, body {
-	background-color:#202020!important;	/*priority 1*/
-	background: #202020 !important;		/*priority 1*/
-	color:#c0c0c0 !important;			/*priority 1*/
-        
+html, body {        
 	--newtab-background-color: #222 !important;
 	--newtab-border-primary-color: #444 !important;
 	--newtab-border-secondary-color: #444 !important;
-	--newtab-button-primary-color: LightCoral !important; /* save button color */
+	--newtab-button-primary-color: #96ceb4 !important; /* save button color */
 	--newtab-button-secondary-color: #222 !important; /*close button*/
 	--newtab-element-active-color: #fff !important; /* 3dot menu select */
-	--newtab-element-hover-color: LightCoral !important; /* 3dot menu hover */
+	--newtab-element-hover-color: #96ceb4 !important; /* 3dot menu hover */
 	--newtab-icon-primary-color: #fff !important; /* 3dot*/
-	--newtab-icon-secondary-color: LightCoral !important;
-	--newtab-icon-tertiary-color: LightCoral !important;
+	--newtab-icon-secondary-color: #96ceb4 !important;
+	--newtab-icon-tertiary-color: #96ceb4 !important;
 	--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
-	--newtab-link-primary-color: LightCoral !important;
-	--newtab-link-secondary-color: LightCoral !important;
+	--newtab-link-primary-color: #96ceb4 !important;
+	--newtab-link-secondary-color: #96ceb4 !important;
 	--newtab-text-conditional-color: #666 !important;
 	--newtab-text-primary-color: #CCC !important;
 	--newtab-text-secondary-color: #888 !important;
 	--newtab-textbox-background-color: #282828 !important; /* fields */
 	--newtab-textbox-border: #202020 !important; /* field borders */
-	--newtab-textbox-focus-color: LightCoral !important;
+	--newtab-textbox-focus-color: #96ceb4 !important;
 	--newtab-textbox-focus-boxshadow: transparent !important;
 	--newtab-contextmenu-background-color: #3c3c3f !important; /* 3dot menu background */
 	--newtab-contextmenu-button-color: #3a3a3a !important; /* 3dot menu button */
@@ -594,22 +720,22 @@ body[lwt-newtab-brighttext] {
 	--newtab-background-color: #222 !important;
 	--newtab-border-primary-color: #444 !important;
 	--newtab-border-secondary-color: #444 !important;
-	--newtab-button-primary-color: LightCoral !important; /* save button color */
+	--newtab-button-primary-color: #96ceb4 !important; /* save button color */
 	--newtab-button-secondary-color: #282828 !important; /*close button*/
-	--newtab-element-active-color: LightCoral !important; /* 3dot menu select */
-	--newtab-element-hover-color: LightCoral !important; /* 3dot menu hover */
+	--newtab-element-active-color: #96ceb4 !important; /* 3dot menu select */
+	--newtab-element-hover-color: #96ceb4 !important; /* 3dot menu hover */
 	--newtab-icon-primary-color: #fff !important; /* 3dot*/
-	--newtab-icon-secondary-color: LightCoral !important;
+	--newtab-icon-secondary-color: #96ceb4 !important;
 	--newtab-icon-tertiary-color: red !important;
 	--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
-	--newtab-link-primary-color: LightCoral !important;
-	--newtab-link-secondary-color: LightCoral !important;
+	--newtab-link-primary-color: #96ceb4 !important;
+	--newtab-link-secondary-color: #96ceb4 !important;
 	--newtab-text-conditional-color: #666 !important;
 	--newtab-text-primary-color: #CCC !important;
 	--newtab-text-secondary-color: #888 !important;
 	--newtab-textbox-background-color: #282828 !important; /* fields */
 	--newtab-textbox-border: #202020 !important; /* field borders */
-	--newtab-textbox-focus-color: LightCoral !important;
+	--newtab-textbox-focus-color: #96ceb4 !important;
 	--newtab-textbox-focus-boxshadow: transparent !important;
 	--newtab-contextmenu-background-color: #3c3c3f !important; /* 3dot menu background */
 	--newtab-contextmenu-button-color: #3a3a3a !important; /* 3dot menu button */	
