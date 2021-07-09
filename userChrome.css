@@ -5,10 +5,154 @@ Huge thanks to the great and warm Firefox CSS Community which creating this them
 https://www.reddit.com/r/FirefoxCSS/
 Special thnx to
 MotherStylus & It_Was_The_Other_Guy
-A lot of the unlabled codes I got from them or they helped me out with */
+most of the unlabled codes I got from them. */
 
-/* ----- URL DROPDOWN HOVER TEXT COLOR & WEIGHT ----- */
-html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbaritem#urlbar-container.chromeclass-location hbox#urlbar vbox.urlbarView div.urlbarView-body-outer div.urlbarView-body-inner div#urlbar-results.urlbarView-results .urlbarView-row .urlbarView-row-inner:hover span.urlbarView-url {
+
+window#bookmarkproperties dialog#bookmarkpropertiesdialog vbox#editBookmarkPanelContent vbox#editBookmarkPanelRows vbox#editBMPanel_folderTreeRow tree#editBMPanel_folderTree.placesTree treechildren {
+    background-color: #282828 !important;
+    color: #fff !important;
+    -moz-appearance: none !important;
+}
+window#bookmarkproperties dialog#bookmarkpropertiesdialog vbox#editBookmarkPanelContent vbox#editBookmarkPanelRows vbox#editBMPanel_folderTreeRow tree#editBMPanel_folderTree.placesTree treechildren[_moz-menuactive="true"]  {
+    background-color: #282828 !important;
+    color: #fff !important;
+}
+
+
+window#bookmarkproperties dialog#bookmarkpropertiesdialog {
+    background-color: #3c3c3f !important;
+    color: #fff !important;
+}
+
+/* ----- DARK SAVE AS -----*/
+window dialog#app-picker richlistbox#app-picker-listbox {
+    background-color: #3c3c3f !important;
+    color: #fff !important;
+    -moz-appearance: none !important;
+    border: 1px solid #282828 !important;
+}
+#app-picker {
+    background-color: #3c3c3f !important;
+    color: #fff !important;
+}
+
+window dialog#app-picker richlistbox#app-picker-listbox richlistitem:hover {
+    background-color: #96ceb4 !important;
+    color: #282828 !important;
+}
+window dialog#app-picker richlistbox#app-picker-listbox richlistitem {
+    background-color: #3c3c3f !important;
+    color: #fff !important;
+    font-weight: 400 !important;
+}
+window dialog#app-picker richlistbox#app-picker-listbox richlistitem[selected="true"] {
+    background-color: #fff !important;
+    color: #282828 !important;
+    font-weight: 400 !important;
+}
+
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuseparator {
+    display: none !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuitem#choose:hover {
+    background-color: #96ceb4 !important;
+    color: #282828 !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuitem#defaultHandler:hover {
+    -moz-appearance: none !important;
+    background-color: #96ceb4 !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuitem#choose {
+    background-color: #525252 !important;
+    color: #fff !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuitem#defaultHandler {
+    -moz-appearance: none !important;
+    background-color: #525252 !important;
+    color: #fff !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuitem#choose[selected="true"] {
+    background-color: #96ceb4 !important;
+    color: #282828 !important;
+    -moz-appearance: none !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler menupopup#openHandlerPopup.in-menulist menuitem#defaultHandler[selected="true"] {
+    -moz-appearance: none !important;
+    background-color: #96ceb4 !important;
+    color: #282828 !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType {
+    color: #fff !important;
+    background-color: #3c3c3f !important;
+}
+window#unknownContentTypeWindow dialog#unknownContentType vbox#container vbox#normalBox radiogroup#mode.small-indent hbox deck#modeDeck hbox#openHandlerBox menulist#openHandler {
+    -moz-appearance: none !important;
+    color: #fff !important;
+    background-color: #525252 !important;
+    border-radius: 3px !important;
+    border: 1px solid #5c5c5c !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    padding-left: 5px !important;
+    padding-right: 2px !important;  
+}
+
+hbox.dialog-button-box {
+    -moz-appearance: none !important;
+}
+
+/* ----- ICON FIXES ----- */
+#organizeButton {
+    list-style-image: url("Iconsdb.com-Organize.svg") !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+    margin-left: 10px !important;
+}
+#preferences-button {
+    list-style-image: url("Iconsdb.com-Organize.svg") !important;
+}
+#maintenanceButton {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;  
+}
+#viewMenu {
+    margin-top: 10px !important;
+    margin-bottom: 5px !important; 
+}
+
+#ContentSelectDropdown > menupopup > :not([_moz-menuactive="true"]) {
+    color: #fff !important;
+    background-color: #3c3c3f !important;
+}
+
+
+#ContentSelectDropdown > menupopup > :not([_moz-menuactive="true"]):hover {
+    color: #282828 !important;
+    background-color: #96ceb4 !important;
+}
+
+#ContentSelectDropdown > menupopup > menucaption, #ContentSelectDropdown > menupopup > menuitem {
+    padding: 0px 0px !important;
+    border-width: 6px !important;
+}
+.popup-notification-learnmore-link {
+    color: #96ceb4 !important;
+}
+
+html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbaritem#urlbar-container.chromeclass-location hbox#urlbar vbox.urlbarView div.urlbarView-body-outer div.urlbarView-body-inner div#urlbar-results.urlbarView-results span.urlbarView-no-wrap span.urlbarView-title-separator {
+    opacity: 0 !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]):hover .ac-title, .urlbarView-row:not([type="search"]):hover .urlbarView-title {
+    color: #282828 !important;
+    font-weight: 400 !important;
+}
+
+#PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-title, .urlbarView-row:not([type="search"]) .urlbarView-title {
+    font-weight: 400 !important;
+}
+
+html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbaritem#urlbar-container.chromeclass-location hbox#urlbar vbox.urlbarView div.urlbarView-body-outer div.urlbarView-body-inner div#urlbar-results.urlbarView-results .urlbarView-row:hover .urlbarView-row-inner span.urlbarView-url {
     color: #282828 !important;
     font-weight: 400 !important;
 }
@@ -18,8 +162,12 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
     background-color: white !important;
 }
 
+.popup-notification-button {
+    color: white !important;
+}
+
 .popup-notification-primary-button {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
 }
 
 scrollbar {
@@ -43,11 +191,11 @@ scrollbar {
 }
 
 window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsRichListBox richlistitem.download.download-state button.downloadButton.downloadIconShow:hover {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 
 window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsRichListBox richlistitem.download.download-state button.downloadButton.downloadIconRetry:hover {
-    color: LightCoral !important;
+    color: #96ceb4 !important;
 }
 
 window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsRichListBox richlistitem.download.download-state:hover {
@@ -73,7 +221,7 @@ window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#d
 
 /* ----- ERROR ICON ----- */
 :host([type="info"]) .icon {
-    color: LightCoral !important;
+    color: #de3163 !important;
 }
 
 richlistbox {
@@ -108,16 +256,13 @@ richlistbox {
 
 
 /* ----- GRAYSCALE SITE FAVICONS ----- */
-.tabbrowser-tab:[selected] .tab-icon-image {filter: grayscale(0) brightness(1) contrast(1) !important;}
+/*.tabbrowser-tab:[selected] .tab-icon-image {filter: grayscale(0) brightness(1) contrast(1) !important;}*/
 .tabbrowser-tab:not([selected]) .tab-icon-image {filter: grayscale(1) brightness(0.8) contrast(1) !important;}
 
 
 html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-padding panelmultiview#downloadsPanel-multiView box.panel-viewcontainer box.panel-viewstack panelview#downloadsPanel-mainView vbox#downloadsFooter stack hbox#downloadsFooterButtons.panel-footer.panel-footer-menulike button#downloadsHistory.downloadsPanelFooterButton {
     color: #fff !important;
 }
-
-
-
 
 html|button:enabled:hover, html|select:not([size], [multiple]):enabled:hover, html|input[type="color"]:hover, xul|button:not([disabled="true"]):hover, xul|menulist:not([disabled="true"]):hover {
     background-color: var(--in-content-button-background-hover) !important;
@@ -132,7 +277,7 @@ html|button:enabled:hover, html|select:not([size], [multiple]):enabled:hover, ht
 
 html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar hbox scrollbox#PlacesToolbarItems toolbarbutton.bookmark-item:hover {
    background-color: #252525 !important;
-   color: LightCoral !important;
+   color: #96ceb4 !important;
 }
 
 html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar hbox toolbarbutton#OtherBookmarks.bookmark-item {
@@ -171,7 +316,7 @@ findbar hbox.findbar-container hbox input.findbar-textbox:focus {
 .findbar-textbox {
     border: none !important;
     outline: none !important;
-    caret-color: LightCoral !important;
+    caret-color: #96ceb4 !important;
 }
 
 /* ----- SHOW BOOKMARK TOOLBAR ON HOVER ----- */
@@ -215,7 +360,7 @@ html#main-window body popupset#mainPopupSet panel#identity-popup.panel-no-paddin
     color: white !important;
 }
 html#main-window body popupset#mainPopupSet panel#identity-popup.panel-no-padding panelmultiview#identity-popup-multiView box.panel-viewcontainer box.panel-viewstack panelview#identity-popup-mainView vbox#identity-popup-clear-sitedata-footer.panel-footer.panel-footer-menulike button#identity-popup-clear-sitedata-button:hover {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     color: #282828 !important;
 }
 
@@ -255,7 +400,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 /* ----- OTHER FIXES TO SHOW YOUR BM POPUP ----- */
 .bookmark-item {
     -moz-context-properties: fill !important;
-    fill: LightCoral !important;
+    fill: #96ceb4 !important;
 }
 .bookmark-item:hover {
     -moz-context-properties: fill !important;
@@ -281,7 +426,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 
 .customization-uidensity-menuitem:is(:hover:active, [active="true"]), .customization-lwtheme-menu-theme:is(:hover:active, [active="true"]) {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
 }
 
 
@@ -321,7 +466,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
     background-color: #282828 !important;
 }
 .searchbar-engine-one-off-item:hover {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
 }
 html#main-window body popupset#mainPopupSet panel#PopupSearchAutoComplete hbox.search-panel-header.search-panel-current-engine image.searchbar-engine-image {
     width: 15px !important;
@@ -340,12 +485,13 @@ html#main-window body popupset#mainPopupSet panel#PopupSearchAutoComplete hbox.s
     color: #fff !important;
 }
 .search-setting-button:hover {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     color: #fff !important;
     border: none !important;
 }
 .search-setting-button {
     margin-top: 5px !important;
+    padding: 0px !important;
 }
 
 /* ----- POPUP FOOOTERS COLORS ----- */
@@ -365,7 +511,7 @@ html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-pad
 html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-padding vbox.panel-subview-body div#editBookmarkPanelInfoArea div#editBookmarkPanelFaviconContainer img#editBookmarkPanelFavicon {
     background-color: #3c3c3f !important;
 }
-html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-padding panelmultiview#downloadsPanel-multiView box.panel-viewcontainer box.panel-viewstack panelview#downloadsPanel-mainView vbox#downloadsFooter stack hbox#downloadsFooterButtons.panel-footer.panel-footer-menulike button#downloadsHistory.downloadsPanelFooterButton:hover {            background-color: LightCoral !important;
+html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-padding panelmultiview#downloadsPanel-multiView box.panel-viewcontainer box.panel-viewstack panelview#downloadsPanel-mainView vbox#downloadsFooter stack hbox#downloadsFooterButtons.panel-footer.panel-footer-menulike button#downloadsHistory.downloadsPanelFooterButton:hover {            background-color: #96ceb4 !important;
 } 
 
 
@@ -374,22 +520,21 @@ html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-paddin
 }
 
 
-
 * {
     --in-content-text-color: var(--in-content-page-color);
-    --in-content-accent-color: LightCoral !important;
-    --in-content-accent-color-active: LightCoral !important;
-    --in-content-primary-button-background: LightCoral !important;
+    --in-content-accent-color: #96ceb4 !important;
+    --in-content-accent-color-active: #96ceb4 !important;
+    --in-content-primary-button-background: #96ceb4 !important;
     --in-content-primary-button-background-hover: white !important;
-    --in-content-primary-button-background-active: LightCoral !important;
+    --in-content-primary-button-background-active: #96ceb4 !important;
     --checkbox-unchecked-bgcolor: #313131 !important;
     --checkbox-unchecked-hover-bgcolor: #4d4d4d !important;
     --checkbox-unchecked-active-bgcolor: #9d9d9d !important;
-    --checkbox-checked-bgcolor: LightCoral !important;
+    --checkbox-checked-bgcolor: #96ceb4 !important;
     --checkbox-checked-color: #282828 !important;
     --checkbox-checked-border-color: transparent !important;
-    --checkbox-checked-hover-bgcolor: #8d8d8d !important;
-    --checkbox-checked-active-bgcolor: #9d9d9d !important;
+    --checkbox-checked-hover-bgcolor: #fefefe !important;
+    --checkbox-checked-active-bgcolor: #fefefe !important;
     --in-content-button-background: #282828 !important;
     --in-content-button-background-hover: white !important;
     --in-content-deemphasized-text: #f1f1f1 !important;
@@ -398,7 +543,7 @@ html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-paddin
     --toolbar-non-lwt-bgimage: none !important; /* -- Covers the Bookmark Toolbar -- */
 }
 
-:root {     
+:root {    
     --chrome-content-separator-color: #282828 !important;
     --panel-description-color: #fff !important;
     --focus-outline-color: #282828 !important;
@@ -417,28 +562,32 @@ html|button[autofocus], html|button[type="submit"], xul|button[default], button:
 }
 
 :root:not(:-moz-lwtheme) {
+    --autocomplete-popup-highlight-color: #fff !important;
+    --selected-text-row: #282828 !important;
+    --hover-bg-row: #96ceb4 !important;
+    --selected-bg-row: #96ceb4 !important;
     --arrowpanel-border-color: --arrowpanel-border-color: #3c3c3f !important;
     --autocomplete-popup-separator-color: #212121 !important;
     --chrome-content-separator-color: #202020 !important;
     --panel-shortcut-color: #f0f0f0 !important;
-    --buttons-primary-button-bgcolor: LightCoral !important;
+    --buttons-primary-button-bgcolor: #96ceb4 !important;
     --buttons-primary-button-hover-bgcolor: white !important;
     --buttons-primary-button-active-bgcolor: #5d5d5d !important;
     --checkbox-border-color: #3d3d3d !important;
     --checkbox-unchecked-bgcolor: #3d3d3d !important;
     --checkbox-unchecked-hover-bgcolor: #4d4d4d !important;
-    --checkbox-unchecked-active-bgcolor: LightCoral !important;
-    --checkbox-checked-bgcolor: LightCoral !important;
+    --checkbox-unchecked-active-bgcolor: #96ceb4 !important;
+    --checkbox-checked-bgcolor: #96ceb4 !important;
     --checkbox-checked-color: #282828 !important;
     --checkbox-checked-hover-bgcolor: #eca2a2 !important;
     --checkbox-checked-active-bgcolor: white !important;
-    --checkbox-checked-border-color: LightCoral !important;
+    --checkbox-checked-border-color: #96ceb4 !important;
     --button-bgcolor: #282828 !important;
     --in-content-page-color: #fff !important;
 }
 
 .search-panel-tree > .autocomplete-richlistitem:hover {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     color: #282828 !important;
 }
 .search-panel-tree > .autocomplete-richlistitem {
@@ -489,7 +638,7 @@ text-align: center !important;
 
 #PopupAutoCompleteRichResult .autocomplete-richlistitem:not([actiontype="searchengine"]) .ac-title,
 .urlbarView-row:not([type="search"]) .urlbarView-title {
-    color: #d2d2d2 !important;
+    color: #96ceb4 !important;
 }
 
 html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbaritem#urlbar-container.chromeclass-location hbox#urlbar vbox.urlbarView div.urlbarView-body-outer div.urlbarView-body-inner div#urlbar-results.urlbarView-results div.urlbarView-row:hover {
@@ -508,19 +657,19 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 /* ----- URLBAR TEXT COLOR ----- */
 #urlbar {
     color: #fff !important;
-    caret-color: LightCoral !important;  /* color of the | following the text you type */
+    caret-color: #96ceb4 !important;  /* color of the | following the text you type */
 }
 
 /* ----- SEARCHBAR TEXT COLOR ----- */
 #searchbar {
     color: #fff !important;
-    caret-color: LightCoral !important;
+    caret-color: #96ceb4 !important;
 }
 
 /* ----- URLBAR TEXT HIGHLIGHT & TEXT COLOR ----- */
 ::-moz-selection {
-	background: LightCoral !important;  /*BG COLOR*/
-	color: #fff !important;          /*TEXT COLOR*/
+	background: #96ceb4 !important;  /*BG COLOR*/
+	color: #282828 !important;          /*TEXT COLOR*/
 }
 
 /* ----- URL BACKGROUND & BORDER COLOR ----- */
@@ -634,7 +783,7 @@ html#main-window body hbox#browser splitter#sidebar-splitter.chromeclass-extrach
 
 :root { 
     --arrowpanel-background: #3c3c3f !important;
-    --arrowpanel-color: LightCoral !important;
+    --arrowpanel-color: #96ceb4 !important;
 }
 
 window#aboutDialog vbox#aboutDialogContainer hbox#clientBox vbox#rightBox vbox#detailsBox hbox#updateBox vbox stack#updateDeck hbox#apply.selected button#updateButton {
@@ -651,7 +800,7 @@ window#aboutDialog vbox#aboutDialogContainer hbox#clientBox vbox#rightBox vbox#d
 
 /* ----- BADGE ----- */
 .toolbarbutton-badge { 
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     width: 22px !important;
     height: 12px !important;
     font-size: 7px !important;
@@ -670,22 +819,21 @@ box.scrollbox-clip scrollbox {
     color: #3c3c3f !important;
 }
 
-
+/* ----- MOST VISITED DROPDOWN ----- */
 html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar hbox scrollbox#PlacesToolbarItems toolbarbutton.bookmark-item menupopup menuitem.menuitem-iconic.bookmark-item.menuitem-with-favicon {
     filter: grayscale(100%) !important;
 }
-
 html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar hbox scrollbox#PlacesToolbarItems toolbarbutton.bookmark-item menupopup menuitem.openintabs-menuitem {
     margin-left: -26px !important;
     filter: grayscale(100%) !important;
 }
-
 html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar hbox scrollbox#PlacesToolbarItems toolbarbutton.bookmark-item menupopup menuitem.menuitem-iconic.bookmark-item.menuitem-with-favicon:hover {
     filter: grayscale(0%) !important;
+    color: #282828 !important;
 }
-
 html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar hbox scrollbox#PlacesToolbarItems toolbarbutton.bookmark-item menupopup menuitem.openintabs-menuitem:hover {
     filter: grayscale(0%) !important;
+    color: #282828 !important;
 }
 
 html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#toolbar-menubar.browser-toolbar.chromeclass-menubar.titlebar-color.customization-target toolbaritem#menubar-items {
@@ -707,9 +855,8 @@ window#commonDialogWindow dialog#commonDialog.sizeDetermined {
 }
 
 /* ----- SHOW TAB CLOSE BUTTON ON TAB WHEN YOU HOVER OVER IT ----- */
- .tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
-        display: -moz-box !important;
-    }
+.tabbrowser-tab:not([selected]):not([pinned]):hover .tab-close-button {
+    display: -moz-box !important;
 }
 
 /* ----- PREVENT TABS FROM BECOMING FAT AGAIN AFTER YOU OPEN TOO MANY ----- */
@@ -761,7 +908,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-padding vbox.panel-subview-body vbox#editBookmarkPanelContent vbox#editBookmarkPanelRows vbox#editBMPanel_folderRow hbox menulist#editBMPanel_folderMenuList {
     background-color: #202020 !important;
-    fill: LightCoral !important;
+    fill: #96ceb4 !important;
     color: White !important;
 }
 
@@ -775,9 +922,6 @@ html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-pad
     color: #282828 !important;
 }
 
-window#bookmarksPanel.sidebar-panel tree#bookmarks-view.sidebar-placesTree treechildren.sidebar-placesTreechildren {
-    filter: grayscale(100%) !important;
-} 
 #identity-icon {
     list-style-image: url(chrome://branding/content/identity-icons-brand.svg) !important;
 }
@@ -793,7 +937,7 @@ window#bookmarksPanel.sidebar-panel tree#bookmarks-view.sidebar-placesTree treec
 html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content image.tab-close-button.close-icon {
     list-style-image: url("Close-Button-Proton.svg") !important;
     margin-top: -1px !important;
-    margin: right: -1px !important;
+    margin-right: -1px !important;
 }
 
 html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content image.tab-close-button.close-icon:hover {
@@ -807,7 +951,7 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
     border-image: var(--panel-separator-zap-gradient) 1;
 }
 panel#appMenu-popup {
---panel-separator-zap-gradient: /*linear-gradient(90deg, LightCoral 0%, LightCoral 52.08%, LightCoral 100%);*/
+--panel-separator-zap-gradient: /*linear-gradient(90deg, #96ceb4 0%, #96ceb4 52.08%, #96ceb4 100%);*/
 }
 
 /* ----- ROUND FAVICONS ----- */
@@ -817,9 +961,9 @@ panel#appMenu-popup {
 }
 
 /* ----- SHOW YOUR HISTORY ----- */
-window#places hbox#placesView vbox#contentView vbox#placesViewsBox tree#placeContent.plain.placesTree treechildren {
+/*window#places hbox#placesView vbox#contentView vbox#placesViewsBox tree#placeContent.plain.placesTree treechildren {
     filter: grayscale(100%);
-}
+}*/
 
 html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar panel#customizationui-widget-panel.cui-widget-panel.panel-no-padding panelmultiview#customizationui-widget-multiview box.panel-viewcontainer box.panel-viewstack panelview#PanelUI-history.PanelUI-subView.cui-widget-panelview vbox.panel-subview-body toolbaritem#appMenu_historyMenu toolbarbutton.subviewbutton.subviewbutton-iconic.bookmark-item {
     filter: grayscale(100%);
@@ -872,7 +1016,7 @@ scrollbox[orient="horizontal"] {
 /* ----- ROUND BOX SHAPED TABS ----- */
 .tab-background[selected="true"] {
     background-attachment: none!important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     background-image: none !important;
     border-top: 8px solid #202020 !important;
     border-bottom: 8px solid #202020 !important;
@@ -904,7 +1048,7 @@ scrollbox[orient="horizontal"] {
 
 /* ---- SOME IMPORTANT GLOBALS ----- */
 html#main-window {
-    --button-hover-bgcolor: LightCoral !important;       /* GENERAL HOVER COLOR */
+    --button-hover-bgcolor: #96ceb4 !important;       /* GENERAL HOVER COLOR */
     --button-active-bgcolor: #202020 !important;        /* GENERAL POPUP ACTIVE BUTTON BG */
 }
 
@@ -918,10 +1062,10 @@ vbox.panel-arrowcontainer box.panel-arrowcontent {
 
 /* ---- GLOBAL HOVER COLOR OF POPUPS ----- */
 /*.popup-notification-button[default][highlight="true"]:not([disabled]) {
-  background-color: LightCoral !important;
+  background-color: #96ceb4 !important;
 }
 .popup-notification-button[default][highlight="true"]:hover:not([disabled]) {
-  background-color: LightCoral !important;
+  background-color: #96ceb4 !important;
 }
 .popup-notification-button:hover:not([disabled]) {
   background-color: white !important;
@@ -974,7 +1118,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 /* ---- 3DOT PANEL TOGGLE ICON -----*/
 html#main-window body popupset#mainPopupSet panel#protections-popup.panel-no-padding panelmultiview#protections-popup-multiView box.panel-viewcontainer box.panel-viewstack panelview#protections-popup-mainView hbox#protections-popup-tp-switch-section.protections-popup-section vbox.protections-popup-tp-switch-box toolbarbutton#protections-popup-tp-switch.protections-popup-tp-switch {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
 }
 
 
@@ -1040,7 +1184,7 @@ html#main-window body box#customization-container hbox#customization-footer butt
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-done-button.customizationmode-button:hover {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border: 1px solid #fff !important;
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-reset-button.customizationmode-button {
@@ -1050,7 +1194,7 @@ html#main-window body box#customization-container hbox#customization-footer butt
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-reset-button.customizationmode-button:hover {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border: 1px solid #fff !important;
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-uidensity-button.customizationmode-button {
@@ -1061,7 +1205,7 @@ html#main-window body box#customization-container hbox#customization-footer butt
 
 html#main-window body box#customization-container hbox#customization-footer button#customization-uidensity-button.customizationmode-button:hover {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border: 1px solid #fff !important;
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-lwtheme-button.customizationmode-button {
@@ -1071,7 +1215,7 @@ html#main-window body box#customization-container hbox#customization-footer butt
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-lwtheme-button.customizationmode-button:hover {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border: 1px solid #fff !important;
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-toolbar-visibility-button.customizationmode-button {
@@ -1081,7 +1225,7 @@ html#main-window body box#customization-container hbox#customization-footer butt
 }
 html#main-window body box#customization-container hbox#customization-footer button#customization-toolbar-visibility-button.customizationmode-button:hover {
     color: #202020 !important;
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border: 1px solid #fff !important;
 }
 
@@ -1134,7 +1278,7 @@ html#main-window body popupset#mainPopupSet panel#widget-overflow.panel-no-paddi
 
 /* ----- SIDEBAR COLORS ----- */
 .sidebar-placesTreechildren::-moz-tree-image(title, container){
-  fill: LightCoral !important;
+  fill: #96ceb4 !important;
 }
 .sidebar-placesTreechildren::-moz-tree-image(selected){
   fill: #fff !important;
@@ -1160,16 +1304,16 @@ html#main-window body popupset#mainPopupSet panel#widget-overflow.panel-no-paddi
 
 #bookmarksPanel, #history-panel {
   color: #3c3c3f !important;
-  background-color: LightCoral !important;
+  background-color: #96ceb4 !important;
 }
 /* Bookmarks sidebar: change hover color */
 #bookmarks-view treechildren::-moz-tree-cell(hover) {
-  background-color: LightCoral !important;
+  background-color: #282828 !important;
 }
 #bookmarks-view treechildren::-moz-tree-cell(selected) { 
-  background-color: LightCoral !important;
-  border-color: LightCoral !important;
-  border: LightCoral !important; 
+  background-color: #96ceb4 !important;
+  border-color: #96ceb4 !important;
+  border: #96ceb4 !important; 
 }
 #sidebar-header {
   background-color: #202020 !important;
@@ -1187,7 +1331,7 @@ panelmultiview[mainViewId="PanelUI-history"] {
 
 /* ---- REMOVE UGLY VERTICAL LINE BEFORE TABS WHEN NOT MAXIMIZED (Code by "miha2158") ----- */
 .titlebar-spacer[type="pre-tabs"] {
-  display: none;
+    display: none;
 }
 
 /* ----- TOOLBAR BOTTOM SEPARATOR COLOR (Code by "NomNomFabbo") ----- */
@@ -1197,8 +1341,11 @@ panelmultiview[mainViewId="PanelUI-history"] {
 
 /* ----- LOADING THROBBER ANIMATION COLOR (Code by "Ceirin") ----- */
 .tab-throbber::before {
-fill: #fff !important;
-opacity: 1 !important;
+    fill: #fff !important;
+    opacity: 1 !important;
+}
+.tab-throbber {
+    margin-left: 4px !important;
 }
 
 /* ------ HUMBERGER MENU HOVER & ACTIVE BACKGROUND COLOR ----- */
@@ -1208,7 +1355,7 @@ menu.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
 menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)), 
 .widget-overflow-list .toolbarbutton-1:-moz-any(:hover, :focus):not(:-moz-any([disabled], [open], :active)), 
 .toolbaritem-combined-buttons:-moz-any(:not([cui-areatype="toolbar"]), [overflowedItem="true"]) > toolbarbutton:-moz-any(:hover, :focus):not(:-moz-any([disabled], [open], :active)) { 
-   background: LightCoral !important;
+   background: #96ceb4 !important;
 }
 
 
@@ -1302,7 +1449,7 @@ toolbar:not(#TabsToolbar):not(:-moz-lwtheme) :-moz-any(.scrollbutton-up,.scrollb
     background-color: #3c3c3f !important;   
 }
 #widget-overflow-fixed-list {
-    color: #fffff !important;
+    color: #fff !important;
     background-color: #3c3c3f !important;  
 }
 #widget-overflow-list .toolbarbutton-icon {
@@ -1313,11 +1460,14 @@ toolbar:not(#TabsToolbar):not(:-moz-lwtheme) :-moz-any(.scrollbutton-up,.scrollb
 }
 
 /* ----- DARK RIGHT-CLICK MENU (Code from "WhoNeedsChemistry") ----- */ 
-
 menuitem:hover, menu:hover {
-      background-color: LightCoral !important;
+      background-color: #96ceb4 !important;
+      color: #282828 !important;
 }
-
+menuitem[_moz-menuactive="true"], menu[_moz-menuactive="true"] {
+      background-color: #96ceb4 !important;
+      color: #282828 !important;
+}
 menupopup {
     -moz-appearance: none !important;
     background-color: #3c3c3f !important;
@@ -1377,7 +1527,7 @@ menugroup {
     stroke: #f0f0f0 !important;
 }
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
-    stroke: LightCoral !important;
+    stroke: #96ceb4 !important;
     scale: 85% !important;
 }
 .titlebar-button:hover {
@@ -1388,7 +1538,7 @@ menugroup {
 
 }
 .titlebar-button.titlebar-close:hover {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
     border-radius: 3px !important;
     margin-top: 4px !important;
     margin-bottom: 4px !important;
@@ -1487,6 +1637,43 @@ tab[selected="true"] .tab-content {
     background-size: 16px 16px !important;
     background-repeat: no-repeat !important;
 }
+.tabbrowser-tab[label^="Logins & Passwords"] .tab-icon-image {
+    list-style-image: none !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    margin-top: -2px !important;
+    background: url("Icons8-Lockwise-Favicon.svg") !important; /* your custom icon */
+    background-size: 16px 16px !important;
+    background-repeat: no-repeat !important;
+}
+.tabbrowser-tab[label^="Problem loading Page"] .tab-icon-image {
+    list-style-image: none !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    margin-top: -2px !important;
+    background: url("Icons8-Attention-Icon.svg") !important; /* your custom icon */
+    background-size: 16px 16px !important;
+    background-repeat: no-repeat !important;
+}
+.tabbrowser-tab[label^="Server Not Found"] .tab-icon-image {
+    list-style-image: none !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    margin-top: -2px !important;
+    background: url("Icons8-Attention-Icon.svg") !important; /* your custom icon */
+    background-size: 16px 16px !important;
+    background-repeat: no-repeat !important;
+}
+
+
+.tab-icon-image {
+    margin-left: 3px !important;
+} 
+
+.infobar > .icon, :host([type="system"]) .notification-content {
+    margin-inline-start: 16px;
+    color: #de3163 !important;
+}
 
 /* ----- PROPERLY ALIGN TAB FAVICONS ----- */
 .tabbrowser-tab .tab-icon-image {
@@ -1496,7 +1683,7 @@ tab[selected="true"] .tab-content {
 /* ----- DOWNLOAD BUTTON COLOR WHEN DOWNLOAD IS FINISHED ----- */
 #downloads-button[attention="success"] > .toolbarbutton-badge-stack > #downloads-indicator-anchor > #downloads-indicator-icon,
 #downloads-button[attention="success"] > .toolbarbutton-badge-stack > #downloads-indicator-anchor > #downloads-indicator-progress-outer {
-fill: LightCoral !important;
+fill: #96ceb4 !important;
 }
 
 /* ----- REMOVE UGLY GREEN PLUS "ADD SEARCH ENGINE" ICON ON THE SEARCH ICON IN SEARCHBOX ----- */
@@ -1505,10 +1692,10 @@ fill: LightCoral !important;
 
 /* ----- BOOKMARK STAR ICON IN THE TOOLBAR ----- */
 #star-button {
-  fill: LightCoral !important;
+  fill: #96ceb4 !important;
 }
 #star-button[starred] {
-  fill: LightCoral !important;
+  fill: #96ceb4 !important;
 }
 
 /* ----- REMOVE WEBSITE FAVICONS FROM URLBAR DROPDOWN ----- */
@@ -1516,8 +1703,17 @@ fill: LightCoral !important;
 
 
 /* ----- HOVERED OVER URL BACKGROUND COLOR AND SELECTED URL BACKGORUND COLOR IN URLBAR DROPDOWN ----- */
-.urlbarView-row:hover > .urlbarView-row-inner{ background-color: LightCoral !important; }
-.urlbarView-row[selected] > .urlbarView-row-inner{ background-color: LightCoral !important; }
+.urlbarView-row:hover > .urlbarView-row-inner { 
+background-color: #96ceb4 !important;
+}
+
+.urlbarView-row[selected] > .urlbarView-row-inner:hover { 
+background-color: #96ceb4 !important;
+}
+
+.urlbarView-row[selected] > .urlbarView-row-inner { 
+background-color: #3c3c3f !important;
+}
 
 
 html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content stack.tab-icon-stack image.tab-icon-image[soundplaying] {
@@ -1525,14 +1721,16 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
 }
 
 /* ------ VOLUME ICON ----- */
+
 .tab-icon-overlay {
   -moz-box-ordinal-group: 0 !important;
   margin: initial !important;
-  margin-top: -0.4px !important;
+  margin-left: 1px !important;
   opacity: 1 !important;
   z-index: 1 !important;
-  background-color: #434343 !important;
+  background-color: #414141 !important;
 }
+
 .tab-icon-overlay[soundplaying-scheduledremoval]:not([muted]):not(:hover) {
   transition: opacity .3s linear var(--soundplaying-removal-delay) !important;
   opacity: 1 !important; 
@@ -1542,19 +1740,20 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
 .tab-icon-overlay[muted]:not([crashed]),
 .tab-icon-overlay[activemedia-blocked]:not([crashed]) {
   border-radius: 3px !important;
+  scale: 108% !important;
 }
 .tab-icon-overlay[soundplaying]:hover,
 .tab-icon-overlay[muted]:not([crashed]):hover,
 .tab-icon-overlay[activemedia-blocked]:not([crashed]):hover {
   list-style-image: url("Volume-Mute.svg") !important;
-  transform: scale 10% !important;
-  transition: transform ease-in-out 300ms !important;
+
 }
 .tab-icon-overlay[soundplaying] {
   list-style-image: url("Volume.svg") !important;
+
 }
 .tab-icon-overlay[muted]:not([crashed]) {
-  list-style-image: url("Volume.svg") !important;
+  list-style-image: url("Volume-Mute.svg") !important;
 }
 .tab-icon-overlay[activemedia-blocked]:not([crashed]) {
   list-style-image: url("Volume-Active.svg") !important;
@@ -1582,32 +1781,33 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
 
 /* ----- DARK LIBRARY (Code by ("cssnoob2") ----- */
 /* ----- Change colors here ----- */
-:root { --background: #3c3c3f !important; }
-:root { --odd-bg-row: #3c3c3f !important; }
-:root { --textcolor: #fff !important; }
-:root { --iconcolor: #fff !important; }
-:root { --selected-iconcolor: #fff !important; }
-:root { --hover-iconcolor: #fff !important; }
-:root { --bordercolor: #fff !important; }
-:root { --hover-bg-row: #2f2f2f !important; }
-:root { --hover-text-row: #fff !important; }
-:root { --selected-text-row: #fff !important; }
+:root {
+    --background: #3c3c3f !important;
+    --odd-bg-row: #3c3c3f !important;
+    --textcolor: #fff !important;
+    --iconcolor: #fff !important;
+    --selected-iconcolor: #fff !important;
+    --hover-iconcolor: #fff !important;
+    --bordercolor: #fff !important;
+    --hover-text-row: #fff !important;
+    --selected-text-row: #fff !important;
+}
 
 /* ----- Library Background ----- */
 window#places[title="Library"] {
   background-color: var(--background) !important;
 }
 
-/* ----- Toolbar buttons ----- */
 #placesMenu > menu {
-  border: none !important;
+  padding: 5px !important;
+  color: #96ceb4 !important;
 }
 
 /* ----- Toolbar button hover ----- */
 #placesMenu > menu:hover {
   -moz-appearance: none !important;
-  background-color: #3c3c3f !important;
-  color: LightCoral !important;
+  color: #252525 !important;
+  border-radius: 3px !important;
 }
 
 /* ----- Toolbar button open ----- */
@@ -1627,18 +1827,19 @@ window#places[title="Library"] {
 }
 
 /* ----- Keep menu items from expanding ----- */
-/* #placesMenu menupopup menu,
+#placesMenu menupopup menu,
 #placesMenu menupopup menuitem {
-  padding: 3px 0 !important;
-} */
+  padding: 0px 0 !important;
+  margin-left: -10px !important;
+}
 
 /* ----- Hover menu items ----- */
-/* #placesMenu menupopup menu[_moz-menuactive]:not([disabled]),
+/*#placesMenu menupopup menu[_moz-menuactive]:not([disabled]),
 #placesMenu menupopup menuitem[_moz-menuactive]:not([disabled]) {
   -moz-appearance: none !important;
   background-color: var(--hover-bg-row) !important;
   color: var(--hover-text-row) !important;
-} */
+}*/
 
 /* ----- Toolbar ----- */
 #placesToolbar {
@@ -1852,9 +2053,7 @@ richlistitem[selected="true"] {
   background-color: var(--background) !important;
   color: var(--textcolor) !important;
 }
-/* ----- Clear Text Icon (Not sure how to style this) ----- */
-.textbox-search-clear {
-}
+
 /* ----- Clear Downloads Button ----- */
 #clearDownloadsButton {
   color: #fff !important;
@@ -1864,7 +2063,7 @@ richlistitem[selected="true"] {
   opacity: 1 !important;
 }
 #clearDownloadsButton:hover {
-  fill: LightCoral !important;
+  fill: #96ceb4 !important;
   color: #3c3c3f !important;
   background-color: #282828 !important;
 }
@@ -1899,15 +2098,15 @@ richlistitem[selected="true"] {
 /* ----- LIBRARY TOP & BOTTOM BORDER ----- */
 @-moz-document url("chrome://browser/content/places/places.xhtml"){
   :root{ 
-   --organizer-border-color: #252525 !important;
+   --organizer-border-color: #282828 !important;
 }
 /* ----- LIBRARY HOVER BOX BORDERS ----- */
-treechildren::-moz-tree-row(selected){ border: 1px solid LightCoral !important; }
+treechildren::-moz-tree-row(selected){ border: 1px solid #96ceb4 !important; }
 
 
 /* ----- POPUP NOTIFICATION BUTTONS -----*/
 html#main-window body popupset#mainPopupSet panel#appMenu-notification-popup.popup-notification-panel.panel-no-padding popupnotification#appMenu-update-available-notification hbox.popup-notification-button-container.panel-footer button.popup-notification-button.popup-notification-primary-button {
-    background-color: LightCoral !important;
+    background-color: #96ceb4 !important;
 }
 
 html#main-window body popupset#mainPopupSet panel#appMenu-notification-popup.popup-notification-panel.panel-no-padding popupnotification#appMenu-update-available-notification hbox.popup-notification-button-container.panel-footer button.popup-notification-button.popup-notification-primary-button:hover {
