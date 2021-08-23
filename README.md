@@ -1,4 +1,4 @@
-<p align="center">ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 √1</p>
+<p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p>
 <p align="center">An extremely anticipated dark theme made for FireFox Proton streching darkness into every corner of the browser</p>
 
 <p align="center">Recommended Add-ons</p>
