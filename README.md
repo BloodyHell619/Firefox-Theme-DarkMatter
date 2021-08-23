@@ -1,5 +1,6 @@
-<p align="center">ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺 ᐯ1 Dark Perfection for for FireFox Proton</p>
-<p align="center">What's new</p>
+<p align="center">ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺 ᐯ1</p>
+<p align="center">Dark Perfection for FireFox Proton</p>
+<p align="center">- What's new -</p>
 <p align="center">- Installation has been made super easy now as all the color codes are now implemented into the css files; so no need to guess colors, and no need for the Theme Creator plugin. Just a simple copy-paste and enabling 1 or 2 options in settings is all you need to do.</p>
 <p align="center">- Added depth to the entire theme to get rid of its flatness and plainness.</p>
 <p align="center">- Compact tabs made for Proton (Tabs will also not expand even when you open a lot, as all the toolbar icons have been fixed and resized to prevent that.)
@@ -13,16 +14,15 @@
 <p align="center">- Custom website focus and text highlight colors
 and tones and tones of other big and minor changes</p>
 
-<p align="center">Recommended Plugins
+<p align="center">Recommended Plugins</p>
 
-<p align="center">Favicon Switcher ( for custom site favicons )
-https://addons.mozilla.org/en-US/firefox/user/15425431/</p>
+<p align="center">Favicon Switcher ( for custom site favicons )</p>
+<p align="center">https://addons.mozilla.org/en-US/firefox/user/15425431/</p>
 
-<p align="center">Dark eye for darkmode
-https://addons.mozilla.org/en-US/firefox/addon/night-eye-dark-mode/</p>
+<p align="center">Dark eye for darkmode</p>
+<p align="center">https://addons.mozilla.org/en-US/firefox/addon/night-eye-dark-mode/</p>
 
-<p align="center">Recommended sites for favicons and new tab top sites icons
-https://www.iconsdb.com/
-https://icons8.com/
-</p>
+<p align="center">Recommended sites for favicons and new tab top sites icons</p>
+<p align="center">https://www.iconsdb.com/</p>
+<p align="center">https://icons8.com/</p>
 
