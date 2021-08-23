@@ -1,3 +1,4 @@
+<p align="center">
 ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺 ᐯ1 Dark Perfection for for FireFox Proton
 What's new
 - Installation has been made super easy now as all the color codes are now implemented into the css files; so no need to guess colors, and no need for the Theme Creator plugin. Just a simple copy-paste and enabling 1 or 2 options in settings is all you need to do.
@@ -13,7 +14,7 @@ What's new
 - Custom website focus and text highlight colors
 and tones and tones of other big and minor changes
 
-[center]Recommended Plugins
+Recommended Plugins
 
 Favicon Switcher ( for custom site favicons )
 https://addons.mozilla.org/en-US/firefox/user/15425431/
@@ -24,4 +25,5 @@ https://addons.mozilla.org/en-US/firefox/addon/night-eye-dark-mode/
 Recommended sites for favicons and new tab top sites icons
 https://www.iconsdb.com/
 https://icons8.com/
+</p>
 
