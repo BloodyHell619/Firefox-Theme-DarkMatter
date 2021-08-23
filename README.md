@@ -1,4 +1,4 @@
-<p align="center">ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺 ᐯ1</p>
+<p align="center">ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 √1</p>
 <p align="center">Dark Perfection for FireFox Proton</p>
 <p align="center">- What's new from Kyubi theme -</p>
 <p align="center">- All the color codes are now implemented into the css files; so no need to guess colors, and no need for the Theme Creator plugin. Just a simple copy-paste and enabling 1 or 2 options in settings is all you need to apply this theme.</p>
