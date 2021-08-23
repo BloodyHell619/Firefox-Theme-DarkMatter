@@ -1,7 +1,7 @@
 <p align="center">ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺 ᐯ1</p>
 <p align="center">Dark Perfection for FireFox Proton</p>
 <p align="center">- What's new from Kyubi theme -</p>
-<p align="center">- Installation has been made super easy now as all the color codes are now implemented into the css files; so no need to guess colors, and no need for the Theme Creator plugin. Just a simple copy-paste and enabling 1 or 2 options in settings is all you need to do.</p>
+<p align="center">- All the color codes are now implemented into the css files; so no need to guess colors, and no need for the Theme Creator plugin. Just a simple copy-paste and enabling 1 or 2 options in settings is all you need to apply this theme.</p>
 <p align="center">- Added depth to the entire theme to get rid of its flatness and plainness.</p>
 <p align="center">- Compact tabs made for Proton (Tabs will also not expand even when you open a lot, as all the toolbar icons have been fixed and resized to prevent that.)
 <p align="center">- Truly button shaped nabvar buttons</p>
