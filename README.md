@@ -1,4 +1,4 @@
-<p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p>
+<h1 style="color:red;font-size:40px;"><p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p></h1>
 <p align="center">An intensively worked on and highly customized dark theme made for Firefox Proton stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
 <p align="center">
   <img src="your_relative_path_here" width="350" title="hover text">
@@ -49,8 +49,4 @@ you can refer to this comment if you also want to use his info</p>
 <p align="center">Recommended sites for favicons and new tab top-sites icons</p>
 <p align="center">https://www.iconsdb.com/</p>
 <p align="center">https://icons8.com/</p>
-<span class="icon-fallback-text">
-	<span class="icon icon-glyph" aria-hidden="true"></span>
-	<span class="text">Fallback Text</span>
-</span>
 
