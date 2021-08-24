@@ -49,5 +49,8 @@ you can refer to this comment if you also want to use his info</p>
 <p align="center">Recommended sites for favicons and new tab top-sites icons</p>
 <p align="center">https://www.iconsdb.com/</p>
 <p align="center">https://icons8.com/</p>
-
+<span class="icon-fallback-text">
+	<span class="icon icon-glyph" aria-hidden="true"></span>
+	<span class="text">Fallback Text</span>
+</span>
 
