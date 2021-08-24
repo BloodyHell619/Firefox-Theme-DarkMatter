@@ -2,7 +2,8 @@
 <br/>
 <p align="center" style="color:blue" font-size:18px >An intensively worked on and highly customized dark theme made for Firefox Proton stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
 <p align="center">
-  <img src="https://i.ibb.co/9pZVRKJ/Capture5555.png" width="650" title="hover text">
+  <img src="https://i.ibb.co/qYmrSN3/Dark-Matter.png" title="Firefox Dark Matter">
+  <img src="https://i.ibb.co/QvtvhFt/Dark-Matter-3.png" width="970" alt="accessibility text">
 </p>
 <p align="center">Unlike my previous theme which needed you to use an add-on called Theme Creator and to figure out colors, there is no need for that with this theme as all the colors are coded into the CSS files</p>
 <br/>
