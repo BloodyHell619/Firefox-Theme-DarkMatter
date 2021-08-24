@@ -10,8 +10,8 @@
 <br/>
 <h3><p align="center">Ｓｏｍｅ ｏｆ ｔｈｅ Ｍａｉｎ Ｆｅａｔｕｒｅｓ ｏｆ ｔｈｅ Ｔｈｅｍｅ</p></h3>
 <p align="center">Vertical tabs</p>
-<p align="center">Dark embossed theme pretty much everywhere; from the tinnest places in the interface, settings, add-on tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-ups (This is also applied regardless of your operating system's theme!) and even about:config
-box shaped compact tabs even in firefox proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delecatly to prevent exapnsion)</p>
+<p align="center">Dark embossed theme pretty much everywhere; from the tinnest places in the interface, settings, add-on tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-ups (This is also applied regardless of your operating system's theme!)
+box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delecatly to prevent exapnsion)</p>
 <br/>
 <br/>
 <br/>
