@@ -1,4 +1,4 @@
-<h1 style="color:#10B2E7;font-size:40px;"><p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p></h1>
+<h1 style="color:#10B2E7"><p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p></h1>
 <p align="center">An intensively worked on and highly customized dark theme made for Firefox Proton stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
 <p align="center">
   <img src="your_relative_path_here" width="350" title="hover text">
