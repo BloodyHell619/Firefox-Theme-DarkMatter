@@ -1,9 +1,4 @@
-<p>Base font</p>
-<p font size="5">Font size 5</font></p>
-<p font size="-1">Font size -1</font></p>
-<p font color="red">Red color</font></p>
-<p font size="7" color="#00ff00">Font size 7 and Green color</font></p>
-<p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p>
+<h1><p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 - </p></h1>
 <p align="center" style="color:blue" font-size:18px >An intensively worked on and highly customized dark theme made for Firefox Proton stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
 <p align="center">
   <img src="your_relative_path_here" width="350" title="hover text">
@@ -11,10 +6,13 @@
 </p>
 <p align="center">Unlike my previous theme which needed you to use an add-on called Theme Creator and to figure out colors, there is no need for that with this theme as all the colors are coded into the CSS files</p>
 
-<p align="center">Some of the Main Features of the Theme</p>
+<h3><p align="center">Ｓｏｍｅ ｏｆ ｔｈｅ Ｍａｉｎ Ｆｅａｔｕｒｅｓ ｏｆ ｔｈｅ Ｔｈｅｍｅ</p></h3>
 <p align="center">Vertical tabs</p>
 <p align="center">Dark embossed theme pretty much everywhere; from the tinnest places in the interface, settings, add-on tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-ups (This is also applied regardless of your operating system's theme!) and even about:config
 box shaped compact tabs even in firefox proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delecatly to prevent exapnsion)</p>
+
+
+
 
 <p align="center">Massive thanks to Mozilla for giving us this great browser and for continuing to develop it for all these years</p> 
 <p align="center">Huge thanks to the great and warm Firefox CSS Community, which creating this theme without wasn't possible.</p>
