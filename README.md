@@ -1,6 +1,10 @@
 <p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 -</p>
 <p align="center">An intensively worked on and highly customized dark theme made for Firefox Proton stretching darkness into every corner of the browser</p>
 [My image](https://ibb.co/YN0yvn6)
+<p align="center">
+  <img src="https://ibb.co/YN0yvn6" width="350" title="hover text">
+  <img src="https://ibb.co/YN0yvn6" width="350" alt="accessibility text">
+</p>
 <p align="center">Recommended Add-ons</p>
 
 <p align="center">Favicon Switcher ( for custom site favicons )</p>
