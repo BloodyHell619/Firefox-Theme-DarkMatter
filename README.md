@@ -42,10 +42,12 @@ you can refer to this comment if you also want to use his great info</p>
 <p align="center">https://github.com/Aris-t2/CustomCSSforFx</p>
 <br/>
 <h3><p align="center">尺乇匚ㄖ爪爪乇几ᗪ乇ᗪ&nbsp;   &nbsp;   卂ᗪᗪ-ㄖ几丂 </p></h3>
-<p align="center">Favicon Switcher ( for custom site favicons )</p>
+<p align="center">- Favicon Switcher -
+<p align="center">For custom site favicons</p>
 <p align="center">https://addons.mozilla.org/en-US/firefox/user/15425431/</p>
 
-<p align="center">Dark Eye for darkmode</p>
+<p align="center">Dark Eye 
+<p align="center">For darkmode websites</p>
 <p align="center">https://addons.mozilla.org/en-US/firefox/addon/night-eye-dark-mode/</p>
 <br/>
 <h3><p align="center">尺乇匚ㄖ爪爪乇几ᗪ乇ᗪ&nbsp;   &nbsp;   丂丨ㄒ乇丂&nbsp;   &nbsp;   千ㄖ尺&nbsp;   &nbsp;   千卂ᐯ丨匚ㄖ几丂&nbsp;   &nbsp;   卂几ᗪ&nbsp;   &nbsp;   ㄒㄖ卩-丂丨ㄒ乇丂 丨匚ㄖ几丂&nbsp;   &nbsp;   </p></h3>
