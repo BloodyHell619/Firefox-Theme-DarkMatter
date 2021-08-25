@@ -10,8 +10,11 @@
 <br/>
 <h3><p align="center">- 丂ㄖ爪乇&nbsp;   &nbsp;   ㄖ千&nbsp;   &nbsp;   ㄒ卄乇&nbsp;   &nbsp;      爪卂丨几&nbsp;   &nbsp;      千乇卂ㄒㄩ尺乇丂&nbsp;   &nbsp;      ㄖ千&nbsp;   &nbsp;      ㄒ卄乇&nbsp;   &nbsp;      ㄒ卄乇爪乇&nbsp;   &nbsp;    -</p></h3>
 <p align="center"> - Vertical tabs - </p>
-<p align="center">Dark embossed theme pretty much everywhere; from the tinnest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-up (This is also applied regardless of your operating system's theme!)
-<p align="center">box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delecatly to prevent exapnsion)</p>
+<p align="center"> - Custom Bookmarkbar - </p>
+<p align="center"> - Menu in Titlebar - </p>
+<p align="center">Dark embossed theme pretty much everywhere; from the tiniest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-up (This is also applied regardless of your operating system's theme!)
+<p align="center">box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delicately to prevent expansion)</p>
+
 <br/>
 <h3><p align="center">- 丨几丂ㄒ卂ㄥㄥ卂ㄒ丨ㄖ几&nbsp;   &nbsp;   Ꮆㄩ丨ᗪ乇 -</p></h3>
 <br/>
@@ -24,7 +27,7 @@
 <p align="center">https://www.reddit.com/user/It_Was_The_Other_Guy/</p>
 <p align="center">https://www.reddit.com/user/MotherStylus/</p>
 <br/>
-<p align="center">thanks to MotherStylus for also helping me set up a github repository in perfect detail
+<p align="center">thanks to MotherStylus for also helping me set up a GitHub repository in perfect detail
 you can refer to this comment if you also want to use his great info</p>
 <p align="center">https://www.reddit.com/r/FirefoxCSS/comments/o88kkn/need_to_change_these_2_things_in_the_show_your/h3nw2yr?utm_source=share&utm_medium=web2x&context=3</p>
 <br/>
@@ -35,7 +38,7 @@ you can refer to this comment if you also want to use his great info</p>
 <p align="center">Vertical tabs adopted from MotherStylus's theme</p>
 <p align="center">https://github.com/aminomancer/uc.css.js</p>
 
-<p align="center">button-like navbar buttons adopted from It_Was_The_Other_Guy's massive repository of firefox CSS hacks</p>
+<p align="center">button-like navbar buttons adopted from It_Was_The_Other_Guy's massive repository of Firefox CSS hacks</p>
 <p align="center">https://github.com/MrOtherGuy/firefox-csshacks</p>
 
 <p align="center">Menu-in-titlebar code adopted from Aris-t2's collection of custom CSSs</p>
@@ -53,4 +56,3 @@ you can refer to this comment if you also want to use his great info</p>
 <h3><p align="center">- 丂丨ㄒ乇丂&nbsp;   &nbsp;   千ㄖ尺&nbsp;   &nbsp;   千卂ᐯ丨匚ㄖ几丂&nbsp;   &nbsp;   &&nbsp;   &nbsp;   ㄒㄖ卩-丂丨ㄒ乇丂 丨匚ㄖ几丂&nbsp;   &nbsp;    -</p></h3>
 <p align="center">https://icons8.com/</p>
 <p align="center">https://www.iconsdb.com/</p>
-
