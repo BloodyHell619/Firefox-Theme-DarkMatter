@@ -1,6 +1,6 @@
 <h1><p align="center">- ᗪ 卂 尺 Ҝ  爪 卂 ㄒ ㄒ 乇 尺 - </p></h1>
 <br/>
-<p align="center" style="color:blue" font-size:18px >An intensively worked on and highly customized dark theme made for Firefox Proton stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
+<p align="center" style="color:blue" font-size:18px >An intensively worked on, and highly customized dark theme made for Firefox Proton, stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
 <p align="center">
 <br/>
   <img src="https://i.ibb.co/qYmrSN3/Dark-Matter.png" title="Firefox Dark Matter">
