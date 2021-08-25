@@ -10,7 +10,7 @@
 <br/>
 <h3><p align="center">- 丂ㄖ爪乇&nbsp;   &nbsp;   ㄖ千&nbsp;   &nbsp;   ㄒ卄乇&nbsp;   &nbsp;      爪卂丨几&nbsp;   &nbsp;      千乇卂ㄒㄩ尺乇丂&nbsp;   &nbsp;      ㄖ千&nbsp;   &nbsp;      ㄒ卄乇&nbsp;   &nbsp;      ㄒ卄乇爪乇&nbsp;   &nbsp;    -</p></h3>
 <p align="center"> - Vertical tabs - </p>
-<p align="center">Dark embossed theme pretty much everywhere; from the tinnest places in the interface, settings, add-on tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-ups (This is also applied regardless of your operating system's theme!)
+<p align="center">Dark embossed theme pretty much everywhere; from the tinnest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-up (This is also applied regardless of your operating system's theme!)
 <p align="center">box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delecatly to prevent exapnsion)</p>
 <br/>
 <h3><p align="center">- 丨几丂ㄒ卂ㄥㄥ卂ㄒ丨ㄖ几&nbsp;   &nbsp;   Ꮆㄩ丨ᗪ乇 -</p></h3>
@@ -41,16 +41,16 @@ you can refer to this comment if you also want to use his great info</p>
 <p align="center">Menu-in-titlebar code adopted from Aris-t2's collection of custom CSSs</p>
 <p align="center">https://github.com/Aris-t2/CustomCSSforFx</p>
 <br/>
-<h3><p align="center">尺乇匚ㄖ爪爪乇几ᗪ乇ᗪ&nbsp;   &nbsp;   卂ᗪᗪ-ㄖ几丂 </p></h3>
-<p align="center">- Favicon Switcher -
+<h3><p align="center">- 尺乇匚ㄖ爪爪乇几ᗪ乇ᗪ&nbsp;   &nbsp;   卂ᗪᗪ-ㄖ几丂 -</p></h3>
+<h4><p align="center">- 千卂ᐯ丨匚ㄖ几&nbsp;   &nbsp;   丂山丨ㄒ匚卄乇尺  -</p></h4>
 <p align="center">For custom site favicons</p>
 <p align="center">https://addons.mozilla.org/en-US/firefox/user/15425431/</p>
 
-<p align="center">Dark Eye 
+<h4><p align="center">- ᗪ卂尺Ҝ&nbsp;   &nbsp;   乇ㄚ乇 -</p></h4>
 <p align="center">For darkmode websites</p>
 <p align="center">https://addons.mozilla.org/en-US/firefox/addon/night-eye-dark-mode/</p>
 <br/>
-<h3><p align="center">尺乇匚ㄖ爪爪乇几ᗪ乇ᗪ&nbsp;   &nbsp;   丂丨ㄒ乇丂&nbsp;   &nbsp;   千ㄖ尺&nbsp;   &nbsp;   千卂ᐯ丨匚ㄖ几丂&nbsp;   &nbsp;   卂几ᗪ&nbsp;   &nbsp;   ㄒㄖ卩-丂丨ㄒ乇丂 丨匚ㄖ几丂&nbsp;   &nbsp;   </p></h3>
-<p align="center">https://www.iconsdb.com/</p>
+<h3><p align="center">- 丂丨ㄒ乇丂&nbsp;   &nbsp;   千ㄖ尺&nbsp;   &nbsp;   千卂ᐯ丨匚ㄖ几丂&nbsp;   &nbsp;   &&nbsp;   &nbsp;   ㄒㄖ卩-丂丨ㄒ乇丂 丨匚ㄖ几丂&nbsp;   &nbsp;    -</p></h3>
 <p align="center">https://icons8.com/</p>
+<p align="center">https://www.iconsdb.com/</p>
 
