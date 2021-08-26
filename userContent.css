@@ -1,29 +1,603 @@
-html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#applicationsGroup richlistbox#handlersView richlistitem:hover {
-    color: #fff !important;
-    background-color: #96ceb4 !important;
+/* ----- ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺  乃ㄚ  乃ㄥㄖㄖᗪㄚ卄乇ㄥㄥϬ𝟙९ ----- */
+
+
+:root {
+    --in-content-button-horizontal-padding: 12px !important;
+    --in-content-button-vertical-padding: 2px !important;
 }
 
-html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#applicationsGroup richlistbox#handlersView richlistitem hbox hbox.actionContainer label.actionDescription[selected="true"] {
-    color: #fff !important;
-    background-color: #96ceb4 !important;
+
+@-moz-document url-prefix("about:preference") {
+button, menulist {
+    height: 23px !important;
+    padding-bottom: 2px !important;
+    padding-top: 3px !important;
+    border: 0px solid #282828 !important;
+    min-height: 10px !important;
+}
 }
 
-.tabbrowser-tab[label^="Add-ons Manger"] .tab-icon-image {
-    list-style-image: none !important;
-    width: 0 !important;
-    padding-left: 16px !important;
-    margin-top: -2px !important;
-    background: url("Icons8-Settings-Favicon.svg") !important; /* your custom icon */
-    background-size: 16px 16px !important;
+.form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+    outline: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 1px solid #E71057 !important;
+    border-radius: 2px !important;
+}
+
+#policies-container, #searchInput {
+    border: 0px solid #282828 !important;
+    border-radius: 4px !important;
+    background-color: #242424 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    height: 23px !important;
+    min-height: 10px !important;
+    padding-top: 4px !important;
+    padding-left: 7px !important;
+}
+
+/*.L3eUgb {
+background: #202020 !important;
+}*/
+
+.context-menu > ul {
+    color: #fff !important;
+}
+
+.personalize-button {
+    background-image: url("Iconsdb.com-Personalize.png") !important;
+}
+
+input[type="checkbox"].toggle-button::before {
+    background: #222 !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 15px 1px #4040405c inset !important;
+    border: 1px solid #222 !important;
+}
+
+input[type="checkbox"].toggle-button:checked {
+    background: linear-gradient(0.45turn, #43c8f3, #10B2E7) !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 13px 1px #4040405c inset !important;
+    border: 1px transparent !important;
+}
+
+html body div#full div#content div#main addon-list section addon-card div.card.addon div.addon-card-collapsed div.card-contents div.addon-name-container input.toggle-button.extension-enable-button:hover {
+    background: linear-gradient(0.45turn, #10B2E7, #43c8f3) !important;  
+}
+
+.home-section .section .slider::before {
+    background: #222 !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 15px 1px #4040405c inset !important;
+    border: 1px solid #222 !important;
+    height: 10px !important;
+    width: 10px !important;
+} 
+
+.home-section .section .slider {
+    background-color: #383838 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #222 !important;
+} 
+
+.home-section .section .slider:hover {
+    background-color: #343434 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #222 !important;
+} 
+
+.home-section .section input:checked + .slider {
+    background: linear-gradient(0.45turn, #10B2E7, #43c8f3) !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 13px 1px #4040405c inset !important;
+    border: 1px transparent !important;
+}
+.home-section .section input:checked + .slider:hover {
+    background: linear-gradient(0.45turn, #43c8f3, #10B2E7) !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 13px 1px #4040405c inset !important;
+    border: 1px transparent !important;
+}
+
+html body div#full div#content div#main addon-list section addon-card div.card.addon div.addon-card-collapsed div.card-contents div.addon-name-container input.toggle-button.extension-enable-button {
+    background-color: #383838 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #222 !important;
+} 
+
+menulist > menupopup > menuitem, menulist > menupopup > menucaption, menulist > menupopup > menu {
+    border: 0px solid transparent !important;
+}   
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#applicationsGroup search-textbox#filter {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+.context-menu > ul > li > a, .context-menu > ul > li > button {
+    margin-top: 2px !important;
+    margin-right: 7px !important;
+    margin-bottom: 2px !important;
+    margin-left: 6px !important;
+    max-width: 223px !important;
+    border: 0px solid #282828 !important;
+    border-radius: 0px !important;
+    -moz-appearance: none !important;
+}
+
+.context-menu > ul > li > a, .context-menu > ul > li > button:hover {
+    background-color: #282828 !important;
+}
+
+html body.illustrated div.container.restore-chosen div.button-container button#errorTryAgain.primary {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+html body.illustrated div.container.restore-chosen div.button-container button#errorTryAgain.primary:hover {
+    background-color: #282828 !important;
+}
+
+html body.illustrated div.container.restore-chosen div.button-container button#errorCancel {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+#tabsToggle::after {
+    inset-inline-start: -11px !important;
+    background-size: 18px !important;
+}
+
+#tabsToggle {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding-top: 0px !important;
+    padding-right: 42px !important;
+    padding-bottom: 0px !important;
+    padding-left: 13px !important;
+}
+
+#tabsToggle:hover {
+    color: #fff !important;
+}
+
+.home-section .external-link:hover {
+    text-decoration: none !important;
+    background-color: #262626 !important;
+}
+
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel:hover {
+    background-color: #292929 !important;
+    color: #fff !important; 
+}
+html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel {
+    color: #ccc !important;   
+}
+
+
+treecols {
+    padding: 8px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+#engineList {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+input[type="checkbox"].toggle-button:checked {
+    background-color: #10B2E7 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+input[type="checkbox"].toggle-button {
+    border-color: #ccc !important;
+}
+
+.addon-badge-private-browsing-allowed {
+    background-image: url("chrome://browser/skin/indicator-private-browsing.svg");
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    background-color: #ccc !important;
+}
+
+.addon-badge-recommended {
+    background-color: #262626 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 2px !important;
+}
+
+.button.primary, .button.done, .actions button.primary, .actions button.done {
+    background-color: var(--newtab-button-primary-color) !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: none !important;
+    color: #282828 !important;
+}
+.button.primary:hover, .button.done:hover, .actions button.primary:hover, .actions button.done:hover {
+    background-color: #43c8f3 !important;
+    color: #282828 !important;
+
+}
+
+#netErrorButtonContainer > .try-again {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #ccc !important;
+    background-color: #222 !important;
+    border: none !important;
+}
+
+#netErrorButtonContainer > .try-again:hover {
+    color: #fff !important;
+    background-color: #282828 !important;
+}
+
+/* ----- NEW PAGE LOGO & TEXT SCALE ----- */
+.search-wrapper .logo-and-wordmark .wordmark {
+    margin-inline-start: 20px !important;
+    scale: 100% !important;
+    font-family: Oxanium !important;
+}
+.search-wrapper .logo-and-wordmark .logo {
+    scale: 150% !important;
+}
+
+.home-section .external-link {
+    padding-top: 7px !important;
+    padding-right: 34px !important;
+    padding-bottom: 5px !important;
+    padding-left: 25px !important;
+    background: none !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+.home-section .external-link:hover {
+    text-decoration: none !important;
+}  
+
+menulist > menupopup > menuitem:hover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+menulist > menupopup > menuitem[_moz-menuactive="true"], menulist > menupopup > menu[_moz-menuactive="true"] {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
+    background-color: #282828 !important;
+}   
+
+menulist > menupopup > menu:not([disabled="true"])[selected="true"], menulist > menupopup > menuitem:not([disabled="true"])[selected="true"] {
+    color: #fff !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+window dialog#syncChooseOptions {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+/*html body.activity-stream div#root div span button.personalize-button {
+    display: none !important;
+}*/
+
+/*html body.activity-stream div#root div span button.icon.icon-settings.personalize-button.personalize-animate-appear-done.personalize-animate-enter-done;hover {
+    background-image: url("chrome://global/skin/icons/settings.svg") !important;
     background-repeat: no-repeat !important;
+    -moz-appearance: none !important;
+}*/
+
+html body.activity-stream div#root div span button.personalize-button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-right: 18px !important;
+    padding-top: 13px !important;
+    padding-right: 65px !important;
+    padding-bottom: 13px !important;
+    padding-left: 65px !important;
+    margin-top: 15px !important;
 }
 
+html body.activity-stream div#root div span button.personalize-button:hover {
+    background-color: #282828 !important;
+}
+
+
+.sections-list .section-empty-state .empty-state .empty-state-icon {
+    fill: #fff !important;
+}
+
+.sections-list .section-empty-state {
+    border: 0px solid #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.outer-wrapper.newtab-experience .collapsible-section .click-target-container .click-target span {
+    cursor: default !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    color: #fff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding-top: 5px !important;
+    padding-right: 15px !important;
+    padding-bottom: 5px !important;
+    padding-left: 15px !important;
+    border-radius: 2px !important;
+}
+.customize-menu {
+    color: #fff !important;
+    background-color: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.home-section .divider {
+    border-top: 1px solid #282828 !important;
+}
+
+.customize-menu .close-button:hover {
+    background-color: #282828 !important;
+    color: #fff !important;
+}
+.customize-menu .close-button {
+    background-color: #222 !important;
+    padding: 3px 34px !important;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 3px !important;
+    color: #fff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding-top: 6px !important;
+    border: 0px solid #282828 !important;
+    -moz-appearance: none !important;
+}
+
+
+.home-section .section .selector {
+    color: #FFF !important;
+    border: 0px solid #282828 !important;
+    -moz-context-properties: fill;
+    fill: #fff !important;
+    background-color: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+#tabbrowser-arrowscrollbox:not([scrolledtostart="true"])::part(scrollbutton-up):hover {
+    background-color: #10B2E7 !important;
+    color: inherit !important;
+}
+
+.topsite-form .actions button {
+    padding: 2px 35px !important;
+}
+
+/* ----- ADDON PAGE UNDO UNINSTALL MESSAGE ----- */ 
+html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button {
+    background-color: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
+}
+tml body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button:hover {
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
+}
+@-moz-document url-prefix("about:preference") {
+button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+button:hover {
+    background-color: #282828 !important;
+    color: #fff !important;
+}
+}
+.topsite-form .form-wrapper input[type="text"] {
+    background-color: #242424 !important;
+    border: 0px solid #282828 !important;
+    margin: 8px 0;
+    padding: 0 8px;
+    height: 32px;
+    width: 100%;
+    font-size: 15px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+richlistitem[selected="true"] {
+    color: #fff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+richlistitem:hover {
+    color: #fff !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane deck#weavePrefsDeck vbox#hasFxaAccount hbox vbox#fxaContentWrapper groupbox#fxaGroup deck#fxaLoginStatus hbox#fxaLoginVerified {
+    border: 0px solid #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+}
+
+.sync-group {
+    border-radius: 4px !important;
+    border: 0px solid #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.outer-wrapper.newtab-experience .top-site-outer .context-menu-button {
+    height: 19px !important;
+    width: 114px !important;
+    inset-inline-end: -13px !important;
+    opacity: 0;
+    position: absolute;
+    top: 107px !important;
+    transition: opacity 200ms;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    padding-left: 15px !important;
+}
+
+.outer-wrapper.newtab-experience .top-site-outer .context-menu-button:hover {
+    background-color: #222 !important;
+}
+
+
+
+.outer-wrapper.newtab-experience .top-site-outer {
+    padding-block: 20px 12px !important;
+}
+
+.accessory-button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+.topsite-form .actions button {
+    margin-inline-start: 10px;
+    margin-inline-end: 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+
+
+.addon-description {
+    font-size: 13px !important;
+    line-height: 22px !important;
+    font-weight: 300 !important;
+}
+.addon-name-link, .addon-name-link:hover {
+    color: #fff !important;
+    font-size: 14px !important;
+    font-weight: 300 !important;
+}
+
+.addon.card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid transparent !important;
+    border-radius: 3px !important;
+}
+.more-options-button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+.alert-title {
+    font-size: 18px;
+    margin-block: 0 4px;
+}
+
+
+
+search-addons > search-textbox {
+    appearance: none;
+    border: 1px solid #171717 !important;
+    border-radius: 4px;
+    background-color: #242424 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+menulist {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+
+.accessory-button:hover {
+    color: #fff !important;
+}
+
+
+
+/*html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation vbox.sidebar-footer-list label#addonsButton.sidebar-footer-link.text-link image.sidebar-footer-icon.addons-icon {
+    scale: 130% !important;
+}*/
+.sidebar-footer-icon {
+    -moz-context-properties: fill, fill-opacity !important;
+    fill: white !important;
+}
+
+.sidebar-footer-list {
+    margin-block: 0px 10px !important;
+    margin-inline: 6px 0 !important;
+    scale: 95% !important;
+}
+
+html body div#full div#sidebar sidebar-footer {
+    margin-block: 0px 10px !important;
+    margin-inline: -2px 0 !important;
+}
+
+/* ----- REMOVES FLASH ON DARK THEME TAB SWITCHING ----- */ 
+.browserContainer {
+  background-color: #202020 !important;}
+#sidebar,.sidebar-placesTree {
+  background-color: #202020 !important;}
 
 @-moz-document url("about:logins") {
+
+alert-title {
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1em;
+    margin-block: 7px;
+}
+
+div.container div.column form div.detail-row label.detail-cell a.origin-input {
+   color: #fff !important;
+}
+
+.header {
+    font-size: 14px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding-bottom: 3px !important;
+    padding-top: 3px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-radius: 5px !important
+}
+.login-item-favicon-wrapper {
+    height: 16px !important;
+    width: 16px !important;
+}
+
+.login-list-item {
+    font-size: 14px !important;
+    font-weight: 400 !important;
+}
+
+.detail-grid > .detail-row > .copy-button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+.logged-out-view, .logged-in-view, .menu-button, .delete-button, .edit-button, .create-login-button, .breach-alert, .vulnerable-alert {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 5px !important;
+    border: 0px solid #282828 !important;
+}
+
+.breach-alert {
+    border: none !important;
+    background-color: #242424 !important;
+    color: #de3163 !important;
+}
+
+.breached > .alert-icon {
+    fill: #de3163 !important;
+}
+
+.login-list-item {
+    padding-block: 4px !important;
+    font-size: 14px !important;
+    color: #fff
+}
+
+#login-sort {
+    margin-left: -50px !important;
+    padding-inline: 6px 16px !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+}
+
+.meta {
+    border-bottom: 1px solid #191919 !important;
+    background-color: #242424 !important;
+    color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
 .fxaccount-avatar {
     display: inline-block;
     vertical-align: middle;
-    background-image: url(Icons8-Avatar.svg) !important;
+    background-image: url(Icons8.com-Avatar.png) !important;
     width: 24px !important;
     height: 24px !important;
 }
@@ -32,60 +606,58 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.ma
     fill: white !important;
     padding-bottom: 300px !important;
     box-sizing: border-box !important;
-    background: url(Lockwise-logo.svg) no-repeat  !important;
+    background: url(Lockwise-logo.png) no-repeat  !important;
     background-position-x: 50% !important;
     background-position-y: 50% !important;
     background-size: 55% !important;
 }
-.detail-cell:dir(ltr) input:not([type="checkbox"]) {
-    border: 1px solid #212121 !important;
-    border-radius: 5px !important;
-    background-color: #191919 !important;
-}
+
 /*.reveal-password-wrapper {
     border: 1px solid #212121 !important;
     border-radius: 5px !important;
     background-color: #191919 !important;
 }*/
-.meta {
-    border-bottom: 1px solid #191919 !important;
-    background-color: #96ceb4 !important;
-    color: #282828 !important;
-}
-* { --in-content-deemphasized-text: #fff !important; }
+
+
+
 .filter[type="text"] {
     -moz-context-properties: fill, fill-opacity;
-    fill: #96ceb4 !important;
+    fill: #fff !important;
     fill-opacity: 1 !important;
     color: #fff !important;
-    background-color: #282828 !important;
-    border-color: #282828 !important;
+    background-color: #242424 !important;
+    border: 1px solid #171717 !important;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.40), 0 0 0 1px #2d2d2d inset !important;
 }
-.detail-grid > .detail-row > .copy-button:hover {
-    color: #282828 !important;
-}
+
 #login-sort:hover:not([disabled]) {
-    background-color: #fff !important;
-    color: #282828 !important;  
+    background-color: #262626 !important;
+    color: #fff !important;  
 }
 header {
     border-bottom: 1px solid #191919 !important;
 }
 .header {
-    border-bottom: 1px solid #191919 !important;
+    border-bottom: 0px solid #191919 !important;
 }
 login-list {
     border-right: 1px solid #191919 !important;
     background-color: #202020 !important;
 }
 .login-list-item:not(.selected):hover {
-    background-color: #96ceb4 !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
 }
 .login-list-item.selected:hover .title {
-    color: #282828 !important;
+    background-color: #282828 !important;
+    color: #fff !important;
 }
 .login-list-item.selected:hover {
-    background-color: #96ceb4 !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
 } 
 .login-list-item.selected:hover .favicon-wrapper {
     -moz-context-properties: fill, fill-opacity;
@@ -93,42 +665,32 @@ login-list {
     fill-opacity: 0.8;
 }
 .login-list-item + .login-list-item {
-    border-top: 1px solid #282828 !important;
-    background-color: #202020 !important;
+    border-top: 0px solid #282828 !important;
+    background-color: #222 !important;
 }
 .login-list-item {
-    border-inline-start: 4px solid #202020 !important;
-    color: #96ceb4 !important;
+    border-inline-start: 4px solid #222 !important;
+    color: #fff !important;
 }
 .login-list-item:hover {
-    color: #282828 !important;
+    background-color: #282828 !important;
 }
-.login-list-item:[selected] {
-    color: #282828 !important;
+.login-list-item.selected {
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
 }
 .create-login-button-container {
-    border-top: 1px solid #191919 !important;
+    border-top: 0px solid #191919 !important;
     color: #fff !important;
     background-color: #202020 !important;
 }
-.create-login-button {
+/*.create-login-button {
     color: #fff !important;
     background-color: #282828 !important;
-}
-.create-login-button:hover {
-    color: #282828 !important;
-    background-color: #96ceb4 !important;
-}
-.breached > .alert-icon {
-    fill: #de3163 !important;
-}
-.breach-alert {
-    background-color: #191919 !important;
-    color: #de3163 !important;
-    border-color: #de3163 !important;
-}
-}
+}*/
 
+}
 html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar span {
     color: white !important;
 }
@@ -145,11 +707,6 @@ addon-card:not([expanded]) > .addon.card:hover {
 addon-card:not([expanded]) > .addon.card {
     color: white !important;
     background-color: #252525 !important;
-}
-
-.addon-name-link, .addon-name-link:hover {
-    color: #96ceb4 !important;
-    text-decoration: none;
 }
 
 html body div#full div#content div#main addon-card div.card.addon addon-details named-deck#details-deck inline-options-browser stack.inline-options-stack {
@@ -190,10 +747,10 @@ div.container span.icon {
 }
 
 * { 
-   --in-content-link-color: #96ceb4 !important;
+   --in-content-link-color: #10B2E7 !important;
    --in-content-link-color-hover: White !important;
    --in-content-link-color-active: White !important;
-   --in-content-link-color-visited: #96ceb4 !important;
+   --in-content-link-color-visited: #10B2E7 !important;
 }
 
 @media (min-width:720px) {
@@ -231,32 +788,50 @@ addon-card {
     grid-area: auto !important;
 }
 
-.button.primary, .button.done, .actions button.primary, .actions button.done {
+/*.button.primary, .button.done, .actions button.primary, .actions button.done {
     border: none !important;
-}
-
-@-moz-document url("about:newtab"), url("about:home"){
-button:where([default="true"], :hover, :focus):not(:active, [disabled="true"], [open="true"], [checked="true"]):hover {
     color: #282828 !important;
-}
-}
+}*/
 
+/*@-moz-document url("about:newtab"), url("about:home"){}*/
 html body div#full div#content div#main addon-list section addon-card div.card.addon message-bar.addon-card-message button:hover {
     color: #282828 !important;
 }
-
+.sidebar-footer-link {
+    margin: 4px !important;
+}
 .sidebar-footer-link:hover {
-    color: #282828 !important;
+    color: #fff !important;
+    background-color: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 0 0 1px #4040405c inset !important;
+}
+.sidebar-footer-label {
+    color: #fff !important;
 }
 
 /* ----- ADDON PAGE CATEGORY BUTTON COLORS ----- */
 #categories > .category[selected], #categories > .category.selected {
-    color: #96ceb4 !important;
+    color: #fff !important;
+    background-color: #242424 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
 #categories > .category:hover, #categories > .category.selected:hover {
-    color: #282828 !important;
+    color: #fff !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
-
+#categories > .category {
+    border-radius: 4px;
+    min-height: 35px;
+    appearance: none;
+    margin-inline-start: 34px;
+    padding-inline: 10px;
+    transition: background-color 150ms;
+    padding-top: 8px !important;
+    margin: 0px !important;
+    padding-bottom: 8px;
+    scale: 85% !important;
+}
 
 html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body ul.top-sites-list li.top-site-outer.hide-for-narrow.active div.top-site-inner div span.context-menu ul.context-menu-list li.context-menu-item button:active {
     color: #282828 !important;
@@ -264,7 +839,7 @@ html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-breakp
 
 /* ----- PINNED SITES MENU BOX OUTLINES ----- */
 html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form div.form-input-container div.fields-and-preview div.form-wrapper label div.field input:focus {
-        outline: 1px solid #202020 !important;
+        outline: 1px solid #222 !important;
 }
 html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form div.form-input-container div.fields-and-preview div.form-wrapper label div.field.url input:focus {
         outline: 1px solid #202020 !important;
@@ -274,61 +849,59 @@ html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wra
 .outer-wrapper.newtab-experience .top-site-outer .context-menu-button:focus{ fill: #fff !important; }
 
 /* ------ NEW TAB PAGE CAPTION BUTTONS ----- */
-html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel {
-    color: #fff !important;
-}
-html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel:hover {
-    color: #282828 !important;
-    background-color: #fff !important;
-}
-html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.done {
-    color: #282828 !important;
-}
-html body.activity-stream.modal-open div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo.newtab-experience main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites.animation-enabled div.section-body div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.done:hover {
-    color: #282828 !important;
-    background-color: #fff !important;
-}
 
 .dialogTitleBar {
     border-bottom: 1px solid #323232 !important;
 }
 
 .dialogBox {
-    background-color: #3c3c3f !important;
+    background-color: #242424 !important;
 }
 
 vbox.box-inherit.dialog-content-box {
-    background-color: #3c3c3f !important;
+    background-color: #242424 !important;
 }
 
 hbox.dialog-button-box {
-    background-color: #3c3c3f !important;
+    background-color: #242424 !important;
+}
+
+.context-menu > ul > li > a:is(:focus, :hover, :active, .selected), .context-menu > ul > li > button:is(:focus, :hover, :active, .selected) {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    color: #fff !important;
+    background: #282828 !important;
 }
 
 * {
-    --in-content-deemphasized-text: #fff !important;
-    --in-content-accent-color: #96ceb4 !important;
-    --in-content-accent-color-active: #4c4c4c !important;
-    --in-content-button-background: #282828 !important;
-    --in-content-button-background-hover: #96ceb4 !important;
+    --newtab-primary-action-background-off: #ccc !important;
+    --in-content-button-text-color: #ccc !important;
+    --in-content-button-text-color-hover: #fff !important;
+    --in-content-box-background :#242424 !important;
+    --in-content-page-background: #202020 !important;
+    --newtab-element-hover-color: #282828 !important;
+    --newtab-border-secondary-color: #282828 !important;
+    --in-content-deemphasized-text: #7d7d7d !important;
+    --in-content-accent-color: #10B2E7 !important;
+    --in-content-button-background: #242424 !important;
+    --in-content-button-background-hover: #282828 !important;
     --in-content-button-color: #282828 !important;
-    --in-content-button-background-active: #96ceb4 !important;
-    --in-content-primary-button-text-color: #282828 !important;
-    --in-content-primary-button-text-color-hover: #282828 !important;
-    --in-content-primary-button-background: #96ceb4 !important;
-    --in-content-primary-button-background-hover: white !important;
-    --in-content-primary-button-background-active: #4c4c4c !important;
+    --in-content-button-background-active: #303030 !important;
+    --in-content-primary-button-text-color: #7d7d7d !important;
+    --in-content-primary-button-text-color-hover: #fff !important;
+    --in-content-primary-button-background: #222 !important;
+    --in-content-primary-button-background-hover: #43c8f3 !important;
+    --in-content-primary-button-background-active: #313131 !important;
     --checkbox-border-color: transparent !important;
     --checkbox-unchecked-bgcolor: #313131 !important;
     --checkbox-unchecked-hover-bgcolor: #4d4d4d !important;
-    --checkbox-unchecked-active-bgcolor: #96ceb4 !important;
-    --checkbox-checked-bgcolor: #96ceb4 !important;
+    --checkbox-unchecked-active-bgcolor: #10B2E7 !important;
+    --checkbox-checked-bgcolor: #10B2E7 !important;
     --checkbox-checked-color: #282828 !important;
-    --checkbox-checked-hover-bgcolor: #fefefe !important;
-    --checkbox-checked-active-bgcolor: #fefefe !important;
-    --checkbox-checked-border-color: #96ceb4 !important;
+    --checkbox-checked-hover-bgcolor: #43c8f3 !important;
+    --checkbox-checked-active-bgcolor: #43c8f3 !important;
+    --checkbox-checked-border-color: #10B2E7 !important;
     --in-content-box-info-background: #282828 !important;
-    --in-content-danger-button-background-active: #96ceb4 !important;
+    --in-content-danger-button-background-active: #10B2E7 !important;
 }
 
 /* ----- NEW TAB FIREFOX TEXT COLOR ----- */
@@ -340,25 +913,14 @@ hbox.dialog-button-box {
 
 /* ----- CHECKBOX COLORS ----- */
 :root {
-   --checkbox-checked-bgcolor: #96ceb4 !important;
+   --checkbox-checked-bgcolor: #10B2E7 !important;
    --checkbox-checked-color: #282828 !important;
-   --checkbox-checked-border-color: rgb(0,97,224);
-   --checkbox-checked-bgcolor: #96ceb4 !important;
+   --checkbox-checked-border-color: #222 !important;
+   --checkbox-checked-bgcolor: #10B2E7 !important;
    --checkbox-checked-hover-bgcolor: #f1f1f1 !important;
-   --checkbox-checked-active-bgcolor: #96ceb4 !important;
+   --checkbox-checked-active-bgcolor: #10B2E7 !important;
 }
 
-/* ----- ADDON PAGE UNDO UNINSTALL MESSAGE ----- */ 
-html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button {
-    background-color: #202020 !important;
-    border: 1px solid #3c3c3f !important;
-    scale: 90% !important;  
-}
-html body div#full div#content div#main addon-list message-bar-stack.pending-uninstall message-bar button:hover {
-    border: 1px solid white !important;
-    background-color: #96ceb4 !important;    
-    color: #202020 !important;
-}
 
 /* ----- ADDON PAGE GRAYSCALE ICONS & BADGES ----- */
 .addon-badge {
@@ -419,13 +981,15 @@ html body div#full div#content div#main addon-list section addon-card div.card.a
 /* ---- SEARCHBOX GOOGLE LOGO & SHADOW ----- */
 @-moz-document url(about:newtab), url(about:home) {
   .search-handoff-button { 
-    background-image: url("Searchbar-Google-Icon.svg") !important;
+    background-image: url("Icons8.com-Google.png") !important;
     background-repeat: no-repeat !important;
     background-position: left 15px top 13px !important;
-    box-shadow: -1px 1px 5px 1px #181818 !important;
-} 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: none !important;
+    border-radius: 3px !important;
+    -moz-appearance: none !important;
 }
-
+}
 
 html body div#full div#sidebar categories-box#categories button.category {
     background-size: 20px !important;
@@ -433,12 +997,12 @@ html body div#full div#sidebar categories-box#categories button.category {
 }
 
 html body div#full div#content div#main recommended-extensions-section footer.view-footer div.view-footer-item a.privacy-policy-link {
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
     text-decoration: none !important;
 }
 
 html body div#full div#content div#main recommended-extensions-section recommended-addon-list recommended-addon-card div.card.addon div.addon-card-collapsed div.card-contents div.addon-name-container div.disco-card-head span.disco-addon-author a {
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
     text-decoration: none !important;
 }
 
@@ -462,12 +1026,12 @@ input[type="checkbox"].toggle-button:hover {
 
 /* ----- FIREFOX SET AS DEFULT SMILEY ----- */
 .face-smile {
-    list-style-image: url("Fox.svg") !important;
-    filter: Grayscale(100%) !important;
-    width: 20px;
-    height: 20px;
-    margin-block: 5px;
-    margin-inline-end: 8px;
+    list-style-image: url("Fox.png") !important;
+    width: 22px !important;
+    height: 22px !important;
+    margin-block: 5px !important;
+    margin-inline-end: 8px !important;
+    margin-top: -2px !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane groupbox#fontsGroup hbox#fontSettings hbox hbox {
@@ -479,23 +1043,22 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories richlistitem:hover label.category-name {
-    color: #282828 !important;
+    color: #fff !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories richlistitem:hover {
-    background-color: #fff !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content {
     font-size: 14px !important;
 }
 
-html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container hbox.sticky-container search-textbox#searchInput {
-    font-size: 13px !important;
-}
+
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.main-content vbox.pane-container vbox#mainPrefPane deck#weavePrefsDeck vbox#hasFxaAccount hbox vbox#fxaContentWrapper groupbox#fxaGroup deck#fxaLoginStatus hbox#fxaLoginVerified vbox hbox a#verifiedManage.openLink{
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
 }
 
 html body {
@@ -504,7 +1067,7 @@ html body {
 }
 
 html .text-link {
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories {
@@ -512,36 +1075,52 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 }
 
 html body div.container div.title h1#warningTitle.title-text {
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
 }
 
 
-html body div.container div.button-container button#warningButton:active {
-    color: #202020 !important;
-    background-color: #96ceb4 !important;
+html body div.container div.button-container button#warningButton {
+    color: #fff !important;
+    background-color: #242424 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
 }
 
 html body div.container div.button-container button#warningButton:hover {
-    color: #202020 !important;
-    background-color: #96ceb4 !important;
-    border: 1px solid #d2d2d2 !important;
+    color: #fff !important;
+    background-color: #282828 !important;
+}
+
+#prefs {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+#about-config-search:placeholder-shown {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    background-color: #282828 !important;
 }
 
 html body div.container div.button-container button#warningButton {
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
     background-color: #202020 !important;
 }
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories .category image.category-icon {
-    color: #96ceb4 !important;
+    color: #10B2E7 !important;
 }
 
-
-
+#categories > .category[selected], #categories > .category.selected {
+    background-color: #262626 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 4px !important;
+}
 
 /* ----- WEBSITE TEXT HIGHLIGHT COLOR ----- */ 
 ::-moz-selection {
-    background: #96ceb4 !important;
+    background: #10B2E7 !important;
     color: #202020 !important;
 }
 
@@ -553,12 +1132,6 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
     window:not([chromehidden]) > dialog {
         --newtab-focus-outline: #202020 !important;
         --newtab-focus-border: #191919 !important;
-    }
-    /* this rule just makes the search bar in about:privatebrowsing look the same as the one in about:newtab */
-    .showPrivate .search-handoff-button.focused {
-        outline: 0;
-        border: 1px solid #202020 !important;
-        box-shadow: 0 0 0 2px #1a1a1a !important;
     }
 }
 @-moz-document regexp("^(about:|chrome:|moz-extension:).*") {
@@ -580,50 +1153,66 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
     font-size: 12px !important;
     font-family: Oxanium !important;
     color: white !important;
-    margin-top: 10px !important;    
+    margin-top: 0px !important;    
+}
+
+.outer-wrapper.newtab-experience:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
 
 .top-site-outer:hover {
- background-color: #2f2f2f !important;
+    background-color: #1e1e1ec9 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
+
+
+.outer-wrapper.newtab-experience .top-site-outer .context-menu-button:focus {
+    background-color: #222 !important;
+}
+
+body[lwt-newtab-brighttext] {
+    --newtab-topsites-outer-card-hover: #1e1e1ec9 !important;
+}
+
 
 @-moz-document url("about:home"), url("about:newtab"){ .icon.icon-pin-small{ display: none !important } }
 
 /* ----- BLACK PREFRENCES & HOME ----- */
 *|*:root {
-        --in-content-page-color: #ccc!important;
+    --in-content-page-color: #ccc !important;
 	--in-content-page-background: #202020!important;
 	--in-content-text-color: #c0c0c0!important;
 	--in-content-selected-text: #c0c0c0!important;
-	--in-content-box-background: #333!important;
-	--in-content-box-background-odd: #282828!important;
-	--in-content-box-background-hover: #333!important;
-	--in-content-box-background-active: #96ceb4!important;
-	--in-content-box-border-color: #444!important;
-	--in-content-item-hover: #202020 !important;
-	--in-content-item-selected: #96ceb4!important;
-	--in-content-border-highlight: #444!important;
-	--in-content-border-focus: #08c!important;
-	--in-content-border-color: #ccc!important;
+	--in-content-box-background: #222 !important;
+	--in-content-box-background-odd: #222 !important;
+	--in-content-box-background-hover: #282828!important;
+	--in-content-box-background-active: #313131 !important;
+	--in-content-box-border-color: #282828 !important;
+	--in-content-item-hover: #282828 !important;
+	--in-content-item-selected: #282828!important;
+    --in-content-item-selected-text: #fff !important;
+	--in-content-border-highlight: #282828 !important;
+	--in-content-border-focus: #08c !important;
+	--in-content-border-color: #282828 !important;
 	--in-content-category-outline-focus: 1px dotted #08c!important;
 	--in-content-category-text: #c0c0c0!important;
 	--in-content-category-text-active: #c0c0c0!important;
 	--in-content-category-text-selected: #08c!important;
 	--in-content-category-text-selected-active: #fff!important;
-	--in-content-category-background-hover: rgba(64,64,64,0.6)!important;
-	--in-content-category-background-active: rgba(0,64,96,0.6)!important;
-	--in-content-category-background-selected-hover: rgba(0,64,96,0.6)!important;
-	--in-content-category-background-selected-active: rgba(0,64,96,1)!important;
+	--in-content-category-background-hover: #282828 !important;
+	--in-content-category-background-active: #303030 !important;
+	--in-content-category-background-selected-hover: #282828 !important;
+	--in-content-category-background-selected-active: #303030 !important;
 	--in-content-tab-color: #404040!important;
 	--in-content-link-color: #08c!important;
 	--in-content-link-color-hover: #c0c0c0!important;
 	--in-content-link-color-active: #08c!important;
 	--in-content-link-color-visited: #268!important;
-	--in-content-primary-button-background: #96ceb4 !important;
-	--in-content-primary-button-background-hover: #fff !important;
-	--in-content-primary-button-background-active: #96ceb4 !important;
+	--in-content-primary-button-background: #10B2E7 !important;
+	--in-content-primary-button-background-hover: #282828 !important;
+	--in-content-primary-button-background-active: #303030!important;
 	--in-content-table-background: #282828 !important;
-	--in-content-table-border-dark-color: #444 !important;
+	--in-content-table-border-dark-color: #202020 !important;
 	--in-content-table-header-background: #222 !important;
 	--grey-20: #333!important;
 	--grey-90: #444!important;
@@ -652,9 +1241,12 @@ richlistitem[selected="true"] {
 }
 
 .top-site-outer .tile {
-	border-radius: 0 !important;
-	box-shadow: inset 0 0 0 0px var(--newtab-inner-box-shadow-color), var(--newtab-card-shadow)!important;
+	border-radius: 3px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
+
+/*box-shadow: inset 0 0 0 0px var(--newtab-inner-box-shadow-color), var(--newtab-card-shadow)!important;*/
+
 
 .top-site-outer .default-icon, .top-site-outer .search-topsite {
 	background-size: 16px!important;
@@ -663,7 +1255,7 @@ richlistitem[selected="true"] {
 
 }
 #warningTitle {
-	color: #96ceb4!important;
+	color: #10B2E7!important;
 }
 
 
@@ -672,28 +1264,30 @@ richlistitem[selected="true"] {
 #content,
 #appcontent,
 browser,
-html, body {        
+html, body { 
+    --in-content-button-text-color-hover: #fff !important;
+    --newtab-background-button-color: #222 !important;       
 	--newtab-background-color: #222 !important;
 	--newtab-border-primary-color: #444 !important;
 	--newtab-border-secondary-color: #444 !important;
-	--newtab-button-primary-color: #96ceb4 !important; /* save button color */
-	--newtab-button-secondary-color: #222 !important; /*close button*/
+	--newtab-button-primary-color: #10B2E7 !important; /* save button color */
+	--newtab-button-secondary-color: #242424 !important; /*close button*/
 	--newtab-element-active-color: #fff !important; /* 3dot menu select */
-	--newtab-element-hover-color: #96ceb4 !important; /* 3dot menu hover */
+	--newtab-element-hover-color: #10B2E7 !important; /* 3dot menu hover */
 	--newtab-icon-primary-color: #fff !important; /* 3dot*/
-	--newtab-icon-secondary-color: #96ceb4 !important;
-	--newtab-icon-tertiary-color: #96ceb4 !important;
+	--newtab-icon-secondary-color: #10B2E7 !important;
+	--newtab-icon-tertiary-color: #10B2E7 !important;
 	--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
-	--newtab-link-primary-color: #96ceb4 !important;
-	--newtab-link-secondary-color: #96ceb4 !important;
+	--newtab-link-primary-color: #10B2E7 !important;
+	--newtab-link-secondary-color: #10B2E7 !important;
 	--newtab-text-conditional-color: #666 !important;
 	--newtab-text-primary-color: #CCC !important;
 	--newtab-text-secondary-color: #888 !important;
 	--newtab-textbox-background-color: #282828 !important; /* fields */
 	--newtab-textbox-border: #202020 !important; /* field borders */
-	--newtab-textbox-focus-color: #96ceb4 !important;
+	--newtab-textbox-focus-color: #10B2E7 !important;
 	--newtab-textbox-focus-boxshadow: transparent !important;
-	--newtab-contextmenu-background-color: #3c3c3f !important; /* 3dot menu background */
+	--newtab-contextmenu-background-color: #242424 !important; /* 3dot menu background */
 	--newtab-contextmenu-button-color: #3a3a3a !important; /* 3dot menu button */
 	--newtab-modal-color: #252525 !important;
 	--newtab-overlay-color: rgba(0, 0, 0, 0.5) !important; /* BG fade when edit is open */
@@ -720,26 +1314,26 @@ body[lwt-newtab-brighttext] {
 	--newtab-background-color: #222 !important;
 	--newtab-border-primary-color: #444 !important;
 	--newtab-border-secondary-color: #444 !important;
-	--newtab-button-primary-color: #96ceb4 !important; /* save button color */
+	--newtab-button-primary-color: #10B2E7 !important; /* save button color */
 	--newtab-button-secondary-color: #282828 !important; /*close button*/
-	--newtab-element-active-color: #96ceb4 !important; /* 3dot menu select */
-	--newtab-element-hover-color: #96ceb4 !important; /* 3dot menu hover */
+	--newtab-element-active-color: #10B2E7 !important; /* 3dot menu select */
+	--newtab-element-hover-color: #10B2E7 !important; /* 3dot menu hover */
 	--newtab-icon-primary-color: #fff !important; /* 3dot*/
-	--newtab-icon-secondary-color: #96ceb4 !important;
+	--newtab-icon-secondary-color: #10B2E7 !important;
 	--newtab-icon-tertiary-color: red !important;
 	--newtab-inner-box-shadow-color: rgba(0, 0, 0, 0.1) !important;
-	--newtab-link-primary-color: #96ceb4 !important;
-	--newtab-link-secondary-color: #96ceb4 !important;
+	--newtab-link-primary-color: #10B2E7 !important;
+	--newtab-link-secondary-color: #10B2E7 !important;
 	--newtab-text-conditional-color: #666 !important;
 	--newtab-text-primary-color: #CCC !important;
 	--newtab-text-secondary-color: #888 !important;
 	--newtab-textbox-background-color: #282828 !important; /* fields */
 	--newtab-textbox-border: #202020 !important; /* field borders */
-	--newtab-textbox-focus-color: #96ceb4 !important;
+	--newtab-textbox-focus-color: #10B2E7 !important;
 	--newtab-textbox-focus-boxshadow: transparent !important;
-	--newtab-contextmenu-background-color: #3c3c3f !important; /* 3dot menu background */
+	--newtab-contextmenu-background-color: #242424 !important; /* 3dot menu background */
 	--newtab-contextmenu-button-color: #3a3a3a !important; /* 3dot menu button */	
-        --newtab-modal-color: #252525 !important;
+    --newtab-modal-color: #252525 !important;
 	--newtab-overlay-color: rgba(0, 0, 0, 0.5) !important; /* BG fade when edit is open */
 	--newtab-section-header-text-color: #fff !important;
 	--newtab-section-navigation-text-color: #0F0 !important;
@@ -761,18 +1355,30 @@ body[lwt-newtab-brighttext] {
 }
 
 /* ----- NEWTAB & HOME SEARCH BOX ICON ----- */
-  .fake-textbox {
+.fake-textbox {
     /*text-align: center !important;
     margin-left: -30px !important;*/
     font-size: 0px !important;
+/*  text-align: center !important;
+    font-size: 15px !important;
+    font-weight: 100 !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    margin-left: -32px !important;*/
 }
 
 /* ----- NEW TAB FIREFOX LOGO ----- */
-@-moz-document url(about:newtab), url(about:home) {
+/*@-moz-document url(about:newtab), url(about:home) {
   .logo {
     background-image: url("Newtab-Firefox-Logo.svg") !important;
 }
-}
+}*/
 
 /* ----- REMOVE THE PERSONALIZE BUTTON FROM THE NEW TAB PAGE ----- */ 
-.personalize-button { display: none !important; }
+/*.personalize-button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}*/
+
+/*button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}*/

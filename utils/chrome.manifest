@@ -1,0 +1,27 @@
+content userchromejs ./
+content userscripts ../script/
+content userchrome ../resources/
+resource content-accessible chrome://userchrome/content/layout/contentaccessible/ contentaccessible=yes
+
+override chrome://branding/content/icon32.png ../resources/Fox2.png
+override chrome://browser/skin/privatebrowsing/favicon.svg ../resources/Icons8.com-Private-fox.png
+override chrome://branding/content/about-logo.png ../resources/Newtab-Firefox-Logo-Nightly.png
+override chrome://global/skin/icons/arrow-left.svg ../resources/Iconsdb.com-Left.png
+override chrome://global/skin/icons/defaultFavicon.svg ../resources/Icons8.com-DefaultFavicon.png
+override chrome://browser/skin/downloads/downloads.svg ../resources/downloads/downloads.svg
+override chrome://browser/skin/forward.svg ../resources/skin/forward.svg
+override chrome://browser/skin/back.svg ../resources/skin/back.svg
+override chrome://browser/content/aboutlogins/icons/favicon.svg ../resources/Icons8.com-Lockwise.png
+override chrome://global/skin/icons/close.svg ../resources/close.svg
+override chrome://global/skin/icons/menu-arrow.svg ../resources/Iconsdb.com-SubMenu-Arrow-Right.png
+
+
+/*override chrome://browser/skin/indicator-private-browsing.svg ../resources/Icons8.com-Private-fox.svg*/
+/*override chrome://global/skin/icons/settings.svg ../resources/Iconsdb.com-Settings.png*/
+/*override chrome://global/skin/icons/info.svg ../resources/Icons8.com-Warning.png*/
+/*override chrome://global/skin/icons/folder.svg ../resources/material/places/folder.svg*/
+/*override chrome://browser/content/extension.svg ../resources/Icons8.com-Extension.png*/
+/*override chrome://mozapps/skin/extensions/extension.svg ../resources/Icons8.com-Extension.png*/
+/* override chrome://global/skin/icons/twisty-expanded.svg ../resources/close.svg
+override chrome://global/skin/icons/twisty-collapsed-rtl.svg ../resources/close.svg
+override chrome://global/skin/icons/twisty-collapsed.svg ../resources/close.svg */
