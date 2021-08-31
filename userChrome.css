@@ -2,6 +2,66 @@
 
 @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css";
 
+#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button {
+    max-width: 22px !important;
+    max-height: 22px !important;
+}
+
+#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[soundplaying][toggle-mute] {
+    transform: none !important;
+    opacity: 1;
+    margin-inline-start: 0px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    background-image: url(Iconsdb.com-Volume-Active-Playing.png) !important;
+    border: 1px solid #222 !important;
+    background-color: #10B2E7 !important;
+    list-style-image: none !important;
+    /*box-shadow: 0 0px 7px rgba(0, 0, 0, 0.87), 0px 0px 0px 2px #144d64d1 inset !important;*/
+    border-radius: 3px !important;
+}
+
+/*#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[close-button] {
+    display: hidden !important;
+    transform: translateX(0px) !important;
+}*/
+
+#vertical-tabs-list .all-tabs-item:hover .all-tabs-secondary-button[close-button] {
+    opacity: 1 !important;
+}
+
+#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[toggle-mute][hidden] {
+    margin-inline-start: -26px !important;
+}
+
+.popup-notification-icon[popupid="password"], .login-icon {
+    scale: 124% !important;
+}
+
+/*.popup-notification-primary-button {
+    max-height: 22px !important;
+}
+.popup-notification-button {
+    max-height: 22px !important;
+}*/
+
+html#main-window body box#customization-container hbox#customization-footer spacer#customization-footer-spacer {
+    box-shadow: none !important;
+}
+
+.popup-notification-primary-button {
+    background-color: #10B2E7 !important;
+    color: #282828 !important;
+}
+
+.popup-notification-primary-button:hover {
+    background-color: #43c8f3 !important;
+    color: #282828 !important;
+}
+
+.popup-notification-body input {
+    background-color: #282828 !important;
+}
+
 #nav-bar-customization-target > #stop-reload-button > :is(#reload-button, #stop-button) > .toolbarbutton-animatable-box {
     list-style-image: url("Stop.png") !important;
 }
@@ -210,7 +270,7 @@ hbox arrowscrollbox.menupopup-arrowscrollbox {
 
 html#main-window body hbox#browser vbox#vertical-tabs-pane.chromeclass-extrachrome vbox#vertical-tabs-inner-box hbox#vertical-tabs-buttons-row toolbarbutton#vertical-tabs-new-tab-button.subviewbutton.subviewbutton-iconic label.toolbarbutton-text {
     text-align: center !important;
-    margin-left: 12px !important;
+    margin-left: 36px !important;
 }
 
 .tab-text {
@@ -816,28 +876,20 @@ toolbarbutton#scrollbutton-up {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;   
 }
 .popup-notification-button {
-    color: white !important;
+    color: #fff;
 }
 
-.popup-notification-primary-button {
-    background-color: #10B2E7 !important;
-    color: #fff !important;
-}
 
-.popup-notification-primary-button:hover {
-    background-color: #43c8f3 !important;
-    color: #fff !important;
-}
 
 /* ----- POPUP FOOOTERS COLORS ----- */
 
-.panel-footer > button:not([disabled]):hover {
+/*.panel-footer > button:not([disabled]):hover {
     /*background-color: #313131 !important;*/
     color: #fff !important;
-}
-.panel-footer > button:not([disabled]) {
+}*/
+/*.panel-footer > button:not([disabled]) {
     color: #ccc !important;
-}
+}*/
 html#main-window body box#customization-container hbox#customization-footer spacer#customization-footer-spacer {
     box-shadow: none !important;
 }
@@ -846,9 +898,9 @@ html#main-window body box#customization-container box#customization-content-cont
     box-shadow: none !important;
 }
 
-scrollbar, scrollbarbutton, scrollcorner, slider, thumb {
+/*scrollbar, scrollbarbutton, scrollcorner, slider, thumb {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-}
+}*/
 
 #appMenu-fxa-status2[fxastatus] > #appMenu-fxa-label2 {
     -moz-box-flex: 1;
@@ -960,15 +1012,6 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
   width: 0px !important;
 }
 
-#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[soundplaying] {
-    transform: none !important;
-    opacity: 1;
-    margin-inline-start: 0px !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-    list-style-image: url(Iconsdb.com-Volume-Active.png) !important;
-    background-image: none !important;
-}
-
 #vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[toggle-mute] {
     list-style-image: none !important;
     background-image: url(Iconsdb.com-Volume-Active.png) !important;
@@ -988,15 +1031,21 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
     transform: translateX(14px);
     opacity: 0 !important;
 }
-#vertical-tabs-list
-    .all-tabs-item
-    .all-tabs-secondary-button[toggle-mute]:is(:hover, :focus-within) {
+#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[toggle-mute]:is(:hover, :focus-within) {
     list-style-image: none !important;
     background-image: url(Iconsdb.com-Volume-Mute.png) !important;
     background-size: 14px !important;
     background-repeat: no-repeat !important;
 
 }
+#vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[soundplaying][toggle-mute]:is(:hover, :focus-within) {
+    list-style-image: none !important;
+    background-image: url(Iconsdb.com-Volume-Mute-Active.png) !important;
+    background-size: 14px !important;
+    background-repeat: no-repeat !important;
+
+}
+
 #vertical-tabs-list .all-tabs-item .all-tabs-secondary-button[soundplaying] {
     transform: none !important;
     opacity: 1 !important;
@@ -1097,7 +1146,7 @@ html#main-window body popupset#mainPopupSet panel#appMenu-popup.cui-widget-panel
 }
 
 /* ----- SCROLLBAR ----- */
-scrollbar {
+/*scrollbar {
     scrollbar-color: #282828 #222 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     border: 1px solid #262626 !important;
@@ -1111,7 +1160,7 @@ scrollbar:active {
 thumb {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     border: 1px solid #262626 !important;
-}
+}*/
 
 /* ----- HOVER INFOBOX ----- */
 tooltip {
@@ -1380,16 +1429,13 @@ button.downloadButton:hover {
     margin-right: 21px !important;
 }
 
-scrollbar, scrollbarbutton, scrollcorner, slider, thumb {
+/*scrollbar, scrollbarbutton, scrollcorner, slider, thumb {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-}
+}*/
 
 #downloads-button:hover {
     fill: #282828 !important;
 }
-
-
-
 
 #placesMenu > menu[open] {
     -moz-appearance: none !important;
@@ -2341,12 +2387,12 @@ html#main-window body hbox#browser splitter#vertical-tabs-splitter.chromeclass-e
     list-style-image: url("Close.png") !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.55), 0 0 0 1px #4040405c inset !important;
     border-radius: 1px !important;
-    margin-top: -1px !important;
+    margin-top: 0px !important;
     scale: 100% !important;
     /*min-width: 32px !important;
     min-height: 32px !important;
     margin-left: -34px !important;*/
-    padding-top: 11px !important;
+    padding-top: 12px !important;
     padding-right: 5px !important;
     padding-bottom: 8px !important;
     padding-left: 7px !important;
@@ -2576,10 +2622,10 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 
 
-scrollbar {
+/*scrollbar {
       scrollbar-color: #383838 #202020 !important;
       scrollbar-width: auto !important;
-}
+}*/
 
 
 #downloadsListBox > richlistitem {
@@ -3476,7 +3522,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 /* ---- SCROLLBAR -----*/
 * {
-	scrollbar-color: #222 #282828 !important;
+	scrollbar-color: #313131 #121212 !important;
 	scrollbar-width: thin !important;
 }
 
@@ -4217,13 +4263,22 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
     width: 0 !important;
     padding-left: 16px !important;
     margin-top: 0px !important;
-    background: url("Fox2.png") !important; /* your custom icon */
+    background: url("Fox2.png") !important;
     background-size: 20px 20px !important;
     background-repeat: no-repeat !important;
     padding: 10px !important;
 }
 
-
+.tabbrowser-tab[label^="about:support"] .tab-icon-image {
+    list-style-image: none !important;
+    width: 0 !important;
+    padding-left: 16px !important;
+    margin-top: 0px !important;
+    background: url("Fox2.png") !important;
+    background-size: 20px 20px !important;
+    background-repeat: no-repeat !important;
+    padding: 10px !important;
+}
 
 .infobar > .icon, :host([type="system"]) .notification-content {
     margin-inline-start: 16px;
@@ -4303,29 +4358,71 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
 .tab-icon-overlay[soundplaying], .tab-icon-overlay[muted]:not([crashed]), .tab-icon-overlay[activemedia-blocked]:not([crashed]) {
     border-radius: 2px !important;
 }
-.tab-icon-overlay[soundplaying]:hover,
+
+.tab-icon-overlay[soundplaying] {
+    opacity: 1 !important;
+    list-style-image: url("Icons8.com-Volume.png") !important;
+}
+
 .tab-icon-overlay[muted]:not([crashed]):hover,
 .tab-icon-overlay[activemedia-blocked]:not([crashed]):hover {
   list-style-image: url("Icons8.com-Volume-Mute.png") !important;
 }
-.tab-icon-overlay[soundplaying] {
-  list-style-image: url("Icons8.com-Volume.png") !important;
-
+.tab-icon-overlay[soundplaying]:hover {
+  list-style-image: url("Icons8.com-Volume-Mute.png") !important;
 }
+
+.tab-icon-overlay[muted][selected]:not([crashed]) {
+    list-style-image: url("Icons8.com-Volume-Mute-Active.png") !important;
+    background-color: #10B2E7 !important;
+}
+
+.tab-icon-overlay[muted][selected]:not([crashed]):hover {
+    list-style-image: url("Icons8.com-Volume-Active-Playing.png") !important;
+}
+
+.tab-icon-overlay[soundplaying][selected] {
+  list-style-image: url("Icons8.com-Volume-Active-Playing.png") !important;
+  background-color: #10B2E7 !important;
+}
+
+.tab-icon-overlay[soundplaying]:not([selected]) {
+    list-style-image: url("Icons8.com-Volume-Active-Playing.png") !important;
+    background-color: #10B2E7 !important;
+}
+
+.tab-icon-overlay[muted]:not([selected]):not([crashed]) {
+    list-style-image: url("Icons8.com-Volume-Mute-Active.png") !important;
+    background-color: #10B2E7 !important;
+}
+
+.tab-icon-overlay[soundplaying]:not([selected]):hover {
+    list-style-image: url("Icons8.com-Volume-Mute-Active.png") !important;
+    background-color: #10B2E7 !important;
+}
+
+.tab-icon-overlay[soundplaying][selected]:hover {
+    list-style-image: url("Icons8.com-Volume-Mute-Active.png") !important;
+    background-color: #10B2E7 !important;
+  }
+
 .tab-icon-overlay[muted]:not([crashed]) {
   list-style-image: url("Icons8.com-Volume-Mute.png") !important;
 }
 .tab-icon-overlay[activemedia-blocked]:not([crashed]) {
   list-style-image: url("Icons8.com-Volume-Active.png") !important;
 }
-#TabsToolbar[brighttext] .tab-icon-overlay[soundplaying]:not([selected]):not(:hover),
+
 .tab-icon-overlay[soundplaying][selected]:-moz-lwtheme-brighttext:not(:hover) {
-  list-style-image: url("Icons8.com-Volume-Active.png") !important;
+  list-style-image: url("Icons8.com-Volume-Active-Playing.png") !important;
 }
-#TabsToolbar[brighttext] .tab-icon-overlay[muted]:not([crashed]):not([selected]):not(:hover),
+
 .tab-icon-overlay[muted][selected]:-moz-lwtheme-brighttext:not(:hover) {
-  list-style-image: url("Icons8.com-Volume-Mute.png") !important;
+list-style-image: url("Icons8.com-Volume-Mute-Active.png") !important;
 }
+/*#TabsToolbar[brighttext] .tab-icon-overlay[muted]:not([crashed]):not([selected]):not(:hover) {
+  list-style-image: url("Icons8.com-Volume-Mute.png") !important;
+}*/
 #TabsToolbar[brighttext] .tab-icon-overlay[activemedia-blocked]:not([crashed]):not([selected]):not(:hover),
 .tab-icon-overlay[activemedia-blocked][selected]:-moz-lwtheme-brighttext:not(:hover) {
   list-style-image: url("Icons8.com-Volume.png") !important;

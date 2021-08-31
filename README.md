@@ -9,11 +9,11 @@
 <p align="center">Unlike my previous theme which needed you to use an add-on called Theme Creator and to figure out colors, there is no need for that with this theme as all the colors are coded into the CSS files</p>
 <br/>
 <h3><p align="center">- 丂ㄖ爪乇&nbsp;   &nbsp;   ㄖ千&nbsp;   &nbsp;   ㄒ卄乇&nbsp;   &nbsp;      爪卂丨几&nbsp;   &nbsp;      千乇卂ㄒㄩ尺乇丂&nbsp;   &nbsp;      ㄖ千&nbsp;   &nbsp;      ㄒ卄乇&nbsp;   &nbsp;      ㄒ卄乇爪乇&nbsp;   &nbsp;    -</p></h3>
-<p align="center">Dark embossed theme pretty much everywhere; from the tiniest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-up (This is also applied regardless of your operating system's theme!)
-<p align="center">Box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delicately to prevent expansion)</p>
 <p align="center"> - Vertical tabs - </p>
 <p align="center"> - Custom Bookmarkbar - </p>
 <p align="center"> - Menu in Titlebar - </p>
+<p align="center">Dark embossed theme pretty much everywhere; from the tiniest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-up (This is also applied regardless of your operating system's theme!)
+<p align="center">box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delicately to prevent expansion)</p>
 
 <br/>
 <h3><p align="center">- 丨几丂ㄒ卂ㄥㄥ卂ㄒ丨ㄖ几&nbsp;   &nbsp;   Ꮆㄩ丨ᗪ乇 -</p></h3>
