@@ -24,12 +24,12 @@ button, menulist {
 }
 }
 
-.form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
+/*.form-control.focus, .form-control:focus, .form-select.focus, .form-select:focus {
     outline: none !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     border: 1px solid #E71057 !important;
     border-radius: 2px !important;
-}
+}*/
 
 #policies-container, #searchInput {
     border: 0px solid #282828 !important;
@@ -831,6 +831,7 @@ html body div#full div#content div#main addon-list section addon-card div.card.a
     color: #fff !important;
     background-color: #282828 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 2px !important;
 }
 #categories > .category {
     border-radius: 4px;
@@ -843,8 +844,8 @@ html body div#full div#content div#main addon-list section addon-card div.card.a
     margin: 0px !important;
     padding-bottom: 8px;
     scale: 90% !important;
-    margin-top: 1px !important;
-    margin-bottom: 1px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
     margin-right: -9px !important;
     margin-left: -9px !important;
     padding-left: 12px !important;
@@ -1093,7 +1094,6 @@ html .text-link {
 
 html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.navigation richlistbox#categories {
     font-size: 13px !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     padding: 4px !important;
 }
 
@@ -1138,7 +1138,7 @@ html#preferences-root body#preferences-body stack#preferences-stack hbox vbox.na
 #categories > .category[selected], #categories > .category.selected {
     background-color: #262626 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-    border-radius: 4px !important;
+    border-radius: 2px !important;
 }
 
 /* ----- WEBSITE TEXT HIGHLIGHT COLOR ----- */ 

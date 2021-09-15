@@ -2,6 +2,80 @@
 
 @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css";
 
+/*html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbarbutton#bookmarks-menu-button.toolbarbutton-1.chromeclass-toolbar-additional.subviewbutton-nav menupopup#BMB_bookmarksPopup vbox.panel-arrowcontainer {
+    margin-top: -10px !important;
+    margin-right: -4px !important;
+    margin-bottom: -10px !important;
+    margin-left: -8px !important;
+}*/
+
+#BMB_bookmarksPopup menupopup {
+    border-radius: 0px !important;
+}
+
+.search-panel-tree > .autocomplete-richlistitem {
+    background-color: #222 !important;
+}
+
+:is(menupopup, panel)[type="arrow"] {
+    --panel-border-radius: 0px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-top: 2px !important;
+}
+
+html#main-window body hbox#browser vbox#appcontent tabbox#tabbrowser-tabbox tabpanels#tabbrowser-tabpanels.plain hbox#panel-1-1.browserSidebarContainer vbox.browserContainer findbar hbox.findbar-container {
+    min-width: 100px !important;
+}
+
+#reader-mode-button {
+    padding-right: 0px !important;
+}
+
+#PlacesToolbar menupopup[placespopup="true"] menuseparator::before {
+    border-top: 0px solid #282828 !important;
+}
+
+.urlbar-page-action:not([disabled])[open], .urlbar-page-action:not([disabled]):hover:active, #urlbar-go-button:hover:active, .search-go-button:hover:active {
+    background-color: #383838 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.urlbar-page-action:not([disabled])[open], .urlbar-page-action:not([disabled]):active, #urlbar-go-button:active, .search-go-button:active {
+    background-color: #363636 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.urlbar-page-action:not([disabled]):hover, #urlbar-go-button:hover, .search-go-button:hover {
+    background-color: #363636 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+#findbar-close-container {
+    background-color: #222 !important;
+}
+
+.close-icon.findbar-closebutton {
+    background-color: #282828 !important;
+    color: #fff !important;
+}
+
+:root:not([lwtheme-image]) .browserContainer > findbar:-moz-lwtheme > #findbar-close-container, :root:not([lwtheme-image]) .browserContainer > findbar:-moz-lwtheme {
+    background-image: none !important;
+}
+
+#PopupSearchAutoComplete {
+    --panel-background: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+pageAction-panel-bookmark[starred], #star-button[starred] {
+    list-style-image: url("icons8-filled-bookmark-ribbon.svg") !important;
+}    
+
+#pageAction-panel-bookmark, #star-button {
+    list-style-image: url("icons8-bookmark.svg") !important;
+}
+
 #vertical-tabs-list .all-tabs-item .all-tabs-secondary-button {
     max-width: 22px !important;
     max-height: 22px !important;
@@ -306,7 +380,7 @@ panelmultiview {
 }
 
 :root {
-    --arrowpanel-border-radius: 4px !important;
+    --arrowpanel-border-radius: 0px !important;
 }
 
 
@@ -667,7 +741,7 @@ menuitem, menu {
     margin-top: 2px !important;
     margin-right: 4px !important;
     margin-bottom: 2px !important;
-    margin-left: 4px !important;
+    margin-left: 2px !important;
     padding-top: 5px !important;
     padding-right: 10px !important;
     padding-bottom: 5px !important;
@@ -2880,11 +2954,15 @@ html#main-window body popupset#mainPopupSet panel#permission-popup.panel-no-padd
 
 /* ----- IDENTITY BOX COLOR IN SETTINGS COLOR ----- */
 #identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button, #identity-box[pageproxystate="valid"].extensionPage > .identity-box-button , #urlbar-label-box {
-    background-color: #333333 !important;
-    color: #6d6d6d !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-    padding-left: 8px !important;
+    padding-left: 7px !important;
     padding-right: 7px !important;
+    border-radius: 0px !important;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 15px 1px #4040405c inset !important;
+    border: 1px solid #575757 !important;
+    background: linear-gradient(0.45turn, #464646b8, #313131a1) !important;
+    margin-top: -2px !important;
+    margin-bottom: -2px !important;
+    margin-left: -2px !important;
 }
 
 #identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button:hover, #identity-box:hover[pageproxystate="valid"].extensionPage > .identity-box-button:hover , #urlbar-label-box:hover {

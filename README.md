@@ -12,12 +12,11 @@
 <p align="center"> - Vertical tabs - </p>
 <p align="center"> - Custom Bookmarkbar - </p>
 <p align="center"> - Menu in Titlebar - </p>
-<p align="center">Dark embossed theme pretty much everywhere; from the tiniest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menus (This is also applied regardless of your operating system's theme!)
+<p align="center">Dark embossed theme pretty much everywhere; from the tiniest places in the interface, settings, add-ons tab, ... all the way to the library and even on to stuff like the right-click menu and save as pop-up (This is also applied regardless of your operating system's theme!)
 <p align="center">box shaped compact tabs even in Proton which has removed the compact view mode (Tabs will not expand even if you open up too many as all the toolbar buttons have been resized and fixed delicately to prevent expansion)</p>
 
 <br/>
 <h3><p align="center">- 丨几丂ㄒ卂ㄥㄥ卂ㄒ丨ㄖ几&nbsp;   &nbsp;   Ꮆㄩ丨ᗪ乇 -</p></h3>
-<h4><p align="center">https://youtu.be/PvwuzUNqKIk</p></h4>
 <br/>
 <h3><p align="center">- 卂匚Ҝ几ㄖ山ㄥ乇ᗪᎶ爪乇几ㄒ -</p></h3>
 <p align="center">Massive thanks to every single person in Mozilla for giving us this great browser and for continuing to develop it for all these years</p> 
