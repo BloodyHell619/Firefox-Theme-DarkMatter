@@ -9,6 +9,70 @@
     margin-left: -8px !important;
 }*/
 
+.searchbar-textbox, #urlbar-input {
+    margin-top: 3px !important;
+}
+
+.titlebar-button > .toolbarbutton-icon {
+    scale: 154% !important;
+}
+
+.titlebar-min {
+    list-style-image: url(Icons8.com-Minimize.png) !important;
+    margin-top: 0px !important;
+    margin-right: 12px !important;
+    margin-bottom: 0px !important;
+    margin-left: -4px !important;
+    padding-bottom: 8px !important;
+}
+
+.titlebar-min:hover {
+    list-style-image: url(Icons8.com-Minimize-Hover.png) !important;
+}   
+
+.titlebar-max {
+    list-style-image: url(Icons8.com-Maximize.png) !important;
+    margin-top: 0px !important;
+    margin-right: 12px !important;
+    margin-bottom: 0px !important;
+    margin-left: -7px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 8px !important;
+}
+
+.titlebar-max:hover {
+    list-style-image: url(Icons8.com-Maximize-Hover.png) !important;
+}
+
+.titlebar-restore {
+    list-style-image: url(Icons8.com-Restore.png) !important;
+    margin-top: 0px !important;
+    margin-right: 12px !important;
+    margin-bottom: 0px !important;
+    margin-left: -7px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 8px !important;
+}
+
+.titlebar-restore:hover {
+    list-style-image: url(Icons8.com-Restore-Hover.png) !important;
+}
+
+.titlebar-close {
+    list-style-image: url(Icons8.com-Close-Firefox.png) !important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 18px !important;
+}
+
+.titlebar-close:hover {
+    list-style-image: url(Icons8.com-Close-Firefox-Hover.png) !important;
+    background-color: #10B2E7 !important;
+}    
+
 #BMB_bookmarksPopup menupopup {
     border-radius: 0px !important;
 }
@@ -226,8 +290,8 @@ html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-pad
 .titlebar-buttonbox {
     background-color: #242424 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-    padding-left: 12px !important;
-    margin-left: -38px !important;
+    padding-left: 1px !important;
+    margin-left: -29px !important;
     margin-bottom: 1px !important;
 }
 
@@ -293,9 +357,9 @@ html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-paddin
     -moz-margin-start: 43px !important;
 }
 
-.titlebar-button > .toolbarbutton-icon {
+/*.titlebar-button > .toolbarbutton-icon {
     scale: 114% !important;
-}
+}*/
 
 /* ----- TAB FAVICON POSITION CORRECTION ----- */
 .tab-icon-image {
@@ -908,8 +972,9 @@ popup-notification-icon[popupid="web-notifications"], .desktop-notification-icon
 }
 
 .searchbar-textbox {
-    margin-inline-start: 17px !important;
-    margin-top: 2px !important;
+    /*margin-inline-start: 17px !important;*/
+    margin-top: 3px !important;
+    text-align: center !important;
 }
 
 .searchbar-search-button {
@@ -2029,7 +2094,11 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 }
 
 html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbaritem#urlbar-container.chromeclass-location hbox#urlbar hbox#urlbar-input-container box#identity-box.localResource {
-     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.23), 0 0 0 1px var(--toolbar-field-focus-border-color) inset !important;
+     box-shadow: none !important;
+     border: 0px solid #282828 !important;
+     background: transparent !important;
+     scale: 95% !important;
+     margin-left: 4px !important;
 }
 
 .menu-right {
@@ -4256,9 +4325,9 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
 .titlebar-button {
     background-color: -moz-field;
     stroke: ButtonText;
-    scale: 75% !important;
-    padding-left: 25px !important;
-    padding-right: 25px !important;
+    scale: 100%;
+    padding-left: 24px !important;
+    padding-right: 24px !important;
     margin-left: -10px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     transition: scale ease-in-out .2s !important;
@@ -4274,10 +4343,10 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
     stroke: #f0f0f0 !important;
 }
 .titlebar-button.titlebar-close > .toolbarbutton-icon {
-    stroke: #10B2E7 !important;
+    stroke: #fff !important;
 }
 .titlebar-button:hover {
-    background-color: #282828 !important;
+    background-color: #10B2E7 !important;
     border-radius: 2px !important;
 }
 .titlebar-button.titlebar-close:hover {
@@ -4285,7 +4354,8 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
     border-radius: 2px !important;
 }
 .titlebar-button.titlebar-close:hover > .toolbarbutton-icon {
-    stroke: #282828 !important;
+    stroke: #10B2E7 !important;
+    background-color: #10B2E7 !important;   
 }
 
 /* ----- REMOVE SEPARATOR BETWEEN TAB AND NEWTAB BUTTON ----- */
