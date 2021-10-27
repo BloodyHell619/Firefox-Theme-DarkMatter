@@ -42,7 +42,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
   -moz-padding-end: 45px !important;
   height: 28px !important;
   border-radius: 0px !important;
-  margin-top: 1px !important;
+  margin-top: 0px !important;
   margin-left: -6px !important;
 }
 

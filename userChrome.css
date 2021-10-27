@@ -9,12 +9,61 @@
     margin-left: -8px !important;
 }*/
 
+.container.infobar::before {
+    background-image: linear-gradient(0, #10B2E7 0%, #10B2E7 52.08%, #10B2E7 100%) !important;
+    width: 5px !important;
+}
+
+.notification-button {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.23), 0 0 0 1px #4848484a inset !important;
+    background-color: #353535 !important;
+}
+
+.notification-button:hover {
+    color: #10B2E7 !important;
+}
+
+.notificationbox-stack {
+    background-color: #242424 !important;
+}
+
+.container.infobar {
+    background: #313131 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.23), 0 0 0 1px #4848484a inset !important;
+}
+
+.notificationbox-stack {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.23), 0 0 0 1px #4848484a inset !important;
+}
+
+#nav-bar-customization-target > :is(toolbarbutton, toolbaritem):first-child, #nav-bar-customization-target > toolbarpaletteitem:first-child > :is(toolbarbutton, toolbaritem) {
+    padding-inline-start: 0px !important;
+    margin-inline-start: -2px !important;
+}
+
+.titlebar-buttonbox-container {
+    padding-right: 0px !important;
+    padding-left: 28px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-left: -38px !important;
+}
+
+#identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button, #identity-box[pageproxystate="valid"].extensionPage > .identity-box-button, #urlbar-label-box {
+    margin-left: -4px !important;
+    padding-bottom: 4px !important;
+    padding-top: 4px !important;
+    padding-right: 16px !important;
+    margin-right: -4px !important;
+    margin-top: -1px !important;
+    margin-bottom: -1px !important;
+}
+
 .searchbar-textbox, #urlbar-input {
     margin-top: 3px !important;
 }
 
 .titlebar-button > .toolbarbutton-icon {
-    scale: 154% !important;
+    scale: 174% !important;
 }
 
 .titlebar-min {
@@ -289,7 +338,6 @@ html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-pad
 
 .titlebar-buttonbox {
     background-color: #242424 !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     padding-left: 1px !important;
     margin-left: -29px !important;
     margin-bottom: 1px !important;
@@ -955,6 +1003,12 @@ popup-notification-icon[popupid="web-notifications"], .desktop-notification-icon
     height: 20px !important;
 }
 
+html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbaritem#urlbar-container.chromeclass-location hbox#urlbar hbox#urlbar-input-container box#identity-box.chromeUI box#identity-icon-box.identity-box-button image#identity-icon {
+    width: 17px !important;
+    height: 20px !important; 
+    scale: 127% !important;
+}
+
 #tracking-protection-icon-box {
     width: 22px !important;
     height: 22px !important;
@@ -1394,12 +1448,12 @@ html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.brow
     max-height: 4px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     border-radius: 1px !important;
-    padding-left: 15px !important;
-    padding-right: 11px !important;
+    padding-left: 12px !important;
+    padding-right: 7px !important;
     margin-left: 0px !important;
     padding-top: 1px !important;
     padding-bottom: 1px !important;
-    margin-right: 2px !important;
+    margin-right: 0px !important;
 }
 
 /* ----- BOOKMARK BAR ITEMS ----- */
@@ -3029,9 +3083,6 @@ html#main-window body popupset#mainPopupSet panel#permission-popup.panel-no-padd
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 15px 1px #4040405c inset !important;
     border: 1px solid #575757 !important;
     background: linear-gradient(0.45turn, #464646b8, #313131a1) !important;
-    margin-top: -2px !important;
-    margin-bottom: -2px !important;
-    margin-left: -2px !important;
 }
 
 #identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button:hover, #identity-box:hover[pageproxystate="valid"].extensionPage > .identity-box-button:hover , #urlbar-label-box:hover {
@@ -3444,6 +3495,7 @@ background-color: #252525 !important;
     border-radius: 3px 3px 3px 0px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     padding: 8px !important;
+    text-align: center !important;
 }
 
 :root {
@@ -3674,7 +3726,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 }
 
 #nav-bar[nonemptyoverflow] > .overflow-button, #nav-bar[customizing] > .overflow-button {
-    margin-right: 11px !important;
+    margin-right: 5px !important;
 }
 
 /* ----- CENTER ACTIVE TAB ----- */
@@ -3871,7 +3923,7 @@ tab:not([selected="true"]):hover .tab-content {
 
 
 :root {
-    --tab-min-height: 25px !important;
+    --tab-min-height: 24px !important;
 }
 
 /*.tabbrowser-tab:hover .tab-background[selected="true"] {
@@ -4322,16 +4374,27 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
 
 /* ----- CAPTION BUTTONS COLORS ----- */
 
+.titlebar-spacer[type="pre-tabs"], .titlebar-spacer[type="post-tabs"] {
+    width: 54px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-left: 2px !important;
+    margin-right: 40px !important;
+}
+
 .titlebar-button {
     background-color: -moz-field;
     stroke: ButtonText;
     scale: 100%;
-    padding-left: 24px !important;
-    padding-right: 24px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
     margin-left: -10px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     transition: scale ease-in-out .2s !important;
     background: #242424 !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 1px !important;
+    margin-right: 1px !important;
 }
 
 
