@@ -2495,8 +2495,8 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
     border-radius: 2px !important;
     margin-top: -5px !important;
     margin-bottom: -5px !important;
-    margin-right: -2px !important;
-    margin-left: -3px !important;
+    margin-right: 2px !important;
+    margin-left: -8px !important;
     padding-left: 3px !important;
     padding-right: 3px !important; 
 }
@@ -2577,12 +2577,18 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#TabsTo
 #vertical-tabs-pane {
     --vertical-tabs-padding: 13px !important;
     border-inline-width: 0px 0 !important;
+    --collapsed-pane-width: 58px !important;
 }
 
 #vertical-tabs-pane {
-    padding-right: 11px !important;
-    padding-left: 11px !important;
+    padding-right: 8px !important;
+    padding-left: 15px !important;
 }
+
+#vertical-tabs-pane {
+    margin-inline-end: -4px !important;
+}
+
 
 html#main-window body hbox#browser splitter#vertical-tabs-splitter.chromeclass-extrachrome.sidebar-splitter {
     color: transparent !important;
@@ -2607,7 +2613,7 @@ html#main-window body hbox#browser splitter#vertical-tabs-splitter.chromeclass-e
     padding-top: 12px !important;
     padding-right: 5px !important;
     padding-bottom: 8px !important;
-    padding-left: 7px !important;
+    padding-left: 2px !important;
 }
 
 /*#vertical-tabs-close-button:hover {
