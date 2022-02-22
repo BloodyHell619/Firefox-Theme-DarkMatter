@@ -9,6 +9,22 @@
     margin-left: -8px !important;
 }*/
 
+scrollbox[orient="horizontal"] {
+    height: 30px !important;
+  }
+
+  #tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
+    height: 1.8em !important;
+  }
+
+#PlacesChevron {
+    list-style-image: url("icons8-bookmark.svg") !important;
+}
+
+.notification-button:first-of-type {
+    color: #ccc !important;
+}
+
 .container.infobar::before {
     background-image: linear-gradient(0, #10B2E7 0%, #10B2E7 52.08%, #10B2E7 100%) !important;
     width: 5px !important;
@@ -20,7 +36,7 @@
 }
 
 .notification-button:hover {
-    color: #10B2E7 !important;
+    color: #fff !important;
 }
 
 .notificationbox-stack {
@@ -63,7 +79,7 @@
 }
 
 .titlebar-button > .toolbarbutton-icon {
-    scale: 174% !important;
+    scale: 202% !important;
 }
 
 .titlebar-min {
@@ -893,7 +909,6 @@ menugroup {
     margin-right: 0px !important;
     margin-left: 0px !important;
     color: white !important;
-
 }
 
 #bookmarkpropertiesdialog .expander-up, #bookmarkpropertiesdialog .expander-down {
@@ -3078,7 +3093,7 @@ html#main-window body popupset#mainPopupSet panel#permission-popup.panel-no-padd
 /* ----- IDENTITY BOX COLOR IN SETTINGS COLOR ----- */
 #identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button, #identity-box[pageproxystate="valid"].extensionPage > .identity-box-button , #urlbar-label-box {
     padding-left: 7px !important;
-    padding-right: 7px !important;
+    padding-right: 4px !important;
     border-radius: 0px !important;
     box-shadow: 0 1px 10px rgba(0, 0, 0, 0.50), 3px 0px 15px 1px #4040405c inset !important;
     border: 1px solid #575757 !important;
@@ -3094,6 +3109,7 @@ html#main-window body popupset#mainPopupSet panel#permission-popup.panel-no-padd
     padding-inline-start: 10px !important;
     color: #ccc !important;
     margin-top: 3px !important;
+    padding-right: 12px !important;
 }
 
 /* ----- GLOBAL BUTTON COLOR ----- */
@@ -4384,17 +4400,17 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
 .titlebar-button {
     background-color: -moz-field;
     stroke: ButtonText;
-    scale: 100%;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    scale: 77%;
+    padding-left: 26px !important;
+    padding-right: 26px !important;
     margin-left: -10px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     transition: scale ease-in-out .2s !important;
     background: #242424 !important;
     margin-top: 0px !important;
     margin-bottom: 0px !important;
-    margin-left: 1px !important;
-    margin-right: 1px !important;
+    margin-left: -6px !important;
+    margin-right: -6px !important;
 }
 
 
