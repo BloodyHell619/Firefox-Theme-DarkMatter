@@ -1,5 +1,448 @@
 /* ----- ᗪ卂尺Ҝ爪卂ㄒㄒ乇尺  乃ㄚ  乃ㄥㄖㄖᗪㄚ卄乇ㄥㄥϬ𝟙९ ----- */
 
+/*body {
+    background: #202020 !important;
+}*/
+
+.top-site-outer .top-site-icon {
+    background-color: #222 !important;
+}
+
+details[open] > .page-section-header > .twisty {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.page-section-header:hover > .twisty {
+    background-color: #292929 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.page-section-header > .twisty {
+    background-color: #222 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+html body main details#tab-pickup-container.content-container named-deck#tabpickup-steps.sync-setup-container div#tabpickup-steps-view1.card.card-no-hover.zap-card.setup-step section.card-body button#firefoxview-tabpickup-step-signin-primarybutton.primary {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important; 
+}
+
+.card, .synced-tab-a, .synced-tab-li-placeholder, .empty-container {
+    background-color: #262626 !important;
+    border: 0px solid var(--fxview-contrast-border) !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+}
+
+.card-outer .card-title {
+    color: white !important;
+}
+
+.card-outer:is(:hover, :focus, .active):not(.placeholder) .card-title {
+    color: #10B2E7 !important;
+}
+
+.home-section .section .sponsored-checkbox:checked {
+    fill: #222 !important;
+    background-color: #10B2E7 !important;
+    border-radius: 2px !important;
+}
+
+.ds-card .meta .excerpt {
+    font-size: 0px !important;
+}
+
+.ds-card .ds-card-link:hover header {
+    color: #10B2E7 !important;
+}
+
+.ds-card .meta .title {
+    font-size: 13px !important;
+}
+
+.ds-card-grid.ds-card-grid-border .ds-card:not(.placeholder) {
+    width: 200px !important;
+    margin-inline-end: -126px !important;
+    margin-inline-start: -139px !important;
+    margin-top: 47px !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    background-color: #262626 !important;
+    border-radius: 3px !important;
+    margin-bottom: -100px !important;
+}
+
+.outer-wrapper a {
+    color: #10B2E7 !important;
+}
+
+.ds-navigation {
+    color: var(--newtab-text-primary-color); !important;
+}
+
+.ds-card .ds-card-link:focus {
+    outline: none !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    border-radius: 3px !important;
+}
+
+.sections-list .section-empty-state {
+    margin-top: 53px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-search-alignment.ds-outer-wrapper-breakpoint-override.visible-logo main div.body-wrapper.on div.discovery-stream.ds-layout div.ds-column.ds-column-12 div.ds-column-grid div div.ds-top-sites section.collapsible-section.top-sites div div.edit-topsites-wrapper div.edit-topsites div.modalOverlayOuter.active div.modal form.topsite-form section.actions button.cancel:hover {
+    background-color: #292929 !important;
+}
+
+.topsite-form .form-wrapper input[type="text"]:focus {
+    outline: 1px solid #de3163 !important;
+} 
+
+.topsite-form .form-wrapper input[type="text"]:active {
+    outline: 1px solid #de3163 !important;  
+}
+
+.icon.icon-button-style:focus, .icon.icon-button-style:hover {
+    fill: #e65b83 !important;
+}
+
+.icon.icon-button-style:focus, .icon.icon-button-style {
+    fill: #de3163 !important;
+}
+
+.topsite-form .form-wrapper .url input:dir(ltr):focus {
+    outline: 1px solid #de3163 !important;
+}
+
+.topsite-form .form-wrapper .url input:dir(ltr):active {
+    outline: 1px solid #de3163 !important;
+}
+
+.edit-topsites-wrapper .top-site-inner > .top-site-button > .tile {
+    border: 2px solid #888 !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+}
+
+.edit-topsites-wrapper .modal {
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    border: none !important;
+    background: #282828 !important;
+}
+
+.topsite-form .actions {
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    border: none !important;
+}
+
+@-moz-document url("about:home"), url("about:newtab"){
+.ds-layout[data-section-id="topstories"] .ds-card:nth-child(6) ~ .ds-card{
+    display: none !important;
+}
+}
+
+
+@-moz-document url("about:newtab"), url("about:home") {
+
+.card-outer .card-preview-image-outer .card-preview-image {
+    background-position: center !important;
+    background-position-y: center !important;
+}
+
+.search-wrapper .search-handoff-button .fake-caret {
+    top: 13.5px !important;
+    inset-inline-start: 45px !important;
+  }
+
+.search-wrapper .search-handoff-button, .search-wrapper input {
+    background-position-x: 9px !important;
+    background-position-y: 6px !important;
+    height: 37px !important;
+}
+
+.ds-highlights .section .section-list .card-outer .card-title {
+    margin-bottom: 5px !important;
+}
+
+.ds-highlights .section .section-list .card-outer .card-host-name {
+    margin-bottom: 0px !important;
+    margin-top: -6px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.normal-cards div ul.section-list li.card-outer button.context-menu-button.icon {
+    scale: 120% !important;
+    border: 2px solid #888 !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    margin-inline-start: -3px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.normal-cards div ul.section-list li.card-outer button.context-menu-button.icon:hover {
+    border: 2px solid #10b2e7 !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer button.context-menu-button.icon {
+    margin-top: 34px !important;
+    margin-inline-start: -6px !important;
+    border: 2px solid #888 !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer button.context-menu-button.icon:hover {
+    border: 2px solid #10b2e7 !important;
+}
+
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.normal-cards div ul.section-list {
+    margin-bottom: -4px !important;
+}
+
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer.placeholder a div.card div.card-details {
+    display: none !important;
+}
+ 
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer {
+    background: none !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list {
+    grid-gap: 51px !important;
+    margin-top: -30px !important;
+    margin-bottom: 40px !important;
+    height: 130px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer {
+    width: 108% !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer.hide-for-narrow.placeholder a div.card div.card-details {
+    box-shadow: none !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer a div.card div.card-preview-image-outer {
+    scale: 95% !important;
+    border: 2px solid #888 !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    border-radius: 3px !important;
+    margin-top: 3px !important;
+    top: 3px !important;
+    margin-left: -2px !important;
+    margin-right: -1px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer a div.card div.card-details {
+    margin-top: 7px !important;
+    padding-top: 11px !important;
+    padding-bottom: 0px !important;
+    box-shadow: 0 1px 3px rgb(0, 0, 0), 0 0 0 1px #4040405c inset !important;
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer a div.card div.card-details div.card-context {
+    background-color: #282828 !important;
+    border-radius: 14px !important;
+    clip-path: inset(-1px -1px 4px) !important;
+    top: 126px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 0 0 1px #4040405c inset !important;
+    right: -10px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.visible-logo main div.body-wrapper.on div.sections-list section.collapsible-section.section.compact-cards div ul.section-list li.card-outer a div.card {
+    width: 110% !important;
+    margin-top: 40px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 0 0 1px #4040405c inset !important;
+    background-color: #282828 !important;
+    border-radius: 3px !important;
+    height: 97% !important;  
+}
+}
+
+@-moz-document url("about:newtab"), url("about:home") {
+
+.collapsible-section .section-top-bar {
+    margin-top: 14px !important;
+}
+
+.collapsible-section {
+    padding: 4px 25px !important;
+  }
+
+.normal-cards .card-outer .card-context {
+    bottom: -2px !important;
+  }
+
+.search-wrapper .logo-and-wordmark {
+    margin-bottom: 44px !important;
+    /*margin-top: -40px !important;*/
+  }
+
+.non-collapsible-section {
+    margin-bottom: -10px !important;
+  }
+
+.search-wrapper .search-handoff-button, .search-wrapper input {
+    fill: var(--newtab-text-secondary-color);
+    margin-bottom: -7px !important;
+    margin-top: 3px !important;
+}
+
+.card-outer .context-menu-button {
+    background-color: #282828 !important;
+    top: 20px !important;
+    border-radius: 3px !important;
+    margin-right: 6px !important;
+}
+
+.normal-cards .card-outer .card-preview-image-outer {
+    height: 200px;
+  }
+
+.card-outer .context-menu-button:hover {
+      fill:#10B2E7 !important;
+}
+
+.search-wrapper .search-inner-wrapper {
+    margin-bottom: -24px !important;
+    margin-top: -20px !important;
+}
+
+.collapsible-section .section-title-container {
+    text-align: center !important;
+    margin-top: -24px !important;
+    margin-bottom: -44px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 3px !important;
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+}
+
+.sections-list .normal-cards .section-list {
+    grid-template-columns: repeat(6, 1fr) !important;
+}
+
+.sections-list .section-list {
+    grid-gap: 18px !important;
+    margin-right: -96px !important;
+    margin-left: -141px !important;
+    margin-top: -30px !important;
+    margin-bottom: -60px !important;
+    height: 300px !important;
+}
+.card-outer {
+    width: 135% !important;
+}
+
+.normal-cards .card-outer {
+    height: 360px !important;
+    scale: 80% !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    background-color: #282828 !important;
+    border-radius: 3px !important;
+}
+
+  .card-outer .card-preview-image-outer {
+    border-radius: 3px;
+    scale: 95% !important;
+    border: 0px solid #888 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 3px !important;
+    margin-top: 3px !important;
+  }
+}
+
+@-moz-document url("about:newtab"), url("about:home") {
+
+/*.outer-wrapper .ds-top-sites .top-sites .top-sites-list {
+        margin-top: -24px !important;
+}*/
+
+.normal-cards .card-outer {
+    height: 334px !important;
+    scale: 80% !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+    background-color: #282828 !important;
+    border-radius: 3px !important;
+}
+
+
+.story-footer .story-sponsored-label, .story-footer .story-view-count, .story-footer .status-message {
+    line-height: 14px !important;
+    margin-top: -5px !important;
+    margin-top: -7px !important;
+    margin-bottom: -5px !important;
+}
+
+.search-wrapper .search-handoff-button, .search-wrapper input {
+    background-size: 26px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-breakpoint-override.visible-logo main div.non-collapsible-section div.search-wrapper div.search-inner-wrapper {
+    margin-top: 60px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-search-alignment.ds-outer-wrapper-breakpoint-override.visible-logo main div.non-collapsible-section div.search-wrapper div.search-inner-wrapper {
+    margin-top: -27px !important;
+    margin-bottom: -6px !important;
+}
+
+.logo-and-wordmark {
+    margin-top: -10px !important;
+}
+
+body:not(.inline-onboarding) .fixed-search .search-wrapper {
+    border-bottom: solid 0px var(--newtab-border-color) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-search-alignment.ds-outer-wrapper-breakpoint-override.visible-logo main div.body-wrapper.on section.collapsible-section.ds-layout div div.discovery-stream.ds-layout a.ds-card-link div.img-wrapper picture.ds-image.img.use-transition img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 2px solid #999 !important;
+    border-radius: 3px !important;
+}
+
+.ds-card-grid.ds-card-grid-border .ds-card:not(.placeholder) .img-wrapper .img img {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 2px solid #999 !important;
+    border-radius: 2px !important;
+    scale: 93% !important;
+}
+
+.ds-card .img {
+    margin-left: -2px !important;
+    margin-right: -2px !important;
+    margin-top: 0px !important;
+  }
+
+
+
+
+.ds-column-9 .ds-card-grid, .ds-column-10 .ds-card-grid, .ds-column-11 .ds-card-grid, .ds-column-12 .ds-card-grid {
+    grid-template-columns: repeat(6, 1fr) !important;
+    grid-gap: 203px !important;
+    margin-bottom: 100px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-search-alignment.ds-outer-wrapper-breakpoint-override.visible-logo main div.body-wrapper.on section.collapsible-section.ds-layout div div.discovery-stream.ds-layout button.context-menu-button.icon {
+    background-color: #282828 !important;
+    border: 2px solid #888 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border-radius: 3px !important;
+    left: 161px !important;
+    top: 10px !important;
+}
+
+html body.activity-stream div#root div div.outer-wrapper.ds-outer-wrapper-search-alignment.ds-outer-wrapper-breakpoint-override.visible-logo main div.body-wrapper.on section.collapsible-section.ds-layout div div.discovery-stream.ds-layout button.context-menu-button.icon:hover {
+    fill: #10B2E7 !important;
+    border: 2px solid #10b2e7 !important;
+}
+
+.ds-layout > .ds-column:nth-child(1) .ds-column-grid > :nth-child(2) .ds-navigation {
+    margin-top: -19px !important;
+  }
+
+
+}
+
 .top-sites-list:not(.dnd-active) .top-site-outer:is(.active, :focus, :hover) {
     background: #202020 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;

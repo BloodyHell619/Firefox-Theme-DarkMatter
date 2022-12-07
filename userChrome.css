@@ -2,6 +2,314 @@
 
 @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css";
 
+#tabbrowser-tabs, #tabbrowser-arrowscrollbox, #tabbrowser-tabs[positionpinnedtabs] > #tabbrowser-arrowscrollbox > .tabbrowser-tab[pinned] {
+  margin-inline-start: -1px !important;
+}
+
+/*#TabsToolbar #firefox-view-button[open] > .toolbarbutton-icon:-moz-lwtheme, #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[multiselected="true"]:-moz-lwtheme, #tabbrowser-tabs:not([movingtab]) > #tabbrowser-arrowscrollbox > .tabbrowser-tab > .tab-stack > .tab-background[selected="true"]:-moz-lwtheme {
+    background-image: linear-gradient(rgb(41, 85, 142), rgb(50, 50, 50)), linear-gradient(rgb(50, 50, 50), rgb(50, 50, 50)), var(--lwt-header-image, none) !important;
+}*/
+
+#TabsToolbar #firefox-view-button[open]:not(:focus-visible) > .toolbarbutton-icon:-moz-lwtheme, .tab-background[selected]:not([multiselected="true"]):-moz-lwtheme {
+    outline: 0px solid #10B2E7 !important;
+}
+
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button[open]:not(:focus-visible).toolbarbutton-1.chromeclass-toolbar-additional image.toolbarbutton-icon {
+    outline: 1px solid #10B2E7 !important;
+    background-image: linear-gradient(rgb(41, 85, 142), rgb(41, 85, 142)), linear-gradient(rgb(41, 85, 142), rgb(41, 85, 142)), var(--lwt-header-image, none) !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button:hover.toolbarbutton-1.chromeclass-toolbar-additional image.toolbarbutton-icon {
+    background-image: linear-gradient(rgb(41, 85, 142), rgb(41, 85, 142)), linear-gradient(rgb(41, 85, 142), rgb(41, 85, 142)), var(--lwt-header-image, none) !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button.toolbarbutton-1.chromeclass-toolbar-additional image.toolbarbutton-icon {
+    outline: 0px solid #10B2E7 !important;
+    border: 1px solid #10B2E7 !important;
+    background-image: linear-gradient(#035069, #035069), linear-gradient(#035069, #035069), var(--lwt-header-image, none) !important;
+    border-radius: 1px !important;
+}
+
+.search-setting-button {
+    margin-inline-end: 4px !important;
+}
+
+
+.search-panel-header > label {
+    color: white !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button.toolbarbutton-1.chromeclass-toolbar-additional {
+    padding-right: 0px !important;
+}
+
+#firefox-view-button {
+    scale: 117% !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+
+#vertical-tabs-pane[unpinned]:not([hidden]) {
+  height: auto !important;
+}
+
+#tabbrowser-tabs {
+    margin-inline-start: 2px !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar {
+    height:22px !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button.toolbarbutton-1.chromeclass-toolbar-additional image.toolbarbutton-icon {
+  background-color: #282828 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+  border-radius: 1px !important;
+  margin-left: -2px !important;
+  padding: 3px !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button.toolbarbutton-1.chromeclass-toolbar-additional image.toolbarbutton-icon:hover {
+    background-color: #383838 !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target toolbarbutton#firefox-view-button.toolbarbutton-1.chromeclass-toolbar-additional:focus-visible image.toolbarbutton-icon {
+    background-color: #353535 !important;
+}
+
+:root:not([privatebrowsingmode="temporary"]):not([firefoxviewhidden]) :is(#firefox-view-button, #wrapper-firefox-view-button) + #tabbrowser-tabs {
+    border-inline-start: 0px solid color-mix(in srgb, currentColor 25%, transparent) !important;
+}
+
+#save-to-pocket-button {
+    margin-right: 3px !important;
+  }
+
+#sidebar-switcher-target:hover:active, #sidebar-switcher-target.active {
+    background-color: #262626 !important;
+}
+
+#sidebar-switcher-target:hover, #sidebar-switcher-target.active {
+    background-color: #242424 !important;
+}
+
+html#main-window body hbox#browser vbox#sidebar-box.chromeclass-extrachrome box#sidebar-header toolbarbutton#sidebar-switcher-target.tabbable image#sidebar-switcher-arrow {
+    list-style-image: url("Iconsdb.com-Arrow-Down.png") !important;
+    margin-right: 2px !important;
+    margin-left: -2px !important;
+    margin-top: 2px !important;
+}
+
+html#main-window body hbox#browser vbox#sidebar-box.chromeclass-extrachrome box#sidebar-header toolbarbutton#sidebar-switcher-target.tabbable label#sidebar-title {
+    margin-top: 3px !important;
+    margin-right: 3px !important;
+    margin-left: -5px !important;
+}
+
+html#main-window body hbox#browser vbox#sidebar-box.chromeclass-extrachrome box#sidebar-header spacer {
+    box-shadow: none !important;
+}
+
+html#main-window body hbox#browser vbox#sidebar-box.chromeclass-extrachrome box#sidebar-header toolbarbutton#sidebar-switcher-target.tabbable image#sidebar-icon {
+    list-style-image: url("Icons8-Filled-Bookmark-Ribbon-Hover.png") !important;
+    width: 18px !important;
+    height: 18px !important;
+    margin-bottom: -2px !important;
+}
+
+toolbarbutton#scrollbutton-up {
+    margin-bottom: 2px !important;
+}
+toolbarbutton#scrollbutton-down {
+    margin-bottom: 2px !important;
+}   
+.tab-background, .tab-stack {
+    margin-top: -2px !important;
+}
+
+window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar search-textbox#searchFilter:focus {
+    outline: none !important;
+}
+
+div.container.infobar span.content.notification-content span.notification-button-container button.notification-button.small-button {
+    border: none !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar toolbaritem#PanelUI-button toolbarbutton#PanelUI-menu-button.toolbarbutton-1 {
+    margin-right: -2px !important;
+}
+
+
+div.container.infobar button.close.ghost-button.notification-close {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-right: 9px !important;
+}
+
+.urlbar-page-action:hover pageAction-panel-bookmark[starred], .urlbar-page-action:hover #star-button[starred] {
+    list-style-image: url("Icons8-Filled-Bookmark-Ribbon-Hover.PNG") !important;
+}
+
+.urlbar-page-action:hover #pageAction-panel-bookmark, .urlbar-page-action:hover #star-button {
+    list-style-image: url("Icons8-Bookmark-Hover.PNG") !important;
+}
+
+.identity-box-button:hover:not([open="true"]), #tracking-protection-icon-container:hover:not([open="true"]) {
+    fill: #10B2E7 !important;
+}   
+
+.identity-box-button:hover:not([open="true"]), #tracking-protection-icon-container:hover:not([open="true"]) {
+    color: #10B2E7 !important;
+}
+
+.urlbar-page-action:not([disabled]):hover, #urlbar-go-button:hover, .search-go-button:hover {
+    color: #10B2E7 !important;
+}
+
+
+#reader-mode-button:hover > .urlbar-icon {
+    color: #10B2E7 !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#detailsPane vbox#infoBox vbox#editBookmarkPanelContent vbox#editBookmarkPanelRows vbox#editBMPanel_tagsSelectorRow richlistbox#editBMPanel_tagsSelector {
+    padding-left: 18px !important;
+    padding-top: 18px !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#detailsPane vbox#infoBox vbox#editBookmarkPanelContent vbox#editBookmarkPanelRows vbox#editBMPanel_tagsRow hbox button#editBMPanel_tagsSelectorExpander.expander-down.panel-button {
+    margin-top: 8px !important;
+    margin-bottom: -1px !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#detailsPane vbox#infoBox vbox#editBookmarkPanelContent vbox#editBookmarkPanelRows vbox#editBMPanel_tagsRow hbox button#editBMPanel_tagsSelectorExpander.panel-button.expander-up {
+    margin-top: 8px !important;
+    margin-bottom: -1px !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsListBox.allDownloadsListBox richlistitem.download.download-state button.downloadButton.downloadIconShow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-padding panelmultiview#downloadsPanel-multiView box.panel-viewcontainer box.panel-viewstack panelview#downloadsPanel-mainView vbox.panel-view-body-unscrollable richlistbox#downloadsListBox richlistitem.download-state button.downloadButton.downloadIconShow {
+    margin-right: 10px !important;
+}
+
+.downloadMainArea {
+    padding-block: 2px !important;
+}
+
+html#main-window body popupset#mainPopupSet panel#editBookmarkPanel.panel-no-padding box.panel-header {
+    margin-left: -26px !important;
+    margin-right: 7px !important;
+}
+
+#editBookmarkPanel .expander-up, #editBookmarkPanel .expander-down {
+    border: none !important;
+    border-radius: 3px !important;
+}
+
+:root { 
+    --default-focusring: var(--default-focusring-width) !important;
+    --default-focusring-width: 5px !important;
+}
+
+window#places hbox#placesView splitter {
+    border: 0px solid #222 !important;
+    width: 6px !important;
+}
+
+window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar search-textbox#searchFilter {
+    text-align: center !important;
+    margin-right: 5px !important;
+}
+
+image.textbox-search-sign {
+    margin-inline-end: 0px !important;
+    scale: 130% !important;
+    margin-inline-start: 5px !important;
+    margin-inline-end: 8px !important;
+}
+
+
+#placesToolbar > #back-button:hover > .toolbarbutton-icon, #placesToolbar > #forward-button:hover > .toolbarbutton-icon {
+    fill: white !important;
+    background-color: #292929 !important;
+}
+
+window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#forward-button:hover {
+    background-color: #292929 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+  }
+
+window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#back-button:hover {
+    background-color: #292929 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#forward-button:hover {
+    border-radius: 3px !important;
+}  
+
+window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#back-button:hover {
+    border-radius: 3px !important;
+}  
+
+.downloadDetails {
+    margin-top: 7px !important;
+    margin-bottom: -3px !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsListBox.allDownloadsListBox richlistitem.download.download-state {
+    margin-right: 4px !important;
+    margin-left: 4px !important;
+    border-radius: 2px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-top: 2px !important;
+    margin-bottom: 2px !important;
+}
+
+#downloadsListBox {
+    padding-top: 2px !important;
+}
+
+window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#downloadsListBox.allDownloadsListBox {
+    border: none !important;
+    background-color: #202020 !important;
+}
+
+#PanelUI-menu-button[badge-status="addon-alert"] > .toolbarbutton-badge-stack > .toolbarbutton-badge, #PanelUI-menu-button[badge-status="fxa-needs-authentication"] > .toolbarbutton-badge-stack > .toolbarbutton-badge, #fxa-toolbar-menu-button[badge-status="login_failed"] > .toolbarbutton-badge-stack > .toolbarbutton-badge {
+    fill: #de3163 !important;
+    background-color: #282828 !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+}
+
+.addon-banner-item > .toolbarbutton-text, .panel-banner-item > .toolbarbutton-text {
+    margin-top: 6px !important;
+    margin-bottom: 7px !important;
+}
+
+.addon-banner-item::after {
+    margin-top: 12px !important;
+}
+
+.panel-banner-item, .addon-banner-item {
+  background-color: #262626 !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+  border-radius: 3px !important;
+}
+
+.panel-banner-item:hover, .addon-banner-item:hover {
+    background-color: #303030 !important;
+}
+
+html#main-window body popupset#mainPopupSet panel#appMenu-popup.cui-widget-panel.panel-no-padding panelmultiview#appMenu-multiView box.panel-viewcontainer box.panel-viewstack panelview#appMenu-protonMainView.PanelUI-subView vbox.panel-subview-body vbox#appMenu-proton-addon-banners toolbarbutton.addon-banner-item {
+    margin-top: 15px !important;
+}
+
+.addon-banner-item::after {
+    fill: #de3163 !important;
+}
+
 /*html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar hbox#nav-bar-customization-target.customization-target toolbarbutton#bookmarks-menu-button.toolbarbutton-1.chromeclass-toolbar-additional.subviewbutton-nav menupopup#BMB_bookmarksPopup vbox.panel-arrowcontainer {
     margin-top: -10px !important;
     margin-right: -4px !important;
@@ -9,13 +317,23 @@
     margin-left: -8px !important;
 }*/
 
+#PlacesChevron {
+    list-style-image: url("icons8-bookmark.svg") !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    padding-left: 13px !important;
+    padding-right: 13px !important;
+    margin-right: 9px !important;
+    background-color: #282828 !important;
+    border-radius: 1px !important;
+}
+
 scrollbox[orient="horizontal"] {
     height: 30px !important;
-  }
+}
 
   #tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
     height: 1.8em !important;
-  }
+}
 
 #PlacesChevron {
     list-style-image: url("icons8-bookmark.svg") !important;
@@ -194,7 +512,6 @@ html#main-window body hbox#browser vbox#appcontent tabbox#tabbrowser-tabbox tabp
 
 #PopupSearchAutoComplete {
     --panel-background: #222 !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
 
 pageAction-panel-bookmark[starred], #star-button[starred] {
@@ -648,9 +965,9 @@ html#main-window body box toolbox#navigator-toolbox vbox#titlebar toolbar#toolba
 }
 
 #appMenu-popup {
-    margin-top: 94px !important;
+    margin-top: 89px !important;
     transition: ease-in-out 0.2s !important;
-    margin-inline: -229px !important;
+    margin-inline: -262px !important;
 }
 
 
@@ -1073,6 +1390,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 .tabbrowser-tab:not([selected]):hover .tab-icon-image {
     filter:grayscale(0%) !important;
+    margin-top: 2px !important;
 }
 
 /* ----- POPUP NOTIFICATION BUTTONS -----*/
@@ -1406,7 +1724,7 @@ treechildren::-moz-tree-row(selected, current, focus){
 /* ----- ACTIVE TAB FONT WEIGHT ----- */
 .tabbrowser-tab[selected="true"] .tab-text {
     margin-top: 2px !important;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
 }
 /* ----- INTERFACE FONT ----- */
 * {
@@ -1463,12 +1781,12 @@ html#main-window body box toolbox#navigator-toolbox toolbar#PersonalToolbar.brow
     max-height: 4px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
     border-radius: 1px !important;
-    padding-left: 12px !important;
-    padding-right: 7px !important;
-    margin-left: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 5px !important;
+    margin-left: -2px !important;
     padding-top: 1px !important;
     padding-bottom: 1px !important;
-    margin-right: 0px !important;
+    margin-right: 2px !important;
 }
 
 /* ----- BOOKMARK BAR ITEMS ----- */
@@ -1606,6 +1924,8 @@ toolbarbutton.bookmark-item {
 button.downloadButton:hover {
     background-color: #10B2E7 !important;
     color: #282828 !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.50), 0 0 0 2px #4040405c inset !important;
+    border-radius: 3px !important;
 }
 
 #downloads-button[attention="success"]:hover > .toolbarbutton-badge-stack > #downloads-indicator-anchor > #downloads-indicator-icon {
@@ -1721,14 +2041,14 @@ window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar to
     margin-left: 5px !important;
     padding: 5px !important;
 }
-window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#back-button:hover { 
+/*window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#back-button:hover { 
     background-color: #10B2E7 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
 window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar toolbarbutton#forward-button:hover {
     background-color: #10B2E7 !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
-}
+}*/
 
 window#places hbox#placesView vbox#contentView vbox#detailsPane {
     background-color: #222 !important;
@@ -2029,6 +2349,10 @@ html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-paddin
     background-color: #262626 !important;
     border-radius: 5px !important;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    margin-left: 4px !important;
+    margin-top: 2px !important;
+    margin-right: 4px !important;
+    margin-bottom: 4px !important;
 }
 
 
@@ -2106,9 +2430,11 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
     padding-left: 6px !important;
     padding-top: 3px !important;
     padding-bottom: 2px !important;
-    border: 0px solid #282828 !important;
+    border: 0px solid #303030 !important;
     margin-left: 4px !important;
     padding-right: 6px !important;
+    color: white !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 }
 
 .search-setting-button:hover {
@@ -2921,7 +3247,7 @@ window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#d
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
 } 
 
-#downloadsListBox > richlistitem {
+/*#downloadsListBox > richlistitem {
     padding-top: 0.5em !important;
     padding-right: 1em !important;
     padding-bottom: 0.5em !important;
@@ -2930,7 +3256,7 @@ window#places hbox#placesView vbox#contentView vbox#placesViewsBox richlistbox#d
     border-radius: 3px !important;
     margin-top: 1px !important;
     margin-bottom: 1px !important;
-}
+}*/
 
 html#main-window body popupset#mainPopupSet panel#downloadsPanel.panel-no-padding panelmultiview#downloadsPanel-multiView box.panel-viewcontainer box.panel-viewstack panelview#downloadsPanel-mainView vbox.panel-view-body-unscrollable richlistbox#downloadsListBox richlistitem.download-state button.downloadButton.downloadIconShow {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
@@ -3068,10 +3394,9 @@ panelview .toolbarbutton-1:not([disabled], [open], :active):is(:hover), toolbarb
 #PopupSearchAutoComplete {
     border-radius: 2px !important;
     -moz-window-shadow: cliprounded !important;
-    background-color: #262626 !important;
+    background-color: transparent !important;
     color: #fff !important;
-    border: 1px solid #282828 !important;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: 0px solid #282828 !important;
 }
 
 /* ----- IDENTITY POPUP FOOTER TEXT COLOR ----- */
@@ -3222,7 +3547,7 @@ panelview .toolbarbutton-1, .subviewbutton, .widget-overflow-list .toolbarbutton
 }
 .searchbar-engine-one-off-item {
         margin-top: 0px !important;
-        margin-right: -2px !important;
+        margin-right: 1px !important;
         margin-bottom: 2px !important;
         margin-left: 4px !important;
         border-radius: 2px !important;
@@ -4273,6 +4598,7 @@ html#main-window body popupset#mainPopupSet panel#widget-overflow.panel-no-paddi
 /* ----- SIDEBAR COLORS ----- */
 #sidebar-switcher-target {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.50), 0 0 0 1px #4040405c inset !important;
+    border: none !important;
 }
 .sidebar-placesTreechildren::-moz-tree-image(title, container){
   fill: #10B2E7 !important;
@@ -4490,17 +4816,38 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
     margin-inline-start: 0 !important;
 }
 
+
 /* ----- THE NEW TAB PAGE FAVICON ----- */
 .tabbrowser-tab[label^="New Tab"] .tab-icon-image {
     list-style-image: none !important;
     width: 0 !important;
     padding-left: 16px !important;
-    margin-top: 0px !important;
+    margin-top: 5px !important;
     background: url("Fox2.png") !important;
     background-size: 20px 20px !important;
     background-repeat: no-repeat !important;
     padding: 10px !important;
 }
+
+.tabbrowser-tab[label^="New Tab"]:not([selected]):hover .tab-icon-image {
+    margin-top: 4px !important;
+}
+
+.tabbrowser-tab[label^="New Tab"]:not([selected]) .tab-icon-image {
+    margin-top: 5px !important;
+}
+
+.tabbrowser-tab:not([selected]):hover .tab-icon-image {
+    margin-top: 0px !important;
+}
+
+.tabbrowser-tab[label^="New Tab"] .tab-icon-image {
+    margin-top: 3px !important;
+}
+
+/*.tabbrowser-tab:not([selected]):hover .tab-icon-image {
+    margin-top: 1px !important;
+}*/
 
 .tabbrowser-tab[label^="about:support"] .tab-icon-image {
     list-style-image: none !important;
@@ -4731,10 +5078,10 @@ window#places toolbox#placesToolbox toolbar#placesToolbar.chromeclass-toolbar sp
 #placesToolbar > #forward-button > .toolbarbutton-icon {
   fill: #fff !important;
 }
-#placesToolbar > #back-button:hover > .toolbarbutton-icon ,
+/*#placesToolbar > #back-button:hover > .toolbarbutton-icon ,
 #placesToolbar > #forward-button:hover > .toolbarbutton-icon {
   fill: #282828 !important;
-}
+}*/
 /* ----- Toolbar Text ----- */
 #placesMenu > menu > .menubar-text {
   color: var(--textcolor) !important;
