@@ -38,12 +38,12 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
       padding-bottom: 0px;
   padding-top: 1px !important;
   padding-bottom: 0 !important;
-  -moz-padding-start: 45px !important;
+  -moz-padding-start: 4px !important;
   -moz-padding-end: 45px !important;
   height: 28px !important;
   border-radius: 0px !important;
-  margin-top: 0px !important;
-  margin-left: -6px !important;
+  margin-top: 1px !important;
+  margin-left: -5px !important;
 }
 
 
@@ -59,7 +59,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 
 #main-window[tabsintitlebar] #PanelUI-menu-button:hover::after {
   content: "Menu" !important;
-  -moz-padding-start: 5px !important;
+  -moz-padding-start: 6px !important;
   -moz-padding-end: 5px !important;
 }
 
@@ -136,7 +136,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 }
 
 #main-window[tabsintitlebar][sizemode="maximized"] #PanelUI-button {
-  top: 8px !important;
+  top: 0px !important;
 }
 
 @media (min-resolution: 110dpi) {
@@ -182,7 +182,7 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 }}}
 
 #main-window[tabsintitlebar][sizemode="fullscreen"] #PanelUI-button {
-  top: 0px !important;
+  top: 1px !important;
 }
 
 /*#main-window[tabsintitlebar] #PanelUI-button #PanelUI-menu-button {
