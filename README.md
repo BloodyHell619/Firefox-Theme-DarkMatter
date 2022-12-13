@@ -4,7 +4,7 @@
 <p align="center">
 <br/>
   <img src="https://i.ibb.co/JyRRCJK/Dark-Matter-Crystallized-Beta-2.png">
-  <img src="https://i.ibb.co/QvtvhFt/Dark-Matter-3.png" alt="accessibility text">
+  <img src="https://i.ibb.co/4FVBJZT/Dark-Matter-Crystallized-Beta-3.png" alt="accessibility text">
 </p>
 <p align="center">Unlike my previous theme which needed you to use an add-on called Theme Creator and to figure out colors, there is no need for that with this theme as all the colors are coded into the CSS files</p>
 <br/>
