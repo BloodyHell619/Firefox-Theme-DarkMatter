@@ -180,7 +180,7 @@ toolbarbutton#scrollbutton-up {
 }
 
 html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content vbox.tab-label-container {
-  margin-inline-start: 2px !important;
+  margin-inline-start: 5px !important;
 }
 
 #tabs-newtab-button:hover, #TabsToolbar:hover #new-tab-button:hover {
