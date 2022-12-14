@@ -13,6 +13,34 @@ MotherStylus
 */ 
 @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css";
 
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar toolbarbutton#OtherBookmarks.bookmark-item menupopup#OtherBookmarksPopup menuitem.menuitem-iconic.bookmark-item.menuitem-with-favicon {
+    margin-top: 4px !important;
+    margin-right: 5px !important;
+    margin-bottom: 3px !important;
+    margin-left: 5px !important;
+    padding-top: 5px !important;
+    padding-right: 10px !important;
+    padding-bottom: 5px !important;
+    padding-left: 8px !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar toolbarbutton#OtherBookmarks.bookmark-item {
+    padding-right: 20px !important;
+    margin-left: -8px !important;
+    padding-top: 3px !important;
+    padding-bottom: 12px !important;
+    margin-bottom: -4px !important;
+    margin-left: -10px !important;
+    margin-right: 3px !important;
+    padding-left: 12px !important;
+}
+
+
+.container.infobar::before {
+    border: 1px solid #10B2E7 !important;
+    background-image: linear-gradient(#045d86, #045d86), linear-gradient(#045d86, #045d86), var(--lwt-header-image, none) !important; 
+}
+
 .search-setting-button {
     margin-top: 0px !important;
     margin-right: 7px !important;
@@ -107,8 +135,9 @@ html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox
 }
 
 #star-button {
-    scale: 177% !important;
+    scale: 153% !important;
     background: none !important;
+    padding-right: 1px !important;
 }
 
 #star-button:hover {
@@ -180,7 +209,7 @@ toolbarbutton#scrollbutton-up {
 }
 
 html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content vbox.tab-label-container {
-  margin-inline-start: 5px !important;
+  margin-inline-start: 4px !important;
 }
 
 #tabs-newtab-button:hover, #TabsToolbar:hover #new-tab-button:hover {
@@ -2198,9 +2227,15 @@ toolbarbutton.bookmark-item:not(.subviewbutton) {
     padding-left: 20px !important;
     padding-right: 20px !important;
     margin-left: -2px !important;
-    padding-top: 3px !important;
-    padding-bottom: 1px !important;
+    padding-top: 9px !important;
+    padding-bottom: 6px !important;
     margin-bottom: 5px !important;
+    border: 1px solid #181818 !important;
+}
+
+toolbarbutton.bookmark-item:not(.subviewbutton):hover {
+    border: 1px solid #10B2E7 !important;
+    background-image: linear-gradient(#045d86, #045d86), linear-gradient(#045d86, #045d86), var(--lwt-header-image, none) !important; 
 }
 
 
@@ -4495,8 +4530,16 @@ html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox
     margin-inline-end: 7px !important;
 }*/
 
-.tab-label-container{ -moz-box-pack: center; -moz-box-orient: horizontal }
-.tab-secondary-label{ display:none }
+
+.tab-label-container {
+    -moz-box-pack: center !important;
+    -moz-box-orient: horizontal !important;
+}
+
+
+.tab-secondary-label {
+    display:none 
+}
 
 
 /* ----- SET A DIFFERENT COLOR FOR THE ACTIVE TAB TEXT ----- */
@@ -5265,11 +5308,11 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
 }
 
 .tabbrowser-tab[label^="New Tab"]:not([selected]):hover .tab-icon-image {
-    margin-top: 4px !important;
+    margin-top: 19px !important;
 }
 
 .tabbrowser-tab[label^="New Tab"]:not([selected]) .tab-icon-image {
-    margin-top: 5px !important;
+    margin-top: 20px !important;
 }
 
 .tabbrowser-tab:not([selected]):hover .tab-icon-image {
@@ -5277,7 +5320,7 @@ menuitem.subviewbutton[_moz-menuactive]:not(:-moz-any([disabled], :active)),
 }
 
 .tabbrowser-tab[label^="New Tab"] .tab-icon-image {
-    margin-top: 4px !important;
+    margin-top: 19px !important;
 }
 
 /*.tabbrowser-tab:not([selected]):hover .tab-icon-image {
