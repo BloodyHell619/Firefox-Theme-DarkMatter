@@ -13,6 +13,45 @@ MotherStylus
 */ 
 @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css";
 
+
+.tab-icon-overlay[activemedia-blocked]:not([crashed]) {
+    border: 1px solid transparent !important;
+}
+
+#personal-bookmarks, #PlacesToolbar, #PlacesToolbarItems {
+    -moz-box-pack: center !important;
+  }
+
+#tabbrowser-arrowscrollbox{
+    --uc-scrollbox-pack: center;
+  }
+  #tabbrowser-arrowscrollbox[overflowing]{
+    --uc-scrollbox-pack: start;
+  }
+  scrollbox[orient="horizontal"] {
+    -moz-box-pack: var(--uc-scrollbox-pack,initial) !important;
+  }
+
+
+.tab-label-container{
+    display: grid;
+    justify-content: safe center;
+    align-items: safe center;
+  }
+  
+  .tab-secondary-label{
+    -moz-box-pack: center;
+  }
+  
+  .tab-label,
+  .tab-secondary-label{ overflow: hidden }
+  
+
+#personal-bookmarks, #PlacesToolbar, #PlacesToolbarItems {
+    padding-left: 3px !important;
+    margin-left: -1px !important;
+  }
+
 html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#PersonalToolbar.browser-toolbar.chromeclass-directories.instant.customization-target toolbaritem#personal-bookmarks hbox#PlacesToolbar toolbarbutton#OtherBookmarks.bookmark-item menupopup#OtherBookmarksPopup menuitem.menuitem-iconic.bookmark-item.menuitem-with-favicon {
     margin-top: 4px !important;
     margin-right: 5px !important;
@@ -209,7 +248,7 @@ toolbarbutton#scrollbutton-up {
 }
 
 html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content vbox.tab-label-container {
-  margin-inline-start: 4px !important;
+  margin-inline-start: 2px !important;
 }
 
 #tabs-newtab-button:hover, #TabsToolbar:hover #new-tab-button:hover {
@@ -585,7 +624,7 @@ div.container.infobar span.content.notification-content span.notification-button
 
 html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar toolbaritem#PanelUI-button toolbarbutton#PanelUI-menu-button.toolbarbutton-1 {
     margin-right: -2px !important;
-    margin-left: -6px !important;
+    margin-left: -5px !important;
 }
 
 
@@ -1722,7 +1761,9 @@ hbox.dialog-button-box spacer.button-spacer {
 }
 
 #reader-mode-button > .urlbar-icon {
-    scale: 138% !important;
+    scale: 151% !important;
+    padding-right: 2px !important;
+    padding-bottom: 1px !important;
 }
 
 .blocked-permission-icon:focus-visible, .notification-anchor-icon:focus-visible {
@@ -4506,9 +4547,9 @@ html#main-window body box toolbox#navigator-toolbox toolbar#nav-bar.browser-tool
 }
 
 /* ----- CENTER ACTIVE TAB ----- */
-scrollbox[orient="horizontal"] { 
+/*scrollbox[orient="horizontal"] { 
 -moz-box-pack: center !important;
-}
+}*/
 
 /* ----- INVERT THE COLOR OF THE ACTIVE TAB FAVICON ----- */
 /*.tab-icon-image[selected="true"] { filter: invert(100%) !important; }*/
@@ -4522,20 +4563,14 @@ html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox
 html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab:hover stack.tab-stack hbox.tab-content vbox.tab-label-container {
     margin-inline-end: -7px !important;
 }
-html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items hbox#TabsToolbar-customization-target.customization-target tabs#tabbrowser-tabs arrowscrollbox#tabbrowser-arrowscrollbox tab.tabbrowser-tab stack.tab-stack hbox.tab-content vbox.tab-label-container {
-    margin-inline-end: 0px !important;
-}
 
 /*.tabbrowser-tab:not(:hover):not([pinned]) .tab-label-container {
     margin-inline-end: 7px !important;
 }*/
 
-
-.tab-label-container {
-    -moz-box-pack: center !important;
-    -moz-box-orient: horizontal !important;
+#PlacesToolbar
+  padding-left: 4px !important;
 }
-
 
 .tab-secondary-label {
     display:none 
