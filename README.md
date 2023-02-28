@@ -3,8 +3,8 @@
 <p align="center" style="color:blue" font-size:18px >An intensively worked on, and highly customized dark theme made for Firefox Proton, stretching darkness into every corner of the browser and perfecting even the tiniest details </p>
 <p align="center">
 <br/>
-  <img src="https://i.ibb.co/JyRRCJK/Dark-Matter-Crystallized-Beta-2.png">
-  <img src="https://i.ibb.co/4FVBJZT/Dark-Matter-Crystallized-Beta-3.png" alt="accessibility text">
+  <img src="https://i.ibb.co/qYmrSN3/Dark-Matter.png" title="Firefox Dark Matter">
+  <img src="https://i.ibb.co/QvtvhFt/Dark-Matter-3.png" alt="accessibility text">
 </p>
 <p align="center">Unlike my previous theme which needed you to use an add-on called Theme Creator and to figure out colors, there is no need for that with this theme as all the colors are coded into the CSS files</p>
 <br/>
@@ -17,7 +17,6 @@
 
 <br/>
 <h3><p align="center">- 丨几丂ㄒ卂ㄥㄥ卂ㄒ丨ㄖ几&nbsp;   &nbsp;   Ꮆㄩ丨ᗪ乇 -</p></h3>
-<p align="center">https://www.youtube.com/watch?v=PvwuzUNqKIk&feature=youtu.be</p>
 <br/>
 <h3><p align="center">- 卂匚Ҝ几ㄖ山ㄥ乇ᗪᎶ爪乇几ㄒ -</p></h3>
 <p align="center">Massive thanks to every single person in Mozilla for giving us this great browser and for continuing to develop it for all these years</p> 
