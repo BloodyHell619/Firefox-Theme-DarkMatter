@@ -19,6 +19,26 @@ MotherStylus
     --toolbar-field-background-color: rgb(28, 27, 34);
 }*/
 
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox toolbar#nav-bar.browser-toolbar toolbaritem#PanelUI-button toolbarbutton#PanelUI-menu-button.toolbarbutton-1 {
+    margin-top: 2px !important;
+}
+
+html#main-window body box#navigator-toolbox-background toolbox#navigator-toolbox vbox#titlebar toolbar#TabsToolbar.browser-toolbar.titlebar-color hbox.toolbar-items {
+    margin-top: -1px !important;
+}
+
+.urlbarView-row[row-selectable]:not([selected]):hover {
+    background-color: transparent !important;
+}
+
+.tab-icon-overlay:is([pinned]):not([crashed]) {
+    margin-left: 0px !important;
+    margin-top: 3px !important;
+    border-radius: 1px !important;
+}
+
+#identity-box[pageproxystate="valid"].notSecureText > .identity-box-button, #identity-box[pageproxystate="valid"].chromeUI > .identity-box-button, #identity-box[pageproxystate="valid"].extensionPage > .identity-box-button, #urlbar-label-box {background: transparent !important;
+}
 
 html#main-window body popupset#mainPopupSet menupopup#contentAreaContextMenu menuitem:selected {
     background: #282828 !important;
